@@ -952,7 +952,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.advanced.individualLess"><![CDATA[CSS e LESS individuale]]></item>
 		<item name="wcf.acp.style.advanced.individualLess.description"><![CDATA[Contenuto verrà aggiunto al foglio di stile e può contenere puro CSS. Inoltre è possibile utilizzare i LESS compresi tutti i mixin forniti dal Community Framework.]]></item>
 		<item name="wcf.acp.style.advanced.overrideLess"><![CDATA[Ignora variabili LESS]]></item>
-		<item name="wcf.acp.style.advanced.overrideLess.description"><![CDATA[Consente di ignorare variabili LESS non disponibili tramite l'editor di stile stesso. Sintassi: "@ nomeVariabile: VariableValue;",le variabili devono essere dichiarate prima di ogni tentativo di leggere il loro valore.]]></item>
+		<item name="wcf.acp.style.advanced.overrideLess.description"><![CDATA[Consente di ignorare variabili LESS non disponibili tramite l’editor di stile stesso. Sintassi: "@ nomeVariabile: VariableValue;",le variabili devono essere dichiarate prima di ogni tentativo di leggere il loro valore.]]></item>
 		<item name="wcf.acp.style.advanced.overrideLess.error"><![CDATA[Il valore fornito non è valido, si prega di verificare queste voci:]]></item>
 		<item name="wcf.acp.style.advanced.overrideLess.error.notValid"><![CDATA[Il valore “{$error[text]}” è invalido]]></item>
 		<item name="wcf.acp.style.advanced.overrideLess.error.predefined"><![CDATA[La variabile “{$error[text]}” è già definita dal editor di stile]]></item>
@@ -1009,7 +1009,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.globals.layout"><![CDATA[Layout]]></item>
 		<item name="wcf.acp.style.globals.useFluidLayout"><![CDATA[Utilizzare larghezza fluida]]></item>
 		<item name="wcf.acp.style.image"><![CDATA[Anteprima Immagine]]></item>
-		<item name="wcf.acp.style.image.description"><![CDATA[Carica un'immagine di anteprima per questo stile, formati supportati: JPG e PNG. Le dimensioni dovrebbero essere 102px × 64px, immagini più grandi verranno ridimensionate.]]></item>
+		<item name="wcf.acp.style.image.description"><![CDATA[Carica un’immagine di anteprima per questo stile, formati supportati: JPG e PNG. Le dimensioni dovrebbero essere 102px × 64px, immagini più grandi verranno ridimensionate.]]></item>
 		<item name="wcf.acp.style.imagePath"><![CDATA[Percorso immagine]]></item>
 		<item name="wcf.acp.style.imagePath.description"><![CDATA[Percorso per le immagini opzionali per il tuo stile, la directory è in "images".]]></item>
 		<item name="wcf.acp.style.importStyle"><![CDATA[Importa Stile]]></item>
@@ -1079,7 +1079,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.user.assignToGroup"><![CDATA[Assegna ad un gruppo di utenti]]></item>
 		<item name="wcf.acp.user.assignToGroup.markedUsers"><![CDATA[Assegna gli utenti a un gruppi di utenti selezionati di seguito]]></item>
 		<item name="wcf.acp.user.banUser"><![CDATA[Banna Utente]]></item>
-		<item name="wcf.acp.user.banUser.description"><![CDATA[L'utente è stato bannato definitivamente dalle funzioni del sito e sarà comunicato all'accesso del sito.]]></item>
+		<item name="wcf.acp.user.banUser.description"><![CDATA[L’utente è stato bannato definitivamente dalle funzioni del sito e sarà comunicato all’accesso del sito.]]></item>
 		<item name="wcf.acp.user.banReason"><![CDATA[Motivo]]></item>
 		<item name="wcf.acp.user.banReason.description"><![CDATA[Il motivo viene visualizzato per gli utenti interessati.]]></item>
 		<item name="wcf.acp.user.ban"><![CDATA[Ban]]></item>
@@ -1087,7 +1087,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.user.ban.sure"><![CDATA[Vuoi veramente bannare questo utente?]]></item>
 		<item name="wcf.acp.user.delete.sure"><![CDATA[Vuoi veramente eliminare questo utente “{$user->username}”?]]></item>
 		<item name="wcf.acp.user.edit"><![CDATA[Modifica Utente]]></item>
-		<item name="wcf.acp.user.edit.warning.selfEdit"><![CDATA[Heads up! Stai modificando il tuo account utente e potresti bloccarti l'accesso al pannello di amministrazione.]]></item>
+		<item name="wcf.acp.user.edit.warning.selfEdit"><![CDATA[Heads up! Stai modificando il tuo account utente e potresti bloccarti l’accesso al pannello di amministrazione.]]></item>
 		<item name="wcf.acp.user.exportEmailAddress"><![CDATA[Esportare indirizzi e-mail]]></item>
 		<item name="wcf.acp.user.exportEmailAddress.fileType"><![CDATA[Formato di esportazione]]></item>
 		<item name="wcf.acp.user.exportEmailAddress.fileType.csv"><![CDATA[CSV (<em>Character Separated Values</em>)]]></item>
@@ -1121,12 +1121,11 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.user.sendMail"><![CDATA[Invia un email agli utenti]]></item>
 		<item name="wcf.acp.user.sendMail.all"><![CDATA[Invia un email a tutti gli utenti]]></item>
 		<item name="wcf.acp.user.sendMail.enableHTML"><![CDATA[Abilita l'HTML per l'email]]></item>
-		<item name="wcf.acp.user.sendMail.from"><![CDATA[Mittente
-]]></item>
-		<item name="wcf.acp.user.sendMail.from.description"><![CDATA[Specificare l'indirizzo email del mittente.{if MAIL_USE_FORMATTED_ADDRESS} È possibile utilizzare il seguente formato:{/if}<br />
+		<item name="wcf.acp.user.sendMail.from"><![CDATA[Mittente]]></item>
+		<item name="wcf.acp.user.sendMail.from.description"><![CDATA[Specificare l’indirizzo email del mittente.{if MAIL_USE_FORMATTED_ADDRESS} È possibile utilizzare il seguente formato:{/if}<br />
 {if MAIL_USE_FORMATTED_ADDRESS}<em>Nome mittente &lt;email@example.com&gt;</em><br />{/if}
 È possibile definire il mittente predefinito nel sistema <em> -> Opzioni -> Generali -> Messaggi di posta elettronica </ em>. E-mail del mittente deve essere noto al server se si utilizza SMTP, altrimenti verrebbe rifiutato.]]></item>
-		<item name="wcf.acp.user.sendMail.group"><![CDATA[Invia un'e-mail a gruppi di utenti]]></item>
+		<item name="wcf.acp.user.sendMail.group"><![CDATA[Invia un’e-mail a gruppi di utenti]]></item>
 		<item name="wcf.acp.user.sendMail.groups"><![CDATA[Invia e-mail ai membri dei seguenti gruppi di utenti]]></item>
 		<item name="wcf.acp.user.sendMail.mail"><![CDATA[Email]]></item>
 		<item name="wcf.acp.user.sendMail.markedUsers"><![CDATA[Invia email ai followers]]></item>
@@ -1159,13 +1158,13 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.user.option.required"><![CDATA[Il proprietario deve fornire un valore valido.]]></item>
 		<item name="wcf.acp.user.option.searchable"><![CDATA[I valori di campo sono ricercabili nella ricerca utenti]]></item>
 		<item name="wcf.acp.user.option.selectOptions"><![CDATA[Selezionare Opzioni]]></item>
-		<item name="wcf.acp.user.option.selectOptions.description"><![CDATA[Una possibilità di selezione per riga, ad esempio per l'uso con una box di selezione.]]></item>
+		<item name="wcf.acp.user.option.selectOptions.description"><![CDATA[Una possibilità di selezione per riga, ad esempio per l’uso con una box di selezione.]]></item>
 		<item name="wcf.acp.user.option.setDefaults"><![CDATA[Gestione delle impostazioni di campo utente]]></item>
 		<item name="wcf.acp.user.option.setDefaults.applyChangesToExistingUsers"><![CDATA[Applica le modifiche per gli utenti esistenti]]></item>
 		<item name="wcf.acp.user.option.setDefaults.applyChangesToExistingUsers.description"><![CDATA[Eventuali modifiche a valori predefiniti per le impostazioni del profilo utente verranno applicate a utenti esistenti. Questo sovrascrive tutte le impostazioni precedentemente modificate dal rispettivo utente stesso.]]></item>
 		<item name="wcf.acp.user.option.showOrder"><![CDATA[Mostra Ordine]]></item>
 		<item name="wcf.acp.user.option.validationPattern"><![CDATA[Espressione regolare per la convalida]]></item>
-		<item name="wcf.acp.user.option.validationPattern.description"><![CDATA[Fornire una espressione regolare per convalidare l'input dell'utente.]]></item>
+		<item name="wcf.acp.user.option.validationPattern.description"><![CDATA[Fornire una espressione regolare per convalidare l’input dell'utente.]]></item>
 		<item name="wcf.acp.user.option.list"><![CDATA[Campi utente personalizzati]]></item>
 		<item name="wcf.acp.user.option.visible"><![CDATA[visibile per]]></item>
 		<item name="wcf.acp.user.option.visible.1"><![CDATA[Proprietario]]></item>
@@ -1200,7 +1199,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.user.rank.requiredPoints.description"><![CDATA[Quantità necessaria di punti di attività per ottenere questo grado.]]></item>
 		<item name="wcf.acp.user.rank.requirement"><![CDATA[Restrizioni]]></item>
 		<item name="wcf.acp.user.rank.repeatImage"><![CDATA[Ripeti immagine utente]]></item>
-		<item name="wcf.acp.user.rank.repeatImage.description"><![CDATA[Numero di volte che l'immagine livello sarà ripetuta.]]></item>
+		<item name="wcf.acp.user.rank.repeatImage.description"><![CDATA[Numero di volte che l’immagine livello sarà ripetuta.]]></item>
 		<item name="wcf.acp.user.rank.title"><![CDATA[Titolo]]></item>
 		<item name="wcf.acp.user.rank.userGroup.description"><![CDATA[Il livello utente è limitato ai membri dei gruppi di utenti selezionati.]]></item>
 		<item name="wcf.acp.user.rank.updateRanks"><![CDATA[Aggiornare Livello Utente]]></item>
@@ -1227,18 +1226,18 @@ Esempi di rilevamento medium ID :
 	</category>
 	
 	<category name="wcf.attachment">
-		<item name="wcf.attachment.file.info"><![CDATA[({@$attachment->filesize|filesize}, downloaded <b>{#$attachment->downloads}</b> visti{if $attachment->downloads > 0}, ultimo: {@$attachment->lastDownloadTime|time}{/if})]]></item>
+		<item name="wcf.attachment.file.info"><![CDATA[({@$attachment->filesize|filesize}, download <b>{#$attachment->downloads}</b> visti{if $attachment->downloads > 0}, ultimo: {@$attachment->lastDownloadTime|time}{/if})]]></item>
 		<item name="wcf.attachment.image.info"><![CDATA[{@$attachment->filesize|filesize}, {#$attachment->width}×{#$attachment->height}, visti {#$attachment->downloads} Volte]]></item>
 		<item name="wcf.attachment.files"><![CDATA[Files]]></item>
 		<item name="wcf.attachment.images"><![CDATA[Immagini]]></item>
 		<item name="wcf.attachment.attachments"><![CDATA[Allegati]]></item>
 		<item name="wcf.attachment.delete.sure"><![CDATA[Vuoi veramente eliminare questo allegato?]]></item>
-		<item name="wcf.attachment.upload.error.invalidExtension"><![CDATA[L'estensione del file è invalido.]]></item>
+		<item name="wcf.attachment.upload.error.invalidExtension"><![CDATA[L’estensione del file è invalido.]]></item>
 		<item name="wcf.attachment.upload.error.tooLarge"><![CDATA[Il file è troppo grande.]]></item>
 		<item name="wcf.attachment.upload.error.reachedLimit"><![CDATA[Hai raggiunto il numero massimo di allegati.]]></item>
 		<item name="wcf.attachment.upload.error.reachedRemainingLimit"><![CDATA[Avete scelto troppi allegati, rimanendo: # rimanente #.]]></item>
 		<item name="wcf.attachment.upload.error.uploadFailed"><![CDATA[Si è verificato un errore sconosciuto durante il caricamento.]]></item>
-		<item name="wcf.attachment.upload.limits"><![CDATA[Numeor massimo di Allegati: {#$attachmentHandler->getMaxCount()}<br />
+		<item name="wcf.attachment.upload.limits"><![CDATA[Numero massimo di Allegati: {#$attachmentHandler->getMaxCount()}<br />
 Dimensione massima degli allegati: {@$attachmentHandler->getMaxSize()|filesize}<br />
 Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]></item>
 		<item name="wcf.attachment.insert"><![CDATA[Inserire nel messaggio]]></item>
@@ -1302,11 +1301,11 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	</category>
 	
 	<category name="wcf.comment">
-		<item name="wcf.comment.add"><![CDATA[Scrivi un commento …]]></item>
+		<item name="wcf.comment.add"><![CDATA[Scrivi un commento…]]></item>
 		<item name="wcf.comment.delete.confirmMessage"><![CDATA[Vuoi veramente eliminare questo commento?]]></item>
 		<item name="wcf.comment.description"><![CDATA[Premere Invio per inviare o Esc per annullare.]]></item>
 		<item name="wcf.comment.more"><![CDATA[Più commenti]]></item>
-		<item name="wcf.comment.response.add"><![CDATA[Rispondi …]]></item>
+		<item name="wcf.comment.response.add"><![CDATA[Rispondi…]]></item>
 		<item name="wcf.comment.response.more"><![CDATA[Più risposte]]></item>
 		<item name="wcf.comment.button.response.add"><![CDATA[Rispondi]]></item>
 	</category>
@@ -1337,7 +1336,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.date.dateTimeFormat"><![CDATA[%date%, %time%]]></item>
 		
 		<item name="wcf.date.interval.days.past"><![CDATA[{if $days > 1}{#$days} giorni{else}Un giorno{/if} fa]]></item>
-		<item name="wcf.date.interval.full.past"><![CDATA[{if $years}{if $years > 1}{#$years} anni{else}Un'anno{/if}{/if}{if $months}{if $firstElement != 'months'}{if $firstElement != 'months'}{if $lastElement == 'months'} e {else}, {/if}{/if}{#$months} mesi{else}{if $firstElement == 'months'}Un{else}un{/if} mese{/if}{/if}{if $weeks}{if $firstElement != 'weeks'}{if $lastElement == 'weeks'} e {else}, {/if}{/if}{if $weeks > 1}{#$weeks} settimane{else}{if $firstElement == 'weeks'}Una{else}una{/if} settimana{/if}{/if}{if $days}{if $firstElement != 'days'}{if $lastElement == 'days'} e {else}, {/if}{/if}{if $days > 1}{#$days} giorni{else}{if $firstElement == 'days'}Un{else}un{/if} giorno{/if}{/if}{if $hours}{if $firstElement != 'hours'}{if $lastElement == 'hours'} e {else}, {/if}{/if}{if $hours > 1}{#$hours} ore{else}{if $firstElement == 'hours'}Un'{else}un'{/if}ora{/if}{/if}{if $minutes}{if $firstElement != 'minutes' && $lastElement == 'minutes'} e {/if}{if $minutes > 1}{#$minutes} minuti{else}{if $firstElement == 'minutes'}Un{else}un{/if} minuti{/if}{/if} fa]]></item>
+		<item name="wcf.date.interval.full.past"><![CDATA[{if $years}{if $years > 1}{#$years} anni{else}Un’anno{/if}{/if}{if $months}{if $firstElement != 'months'}{if $firstElement != 'months'}{if $lastElement == 'months'} e {else}, {/if}{/if}{#$months} mesi{else}{if $firstElement == 'months'}Un{else}un{/if} mese{/if}{/if}{if $weeks}{if $firstElement != 'weeks'}{if $lastElement == 'weeks'} e {else}, {/if}{/if}{if $weeks > 1}{#$weeks} settimane{else}{if $firstElement == 'weeks'}Una{else}una{/if} settimana{/if}{/if}{if $days}{if $firstElement != 'days'}{if $lastElement == 'days'} e {else}, {/if}{/if}{if $days > 1}{#$days} giorni{else}{if $firstElement == 'days'}Un{else}un{/if} giorno{/if}{/if}{if $hours}{if $firstElement != 'hours'}{if $lastElement == 'hours'} e {else}, {/if}{/if}{if $hours > 1}{#$hours} ore{else}{if $firstElement == 'hours'}Un'{else}un’{/if}ora{/if}{/if}{if $minutes}{if $firstElement != 'minutes' && $lastElement == 'minutes'} e {/if}{if $minutes > 1}{#$minutes} minuti{else}{if $firstElement == 'minutes'}Un{else}un{/if} minuti{/if}{/if} fa]]></item>
 		<item name="wcf.date.interval.hours.past"><![CDATA[{if $hours > 1}{#$hours} ore{else}Un ora{/if} fa]]></item>
 		<item name="wcf.date.interval.minutes.past"><![CDATA[{if $minutes > 1}{#$minutes} minuti{else}Un minuto{/if} fa]]></item>
 		<item name="wcf.date.interval.months.past"><![CDATA[{if $months > 1}{#$months} mesi{else}Un mese{/if} fa]]></item>
@@ -1535,7 +1534,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.error.permissionDenied.title"><![CDATA[Accesso negato.]]></item>
 		<item name="wcf.global.error.timeout"><![CDATA[Non hai ricevuto una risposta dal server, interruzione ordine.]]></item>
 		<item name="wcf.global.error.title"><![CDATA[Messaggio di errore]]></item>
-		<item name="wcf.global.success"><![CDATA[L'azione è stata completata con successo.]]></item>
+		<item name="wcf.global.success"><![CDATA[L’azione è stata completata con successo.]]></item>
 		<item name="wcf.global.success.add"><![CDATA[La voce è stata salvata.]]></item>
 		<item name="wcf.global.success.edit"><![CDATA[Le modifiche sono state salvate.]]></item>
 		<item name="wcf.global.form.data"><![CDATA[Informazioni Generali]]></item>
@@ -1543,7 +1542,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.form.error.empty"><![CDATA[Si prega di compilare questo campo.]]></item>
 		<item name="wcf.global.form.error.multilingual"><![CDATA[Si prega di compilare questo campo per tutte le lingue.]]></item>
 		<item name="wcf.global.language.noSelection"><![CDATA[Nessuna selezione]]></item>
-		<item name="wcf.global.loading"><![CDATA[Caricamento …]]></item>
+		<item name="wcf.global.loading"><![CDATA[Caricamento…]]></item>
 		<item name="wcf.global.name"><![CDATA[Nome]]></item>
 		<item name="wcf.global.objectID"><![CDATA[ID]]></item>
 		<item name="wcf.global.page.next"><![CDATA[Prossima Pagina]]></item>
@@ -1554,7 +1553,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.redirect.url"><![CDATA[Clicca qui se il reindirizzamento automatico non funziona!]]></item>
 		<item name="wcf.global.scrollDown"><![CDATA[Vai alla fine della pagina]]></item>
 		<item name="wcf.global.scrollUp"><![CDATA[Torna su]]></item>
-		<item name="wcf.global.search.enterSearchTerm"><![CDATA[Cerca …]]></item>
+		<item name="wcf.global.search.enterSearchTerm"><![CDATA[Cerca…]]></item>
 		<item name="wcf.global.sortOrder.ascending"><![CDATA[Ascendente]]></item>
 		<item name="wcf.global.sortOrder.descending"><![CDATA[Discendente]]></item>
 		<item name="wcf.global.state.closed"><![CDATA[Chiuso]]></item>
@@ -1621,9 +1620,9 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.message.quote.removeSelectedQuotes"><![CDATA[Rimuovi Citazioni Selezionate]]></item>
 		<item name="wcf.message.settings"><![CDATA[Impostazioni]]></item>
 		<item name="wcf.message.settings.enableBBCodes"><![CDATA[Abilita BBCodes]]></item>
-		<item name="wcf.message.settings.enableBBCodes.description"><![CDATA[Consente l'utilizzo BBCode una volta abilitato.]]></item>
+		<item name="wcf.message.settings.enableBBCodes.description"><![CDATA[Consente l’utilizzo BBCode una volta abilitato.]]></item>
 		<item name="wcf.message.settings.enableHtml"><![CDATA[Abilita HTML]]></item>
-		<item name="wcf.message.settings.enableHtml.description"><![CDATA[Consente l'utilizzo HTML una volta abilitato.]]></item>
+		<item name="wcf.message.settings.enableHtml.description"><![CDATA[Consente l’utilizzo HTML una volta abilitato.]]></item>
 		<item name="wcf.message.settings.enableSmilies"><![CDATA[Abilita smilies]]></item>
 		<item name="wcf.message.settings.enableSmilies.description"><![CDATA[Le faccine saranno visualizzati come uno smiley-immagine.]]></item>
 		<item name="wcf.message.settings.preParse"><![CDATA[Rileva Link]]></item>
@@ -1644,7 +1643,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.message.new"><![CDATA[Nuovo]]></item>
 		<item name="wcf.message.error.censoredWordsFound"><![CDATA[Il messaggio contiene parole censurate: {implode from=$censoredWords key=censoredWord item=number}{$censoredWord}{if $number > 1} ({#$number}×){/if}{/implode}]]></item>
 		<item name="wcf.message.error.disallowedBBCodes"><![CDATA[Il messaggio contiene BBCodes non consentiti: {implode from=$disallowedBBCodes item=disallowedBBCode}{$disallowedBBCode}{/implode}]]></item>
-		<item name="wcf.message.error.editorAlreadyInUse"><![CDATA[L'Editor è già in uso, si prega di completare le modifiche prima di continuare.]]></item>
+		<item name="wcf.message.error.editorAlreadyInUse"><![CDATA[L’Editor è già in uso, si prega di completare le modifiche prima di continuare.]]></item>
 		<item name="wcf.message.error.tooLong"><![CDATA[Il messaggio è troppo lungo, deve essere inferiore a {#$maxTextLength} caratteri.]]></item>
 	</category>
 	
@@ -1710,7 +1709,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	</category>
 	
 	<category name="wcf.poll">
-		<item name="wcf.poll.button.addOption"><![CDATA[Aggiungi un'altra opzione]]></item>
+		<item name="wcf.poll.button.addOption"><![CDATA[Aggiungi un’altra opzione]]></item>
 		<item name="wcf.poll.button.removeOption"><![CDATA[Rimuovi opzione]]></item>
 		<item name="wcf.poll.button.showParticipants"><![CDATA[Lista Partecipanti]]></item>
 		<item name="wcf.poll.button.showResult"><![CDATA[Mostra risultati]]></item>
@@ -1724,11 +1723,11 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.poll.maxVotes.error.notValid"><![CDATA[Il numero massimo di voti ammessi supera il numero di opzioni disponibili.]]></item>
 		<item name="wcf.poll.multipleVotes"><![CDATA[È possibile selezionare fino a {#$poll->maxVotes} opzioni.]]></item>
 		<item name="wcf.poll.options"><![CDATA[Opzioni]]></item>
-		<item name="wcf.poll.options.description"><![CDATA[È possibile ordinare le opzioni con il drag and drop per modificarne l'ordine. È possibile creare fino a {@POLL_MAX_OPTIONS} opzioni.]]></item>
+		<item name="wcf.poll.options.description"><![CDATA[È possibile ordinare le opzioni con il drag and drop per modificarne l’ordine. È possibile creare fino a {@POLL_MAX_OPTIONS} opzioni.]]></item>
 		<item name="wcf.poll.question"><![CDATA[Domanda]]></item>
 		<item name="wcf.poll.restrictedResult"><![CDATA[Il risultato è visibile solo per i partecipanti]]></item>
 		<item name="wcf.poll.resultsRequireVote"><![CDATA[Limitare i risultati solo per i partecipanti]]></item>
-		<item name="wcf.poll.resultsRequireVote.description"><![CDATA[I risultati non sono visibili a meno che il sondaggio è concluso o l'utente ha votato.]]></item>
+		<item name="wcf.poll.resultsRequireVote.description"><![CDATA[I risultati non sono visibili a meno che il sondaggio è concluso o l’utente ha votato.]]></item>
 		<item name="wcf.poll.sortByVotes"><![CDATA[Ordina risultati per numero di voti]]></item>
 		<item name="wcf.poll.totalVotes"><![CDATA[Un totale di {#$poll->votes} voti]]></item>
 		<item name="wcf.poll.noVotes"><![CDATA[Non ci sono voti]]></item>
@@ -1736,7 +1735,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	
 	<category name="wcf.recaptcha">
 		<item name="wcf.recaptcha.title"><![CDATA[Verifica (“reCAPTCHA”)]]></item>
-		<item name="wcf.recaptcha.description"><![CDATA[Inserisci le lettere che appaiono nella foto qui sotto (le lettere non sono case-sensitive). Se non è possibile identificare il captcha anche dopo il ricaricamento, si prega di contattare l'amministratore.]]></item>
+		<item name="wcf.recaptcha.description"><![CDATA[Inserisci le lettere che appaiono nella foto qui sotto (le lettere non sono case-sensitive). Se non è possibile identificare il captcha anche dopo il ricaricamento, si prega di contattare l’amministratore.]]></item>
 		<item name="wcf.recaptcha.reload"><![CDATA[Ricarica]]></item>
 		<item name="wcf.recaptcha.audio"><![CDATA[Versione Audio]]></item>
 		<item name="wcf.recaptcha.image"><![CDATA[Versione Immagine]]></item>
@@ -1788,15 +1787,15 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.user.confirmEmail.error.notEqual"><![CDATA[Gli indirizzi di posta elettronica immessi non corrispondono.]]></item>
 		<item name="wcf.user.confirmPassword.error.notEqual"><![CDATA[Le password inserite non corrispondono.]]></item>
 		<item name="wcf.user.email"><![CDATA[Email]]></item>
-		<item name="wcf.user.email.error.notUnique"><![CDATA[L'Email è già in uso.]]></item>
-		<item name="wcf.user.email.error.notValid"><![CDATA[L'Email è invalida.]]></item>
+		<item name="wcf.user.email.error.notUnique"><![CDATA[L’Email è già in uso.]]></item>
+		<item name="wcf.user.email.error.notValid"><![CDATA[L’Email è invalida.]]></item>
 		<item name="wcf.user.ipAddress"><![CDATA[indirizzo IP]]></item>
 		<item name="wcf.user.userAgent"><![CDATA[User Agent]]></item>
 		<item name="wcf.user.login"><![CDATA[Login]]></item>
 		<item name="wcf.user.login.data"><![CDATA[Credenziali]]></item>
 		<item name="wcf.user.password.error.false"><![CDATA[La password inserita è sbagliata.]]></item>
 		<item name="wcf.user.language"><![CDATA[Lingua]]></item>
-		<item name="wcf.user.language.description"><![CDATA[Lingua dell'interfaccia utente]]></item>
+		<item name="wcf.user.language.description"><![CDATA[Lingua dell’interfaccia utente]]></item>
 		<item name="wcf.user.logout"><![CDATA[Logout]]></item>
 		<item name="wcf.user.logout.sure"><![CDATA[Vuoi veramente uscire?]]></item>
 		<item name="wcf.user.password"><![CDATA[Password]]></item>
@@ -1805,10 +1804,10 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.user.visibleLanguages.description"><![CDATA[Limiti visibilità ai contenuti associati alle lingue selezionate]]></item>
 		<item name="wcf.user.userID"><![CDATA[ID Utente]]></item>
 		<item name="wcf.user.username"><![CDATA[Username]]></item>
-		<item name="wcf.user.username.placeholder"><![CDATA[Inserisci l'Username]]></item>
-		<item name="wcf.user.username.error.notFound"><![CDATA[L'Username “{$username}” non èsiste.]]></item>
-		<item name="wcf.user.username.error.notUnique"><![CDATA[L'username è già in uso.]]></item>
-		<item name="wcf.user.username.error.notValid"><![CDATA[L'username è invalido.]]></item>
+		<item name="wcf.user.username.placeholder"><![CDATA[Inserisci l’Username]]></item>
+		<item name="wcf.user.username.error.notFound"><![CDATA[L’Username “{$username}” non èsiste.]]></item>
+		<item name="wcf.user.username.error.notUnique"><![CDATA[L’username è già in uso.]]></item>
+		<item name="wcf.user.username.error.notValid"><![CDATA[L’username è invalido.]]></item>
 		<item name="wcf.user.userNote"><![CDATA[{$__wcf->user->username}]]></item>
 		<item name="wcf.user.group"><![CDATA[Gruppo Utente]]></item>
 		<item name="wcf.user.option.error.tooLong"><![CDATA[Il testo inserito è troppo lungo.]]></item>
@@ -1822,7 +1821,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.user.button.login"><![CDATA[Login]]></item>
 		<item name="wcf.user.button.register"><![CDATA[Registrati]]></item>
 		<item name="wcf.user.button.registerNow"><![CDATA[Registrati adesso]]></item>
-		<item name="wcf.user.error.username.3rdParty"><![CDATA[L'Account è collegato a un sito web di terze parti, non è possibile richiedere la password.]]></item>
+		<item name="wcf.user.error.username.3rdParty"><![CDATA[L’Account è collegato a un sito web di terze parti, non è possibile richiedere la password.]]></item>
 		<item name="wcf.user.login.action"><![CDATA[Sei già registrato?]]></item>
 		<item name="wcf.user.login.action.login"><![CDATA[Si, la mia password è:]]></item>
 		<item name="wcf.user.login.action.register"><![CDATA[No, registrati adesso.]]></item>
@@ -1855,7 +1854,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.user.username.description"><![CDATA[Il nome utente deve essere {REGISTER_USERNAME_MIN_LENGTH} fino {REGISTER_USERNAME_MAX_LENGTH}.]]></item>
 		<item name="wcf.user.password.description"><![CDATA[{if REGISTER_ENABLE_PASSWORD_SECURITY_CHECK && REGISTER_PASSWORD_MIN_LENGTH}La password deve essere di almeno {REGISTER_PASSWORD_MIN_LENGTH} caratteri.{else}Una password sicura deve essere composta da almeno 8 caratteri.{/if}]]></item>
 		<item name="wcf.user.lostPassword"><![CDATA[Password dimenticata]]></item>
-		<item name="wcf.user.lostPassword.description"><![CDATA[È necessario fornire il proprio nome utente o indirizzo e-mail per richiedere una nuova password. Contattare l'amministratore del sito, se hai bisogno di assistenza.]]></item>
+		<item name="wcf.user.lostPassword.description"><![CDATA[È necessario fornire il proprio nome utente o indirizzo e-mail per richiedere una nuova password. Contattare l’amministratore del sito, se hai bisogno di assistenza.]]></item>
 		<item name="wcf.user.lostPassword.email.error.notFound"><![CDATA[“{$email}” non è utilizzata da nessun account.]]></item>
 		<item name="wcf.user.lostPassword.error.tooManyRequests"><![CDATA[La password è stata richiesta almeno una volta nelle ultime 24 ore. Per motivi di sicurezza è necessario attendere almeno {#$hours} ore dopo potrai richiederla nuovamente.]]></item>
 		<item name="wcf.user.lostPassword.mail.subject"><![CDATA[Password Smarrita per sito web: {@PAGE_TITLE|language}]]></item>
@@ -1878,9 +1877,9 @@ la tua nuova password per "{@PAGE_TITLE|language}" è:
 È possibile modificare la password in qualsiasi momento su:
 {link controller='AccountManagement' encode=false}{/link}]]></item>
 		<item name="wcf.user.newPassword.mail.subject"><![CDATA[La nuova password è: {@PAGE_TITLE|language}]]></item>
-		<item name="wcf.user.newPassword.success"><![CDATA[Dovresti ricevere un'email a breve.]]></item>
+		<item name="wcf.user.newPassword.success"><![CDATA[Dovresti ricevere un’email a breve.]]></item>
 		<item name="wcf.user.accountManagement"><![CDATA[Gestione Account]]></item>
-		<item name="wcf.user.accountManagement.warning"><![CDATA[Heads up! Stai modificando il tuo account utente, un cambiamnto incurante potrebbe bloccarti fuori!]]></item>
+		<item name="wcf.user.accountManagement.warning"><![CDATA[Heads up! Stai modificando il tuo account utente, un cambiamento incurante potrebbe bloccarti fuori!]]></item>
 		<item name="wcf.user.accountManagement.password.description"><![CDATA[Confermare le modifiche con la password per favore!]]></item>
 		<item name="wcf.user.newPassword"><![CDATA[Nuova passowrd]]></item>
 		<item name="wcf.user.changeUsername"><![CDATA[Cambia Username]]></item>
@@ -1891,7 +1890,7 @@ la tua nuova password per "{@PAGE_TITLE|language}" è:
 		<item name="wcf.user.newEmail"><![CDATA[Nuova email]]></item>
 		<item name="wcf.user.newUsername"><![CDATA[Nuovo Username]]></item>
 		<item name="wcf.user.quit"><![CDATA[Eliminare account utente]]></item>
-		<item name="wcf.user.quit.sure"><![CDATA[Vuoi davvero eliminare il tuo account e tutti i dati privati​​, associati?]]></item>
+		<item name="wcf.user.quit.sure"><![CDATA[Vuoi davvero eliminare il tuo account e tutti i dati privati, associati?]]></item>
 		<item name="wcf.user.quit.cancel"><![CDATA[Il tuo account sarà eliminato il {$quitStarted+7*86400|date}. Si prega di abilitare questa opzione se si desidera annullare la cancellazione.]]></item>
 		<item name="wcf.user.quit.description"><![CDATA[Nota: Messaggii, Allegati e contenuti simili rimarranno anche dopo che il tuo account verrà cancellato.]]></item>
 		<item name="wcf.user.quit.success"><![CDATA[Il tuo account sarà cancellato il {TIME_NOW+7*86400|date}. Durante questo periodo è possibile interrompere la cancellazione in questa pagina.]]></item>
@@ -1904,11 +1903,11 @@ la tua nuova password per "{@PAGE_TITLE|language}" è:
 		*}{if REGISTER_PASSWORD_MUST_CONTAIN_DIGIT}{if REGISTER_PASSWORD_MUST_CONTAIN_LOWER_CASE || REGISTER_PASSWORD_MUST_CONTAIN_UPPER_CASE}{if REGISTER_PASSWORD_MUST_CONTAIN_SPECIAL_CHAR},{else} e{/if} {/if}cifre{/if}{*
 		*}{if REGISTER_PASSWORD_MUST_CONTAIN_SPECIAL_CHAR}{if REGISTER_PASSWORD_MUST_CONTAIN_LOWER_CASE || REGISTER_PASSWORD_MUST_CONTAIN_UPPER_CASE || REGISTER_PASSWORD_MUST_CONTAIN_DIGIT} e {/if}caratteri speciali{/if}{/if}.]]></item>
 		<item name="wcf.user.changeUsername.success"><![CDATA[Il nome utente è stato cambiato.]]></item>
-		<item name="wcf.user.changeEmail.success"><![CDATA[L'email è stata cambiata.]]></item>
+		<item name="wcf.user.changeEmail.success"><![CDATA[L’email è stata cambiata.]]></item>
 		<item name="wcf.user.changeEmail.needReactivation"><![CDATA[Il tuo nuovo indirizzo e-mail deve essere verificato per primo. Dovresti aver ricevuto una e-mail inviata al tuo nuovo indirizzo e-mail contenente un link di attivazione. Aprire il link per verificare il tuo nuovo indirizzo email.]]></item>
 		<item name="wcf.user.changeEmail.needReactivation.mail"><![CDATA[Caro {@$username},
 
-hai cambiato il tuo indirizzo e-mail a: {@PAGE_TITLE|language}. E' necessario aprire il link sottostante per verificare questo indirizzo email.
+hai cambiato il tuo indirizzo e-mail a: {@PAGE_TITLE|language}. E’ necessario aprire il link sottostante per verificare questo indirizzo email.
 
 {link controller='EmailActivation' encode=false}u={@$userID}&a={@$activationCode}{/link} 
 
@@ -1921,19 +1920,19 @@ Una volta richiesto, si prega di fornire i seguenti dati:
 Il tuo ID utente: 		{@$userID} 
 Codice di attivazione: 	{@$activationCode} 
 
-Se non è possibile attivare il tuo indirizzo e-mail o in caso di problemi seguendo le istruzioni, si prega di contattare l'amministratore: {@MAIL_ADMIN_ADDRESS}]]></item>
+Se non è possibile attivare il tuo indirizzo e-mail o in caso di problemi seguendo le istruzioni, si prega di contattare l’amministratore: {@MAIL_ADMIN_ADDRESS}]]></item>
 		<item name="wcf.user.changeEmail.needReactivation.mail.subject"><![CDATA[Email Attivazione per il sito web: {@PAGE_TITLE|language}]]></item>
 		<item name="wcf.user.changePassword.success"><![CDATA[La password è stata cambiata.]]></item>
 		<item name="wcf.user.activationCode"><![CDATA[9 cifre del codice di attivazione]]></item>
 		<item name="wcf.user.newActivationCode"><![CDATA[Richiesta nuovo codice di attivazione]]></item>
 		<item name="wcf.user.registerActivation"><![CDATA[Completa registrazione]]></item>
-		<item name="wcf.user.registerActivation.error.userAlreadyEnabled"><![CDATA[L'utente è già attivato.]]></item>
-		<item name="wcf.user.registerActivation.success"><![CDATA[L'account utente è stato attivato.]]></item>
+		<item name="wcf.user.registerActivation.error.userAlreadyEnabled"><![CDATA[L’utente è già attivato.]]></item>
+		<item name="wcf.user.registerActivation.success"><![CDATA[L’account utente è stato attivato.]]></item>
 		<item name="wcf.user.activationCode.error.notValid"><![CDATA[Hai fornito un codice di attivazione non valido. Fare clic sul pulsante in basso se si desidera richiedere un nuovo codice di attivazione.]]></item>
 		<item name="wcf.user.registerNewActivationCode.email.description"><![CDATA[Si può fornire un indirizzo e-mail diverso o lasciare vuoto per inviare il codice nello stesso indirizzo email.]]></item>
 		<item name="wcf.user.newActivationCode.success"><![CDATA[Il codice di attivazione è stato inviato a “{$email}”.]]></item>
-		<item name="wcf.user.emailActivation.error.emailAlreadyEnabled"><![CDATA[L'email è già attivata.]]></item>
-		<item name="wcf.user.emailActivation.success"><![CDATA[L'email è già stata attivata.]]></item>
+		<item name="wcf.user.emailActivation.error.emailAlreadyEnabled"><![CDATA[L’email è già attivata.]]></item>
+		<item name="wcf.user.emailActivation.success"><![CDATA[L’email è già stata attivata.]]></item>
 		<item name="wcf.user.registerActivation.info"><![CDATA[Una e-mail contenente il codice di attivazione di 9 cifre, è stato inviato a “{$__wcf->user->email}”.]]></item>
 		<item name="wcf.user.username.error.alreadyRenamed"><![CDATA[Nome utente è già stato cambiato nel corso degli ultimi {#$__wcf->getSession()->getPermission('user.profile.renamePeriod')} giorni.]]></item>
 		<item name="wcf.user.guest"><![CDATA[Ospite]]></item>
@@ -2025,7 +2024,7 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 <item name="wcf.user.register.disclaimer"><![CDATA[Esonero delle responsabilità]]></item>
 		<item name="wcf.user.register.disclaimer.accept"><![CDATA[Accetta]]></item>
 		<item name="wcf.user.register.disclaimer.decline"><![CDATA[Rifiuta]]></item>
-		<item name="wcf.user.register.disclaimer.text"><![CDATA[<p>La registrazione e l'utilizzo di questo forum è completamente gratuito. Premere il tasto "Accetta" se siete d'accordo con le regole indicate. Sarete quindi in grado di registrare.</p>
+		<item name="wcf.user.register.disclaimer.text"><![CDATA[<p>La registrazione e l’utilizzo di questo forum è completamente gratuito. Premere il tasto "Accetta" se siete d’accordo con le regole indicate. Sarete quindi in grado di registrare.</p>
 
 <p>Anche se gli amministratori e i moderatori di “{@PAGE_TITLE|language}” cercano di eliminare o modificare tutti i messaggi non desiderati, è impossibile per loro controllare tutto. Tutti i messaggi esprimono il parere dell’autore, i proprietari di “{@PAGE_TITLE}” e WoltLab GmbH (Sviluppatori di Burning Board) non si ritengono responsabili per i contenuti di tali messaggi.</p>
 
@@ -2134,15 +2133,15 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 		<item name="wcf.user.avatar.type.custom.description"><![CDATA[È possibile utilizzare le seguenti estensioni di file “{"\n"|str_replace:', ':$__wcf->session->getPermission('user.profile.avatar.allowedFileExtensions')}” il vostro avatar deve avere una dimensione massima del file di {@$__wcf->session->getPermission('user.profile.avatar.maxSize')|filesize}. Le dimensioni minime sono 48 × 48 pixel, si raccomanda di fornire una dimensione di {@MAX_AVATAR_WIDTH}×{@MAX_AVATAR_HEIGHT} pixel.Ogni avatar che supera questo limite verrà ridimensionata, se possibile.]]></item>
 		<item name="wcf.user.avatar.type.gravatar"><![CDATA[Usa Gravatar]]></item>
 		<item name="wcf.user.avatar.type.gravatar.description"><![CDATA[Gravatar (Global Recognized Avatar) fornisce un avatar globalmente riutilizzabile collegato con il tuo indirizzo email “{$__wcf->user->email}”. Visita <a href="http://www.gravatar.com" class="externalURL">www.gravatar.com</a> per impostare o modificare il tuo avatar.]]></item>
-		<item name="wcf.user.avatar.type.gravatar.error.notFound"><![CDATA[L'indirizzo email non è collegato con un gravatar.]]></item>
+		<item name="wcf.user.avatar.type.gravatar.error.notFound"><![CDATA[L’indirizzo email non è collegato con un gravatar.]]></item>
 		<item name="wcf.user.avatar.type.none"><![CDATA[No Avatar]]></item>
 		<item name="wcf.user.avatar.type.none.description"><![CDATA[Il tuo avatar attualmente utilizzato sarà cancellato.]]></item>
-		<item name="wcf.user.avatar.upload.error.badImage"><![CDATA[L'Immagine caricata non è valida.]]></item>
+		<item name="wcf.user.avatar.upload.error.badImage"><![CDATA[L’Immagine caricata non è valida.]]></item>
 		<item name="wcf.user.avatar.upload.error.invalidExtension"><![CDATA[L’Immagine non corrisponde alle estensioni di file consentiti.]]></item>
 		<item name="wcf.user.avatar.upload.error.tooLarge"><![CDATA[L’Immagine supera le dimensioni massime del file.]]></item>
 		<item name="wcf.user.avatar.upload.error.tooSmall"><![CDATA[Le dimensioni delle immagini sono al di sotto delle dimensioni minime.]]></item>
 		<item name="wcf.user.avatar.upload.error.uploadFailed"><![CDATA[Si è verificato un errore sconosciuto.]]></item>
-		<item name="wcf.user.avatar.upload.success"><![CDATA[L'avatar è stato salvato.]]></item>
+		<item name="wcf.user.avatar.upload.success"><![CDATA[L’avatar è stato salvato.]]></item>
 	</category>
 	
 	<category name="wcf.user.notification">
