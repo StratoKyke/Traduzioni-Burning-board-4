@@ -23,9 +23,9 @@
 	</category>
 	
 	<category name="wcf.user.userGroups">
-		<item name="wcf.user.userGroups"><![CDATA[User Groups]]></item>
+		<item name="wcf.user.userGroups"><![CDATA[Gruppi utente]]></item>
 		<item name="wcf.user.userGroups.join"><![CDATA[Join Group]]></item>
-		<item name="wcf.user.userGroups.leave"><![CDATA[Leave Group]]></item>
+		<item name="wcf.user.userGroups.leave"><![CDATA[Lascia gruppo]]></item>
 		<item name="wcf.user.userGroups.leave.sure"><![CDATA[Do you really want to leave the group “{$group->groupName|language}”?]]></item>
 		<item name="wcf.user.userGroups.apply"><![CDATA[Apply for Membership]]></item>
 		<item name="wcf.user.userGroups.apply.reason"><![CDATA[Reason]]></item>
