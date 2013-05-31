@@ -71,19 +71,19 @@
 		<item name="wcf.global.createUser.description"><![CDATA[L'installazione, permette di creare un utente amministratore inserendo: Username, email e password.]]></item>
 		<item name="wcf.global.createUser.data"><![CDATA[Informazioni utente]]></item>
 		<item name="wcf.global.createUser.username"><![CDATA[Username]]></item>
-		<item name="wcf.global.createUser.email"><![CDATA[Indirizzo Email]]></item>
-		<item name="wcf.global.createUser.confirmEmail"><![CDATA[Conferma indirizzo Email]]></item>
+		<item name="wcf.global.createUser.email"><![CDATA[Indirizzo email]]></item>
+		<item name="wcf.global.createUser.confirmEmail"><![CDATA[Conferma indirizzo email]]></item>
 		<item name="wcf.global.createUser.password"><![CDATA[Password]]></item>
-		<item name="wcf.global.createUser.confirmPassword"><![CDATA[Conferma Password]]></item>
+		<item name="wcf.global.createUser.confirmPassword"><![CDATA[Conferma password]]></item>
 		<item name="wcf.global.createUser.error"><![CDATA[Si sono verificati degli errori durante la creazione del tuo account, controlla i campi in rosso.]]></item>
 		<item name="wcf.global.createUser.error.empty"><![CDATA[Questo campo non può essere lasciato vuoto.]]></item>
 		<item name="wcf.global.createUser.error.username.notValid"><![CDATA[Il nome utente che hai dato non è valido. Un nome utente valido deve avere una lunghezza compresa tra 3 e 20 caratteri.]]></item>
 		<item name="wcf.global.createUser.error.email.notValid"><![CDATA[L'indirizzo email che hai dato non è valido. Un indirizzo e-mail valido deve essere nel formato di name@domain.tld]]></item>
 		<item name="wcf.global.createUser.error.confirmEmail.notEqual"><![CDATA[Gli indirizzi e-mail che hai dato non sono identici. Per motivi di sicurezza, assicurarsi che entrambi i campi di indirizzo e-mail siano stati compilati e siano identici.]]></item>
 		<item name="wcf.global.createUser.error.confirmPassword.notEqual"><![CDATA[Le password che hai dato non sono identiche. Per motivi di sicurezza, assicurarsi che entrambi i campi password siano stati compilati e siano identici.]]></item>
-		<item name="wcf.global.wcfDir.error"><![CDATA[Un errore si è verificato durante l'estrazione dei file richiesti:
+		<item name="wcf.global.wcfDir.error"><![CDATA[Si è verificato un errore durante l'estrazione dei file richiesti:
 		<br /><strong>{$exception->getMessage()}</strong><br />
-		Assicurarsi che la cartella di destinazione esista e abbia i permessi di scrittura.]]></item>
+		Assicurarsi che la cartella di destinazione esista ed abbia i permessi di scrittura.]]></item>
 		<item name="wcf.global.scrollDown"><![CDATA[Vai alla fine]]></item>
 		<item name="wcf.global.scrollUp"><![CDATA[Vai sopra]]></item>
 	</category>
