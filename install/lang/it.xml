@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it" languagename="Italiano" countrycode="it">
-  <category name="wcf.acl">
+	<category name="wcf.acl">
 		<item name="wcf.acl.option.deny"><![CDATA[Negare]]></item>
 		<item name="wcf.acl.option.fullAccess"><![CDATA[Accesso completo]]></item>
 		<item name="wcf.acl.option.grant"><![CDATA[Concedere]]></item>
@@ -810,7 +810,6 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.installation.step.prepare"><![CDATA[Preparazione all'installazone …]]></item>
 		<item name="wcf.acp.package.installation.step.update"><![CDATA[Aggiornamento “{$packageName}” …]]></item>
 		<item name="wcf.acp.package.installation.step.update.success"><![CDATA[Aggiornamento Completato]]></item>
-		<item name="wcf.acp.package.install.step.prepare"><![CDATA[Preparazione all'installazione…]]></item>
 		<item name="wcf.acp.package.install.title"><![CDATA[Installazione]]></item>
 		<item name="wcf.acp.package.installation.requiredVersion"><![CDATA[Versione richiesta]]></item>
 		<item name="wcf.acp.package.license"><![CDATA[Licenza]]></item>
@@ -2028,7 +2027,7 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 		<item name="wcf.user.register.disclaimer.decline"><![CDATA[Rifiuta]]></item>
 		<item name="wcf.user.register.disclaimer.text"><![CDATA[<p>La registrazione e l'utilizzo di questo forum è completamente gratuito. Premere il tasto "Accetta" se siete d'accordo con le regole indicate. Sarete quindi in grado di registrare.</p>
 
-<p>Anche se gli amministratori e i moderatori di “{@PAGE_TITLE|language}” cercano di eliminare o modificare tutti i messaggi non desiderati, è impossibile per loro controllare tutto. Tutti i messaggi esprimono il parere dell'autore, i proprietari di “{@PAGE_TITLE}” e WoltLab GmbH (Sviluppatori di Burning Board) non si ritengono responsabili per i contenuti di tali messaggi.</p>
+<p>Anche se gli amministratori e i moderatori di “{@PAGE_TITLE|language}” cercano di eliminare o modificare tutti i messaggi non desiderati, è impossibile per loro controllare tutto. Tutti i messaggi esprimono il parere dell’autore, i proprietari di “{@PAGE_TITLE}” e WoltLab GmbH (Sviluppatori di Burning Board) non si ritengono responsabili per i contenuti di tali messaggi.</p>
 
 <p>Con la registrazione, l'utente accetta di non postare messaggi che sono volgari, maleducati, irrispettosi o che esprimono (estreme) opinioni politiche o (verbale) reati di legge.</p>
 
@@ -2088,19 +2087,19 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 		<item name="wcf.user.3rdparty"><![CDATA[Login terze parti]]></item>
 		<item name="wcf.user.3rdparty.github"><![CDATA[GitHub]]></item>
 		<item name="wcf.user.3rdparty.github.login"><![CDATA[GitHub]]></item>
-		<item name="wcf.user.3rdparty.github.login.error.access_denied"><![CDATA[L'accesso al tuo account GitHub è stato respinto.]]></item>
+		<item name="wcf.user.3rdparty.github.login.error.access_denied"><![CDATA[L’accesso al tuo account GitHub è stato respinto.]]></item>
 		<item name="wcf.user.3rdparty.github.register"><![CDATA[Si sta creando un account attraverso <span class="icon icon16 icon-github"></span>&nbsp;GitHub.]]></item>
 		<item name="wcf.user.3rdparty.github.connect"><![CDATA[Collegati al tuo account GitHub{if $__wcf->session->getVar('__githubUsername')} “<a href="https://github.com/{$__wcf->session->getVar('__githubUsername')}">{$__wcf->session->getVar('__githubUsername')}</a>”{/if}]]></item>
-		<item name="wcf.user.3rdparty.github.connect.success"><![CDATA[L'account utente è stato collegato con GitHub.]]></item>
+		<item name="wcf.user.3rdparty.github.connect.success"><![CDATA[L’account utente è stato collegato con GitHub.]]></item>
 		<item name="wcf.user.3rdparty.github.connect.error.inuse"><![CDATA[Il tuo account GitHub è già collegato a un altro utente.]]></item>
 		<item name="wcf.user.3rdparty.github.disconnect"><![CDATA[Annulla connessione con GitHub]]></item>
 		<item name="wcf.user.3rdparty.github.disconnect.success"><![CDATA[Il tuo account non è più collegato con GitHub.]]></item>
 		<item name="wcf.user.3rdparty.twitter"><![CDATA[Twitter]]></item>
 		<item name="wcf.user.3rdparty.twitter.login"><![CDATA[Twitter]]></item>
-		<item name="wcf.user.3rdparty.twitter.login.error.denied"><![CDATA[L'accesso al tuo account Twitter è stato respinto.]]></item>
+		<item name="wcf.user.3rdparty.twitter.login.error.denied"><![CDATA[L’accesso al tuo account Twitter è stato respinto.]]></item>
 		<item name="wcf.user.3rdparty.twitter.register"><![CDATA[Si sta creando un account attraverso <span class="icon icon16 icon-twitter"></span>&nbsp;Twitter.]]></item>
 		<item name="wcf.user.3rdparty.twitter.connect"><![CDATA[Collegati con il tuo account Twitter{if $__wcf->session->getVar('__twitterUsername')} “<a href="https://twitter.com/{$__wcf->session->getVar('__twitterUsername')}">{$__wcf->session->getVar('__twitterUsername')}</a>”{/if}]]></item>
-		<item name="wcf.user.3rdparty.twitter.connect.success"><![CDATA[L'account utente è stato collegato con Twitter.]]></item>
+		<item name="wcf.user.3rdparty.twitter.connect.success"><![CDATA[L’account utente è stato collegato con Twitter.]]></item>
 		<item name="wcf.user.3rdparty.twitter.connect.error.inuse"><![CDATA[Il tuo account di Twitter è già collegato a un altro utente.]]></item>
 		<item name="wcf.user.3rdparty.twitter.disconnect"><![CDATA[Annulla connessione con Twitter]]></item>
 		<item name="wcf.user.3rdparty.twitter.disconnect.success"><![CDATA[Il tuo account non è più collegato con Twitter.]]></item>
@@ -2109,16 +2108,16 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 		<item name="wcf.user.3rdparty.facebook.login.error.access_denied"><![CDATA[Accesso al tuo account di Facebook è stata rifiutata.]]></item>
 		<item name="wcf.user.3rdparty.facebook.register"><![CDATA[Si sta creando un account attraverso <span class="icon icon16 icon-facebook"></span>&nbsp;Facebook.]]></item>
 		<item name="wcf.user.3rdparty.facebook.connect"><![CDATA[Collegati con il tuo account Facebook{if $__wcf->session->getVar('__facebookUsername')} “{$__wcf->session->getVar('__facebookUsername')}”{/if}]]></item>
-		<item name="wcf.user.3rdparty.facebook.connect.success"><![CDATA[L'account utente è stato collegato con Facebook.]]></item>
+		<item name="wcf.user.3rdparty.facebook.connect.success"><![CDATA[L’account utente è stato collegato con Facebook.]]></item>
 		<item name="wcf.user.3rdparty.facebook.connect.error.inuse"><![CDATA[Il tuo account di Facebook è già collegato a un altro utente.]]></item>
 		<item name="wcf.user.3rdparty.facebook.disconnect"><![CDATA[Annulla connessione con Facebook]]></item>
 		<item name="wcf.user.3rdparty.facebook.disconnect.success"><![CDATA[Il tuo account non è più collegato con Facebook.]]></item>
 		<item name="wcf.user.3rdparty.google"><![CDATA[Google]]></item>
 		<item name="wcf.user.3rdparty.google.login"><![CDATA[Google]]></item>
-		<item name="wcf.user.3rdparty.google.login.error.access_denied"><![CDATA[L'accesso al tuo account Google è stato respinto.]]></item>
+		<item name="wcf.user.3rdparty.google.login.error.access_denied"><![CDATA[L’accesso al tuo account Google è stato respinto.]]></item>
 		<item name="wcf.user.3rdparty.google.register"><![CDATA[Si sta creando un account attraverso <span class="icon icon16 icon-google-plus"></span>&nbsp;Google.]]></item>
 		<item name="wcf.user.3rdparty.google.connect"><![CDATA[Collegati con il tuo account Google{if $__wcf->session->getVar('__googleUsername')} “{$__wcf->session->getVar('__googleUsername')}”{/if}]]></item>
-		<item name="wcf.user.3rdparty.google.connect.success"><![CDATA[L'account utente è stato collegato con Google.]]></item>
+		<item name="wcf.user.3rdparty.google.connect.success"><![CDATA[L’account utente è stato collegato con Google.]]></item>
 		<item name="wcf.user.3rdparty.google.connect.error.inuse"><![CDATA[Il tuo account Google è già collegato a un altro utente.]]></item>
 		<item name="wcf.user.3rdparty.google.disconnect"><![CDATA[Annulla connessione con Google]]></item>
 		<item name="wcf.user.3rdparty.google.disconnect.success"><![CDATA[Il tuo account non è più collegato con Google.]]></item>
@@ -2139,8 +2138,8 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 		<item name="wcf.user.avatar.type.none"><![CDATA[No Avatar]]></item>
 		<item name="wcf.user.avatar.type.none.description"><![CDATA[Il tuo avatar attualmente utilizzato sarà cancellato.]]></item>
 		<item name="wcf.user.avatar.upload.error.badImage"><![CDATA[L'Immagine caricata non è valida.]]></item>
-		<item name="wcf.user.avatar.upload.error.invalidExtension"><![CDATA[L'Immagine non corrisponde alle estensioni di file consentiti.]]></item>
-		<item name="wcf.user.avatar.upload.error.tooLarge"><![CDATA[L'Immagine supera le dimensioni massime del file.]]></item>
+		<item name="wcf.user.avatar.upload.error.invalidExtension"><![CDATA[L’Immagine non corrisponde alle estensioni di file consentiti.]]></item>
+		<item name="wcf.user.avatar.upload.error.tooLarge"><![CDATA[L’Immagine supera le dimensioni massime del file.]]></item>
 		<item name="wcf.user.avatar.upload.error.tooSmall"><![CDATA[Le dimensioni delle immagini sono al di sotto delle dimensioni minime.]]></item>
 		<item name="wcf.user.avatar.upload.error.uploadFailed"><![CDATA[Si è verificato un errore sconosciuto.]]></item>
 		<item name="wcf.user.avatar.upload.success"><![CDATA[L'avatar è stato salvato.]]></item>
