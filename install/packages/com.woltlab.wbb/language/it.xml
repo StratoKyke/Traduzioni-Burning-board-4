@@ -146,25 +146,25 @@
 Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestMember]}{/link}" class="userLink" data-user-id="{@$stats[newestMember]->userID}">{$stats[newestMember]->username}</a>.]]></item>
 		<item name="wbb.index.usersOnline.record"><![CDATA[{if WBB_USERS_ONLINE_RECORD > 0}- Record: {#WBB_USERS_ONLINE_RECORD} Utenti Online ({@WBB_USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
 		<item name="wbb.index.copyright"><![CDATA[<a href="http://www.woltlab.com">Forum Software: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a>]]></item>
-		<item name="wbb.index.news"><![CDATA[News]]></item>
-		<item name="wbb.index.evaluation"><![CDATA[TODO: This software is a test version. The running time is limited until <strong>{@WBB_EVALUATION_END|plainTime}</strong>{if WBB_EVALUATION_END > TIME_NOW} ({@WBB_EVALUATION_END|dateDiff:TIME_NOW}){/if}.
-		For a legal use of this software beyond that time limit you need to <a href="http://www.woltlab.com">purchase a license</a>, or delete the software and its contents immediately.]]></item>
+		<item name="wbb.index.news"><![CDATA[Notizie]]></item>
+		<item name="wbb.index.evaluation"><![CDATA[TODO: Questo software è una versione di prova. L´utilizzo è consentito sino al <strong>{@WBB_EVALUATION_END|plainTime}</strong>{if WBB_EVALUATION_END > TIME_NOW} ({@WBB_EVALUATION_END|dateDiff:TIME_NOW}){/if}.
+		Per un uso legale di questo software oltre tale limite di tempo sarà necessario <a href="http://www.woltlab.com">comprare la licenza</a>, o eliminare il software e il suo contenuto subito!]]></item>
 	</category>
 	
 	<category name="wbb.post">
-		<item name="wbb.post.add"><![CDATA[Reply to Thread]]></item>
-		<item name="wbb.post.previousPosts"><![CDATA[Previous Post{if $items != 1}s{/if}]]></item>
-		<item name="wbb.post.button.add"><![CDATA[Reply]]></item>
-		<item name="wbb.post.deleted"><![CDATA[This post was deleted {if $post->userID == $post->getLogEntry()->userID}by the author themselves{else}by “<a href="{link controller='User' id=$post->getLogEntry()->userID title=$post->getLogEntry()->username}{/link}" class="userLink" data-user-id="{@$post->getLogEntry()->userID}">{$post->getLogEntry()->username}</a>”{/if}{if $post->getLogEntry()->reason}: “{$post->getLogEntry()->reason}”{/if} ({@$post->getLogEntry()->time|time}).]]></item>
-		<item name="wbb.post.deleted.noData"><![CDATA[Post was deleted, no further information available.]]></item>
-		<item name="wbb.post.edit"><![CDATA[Edit Post]]></item>
-		<item name="wbb.post.editNote"><![CDATA[Post was edited {#$post->editCount} time{if $post->editCount != 1}s{/if}, last by “<a href="{link controller='User' id=$post->editorID}{/link}" class="userLink" data-user-id="{@$post->editorID}">{$post->editor}</a>”{if $post->editReason}: {$post->editReason}{/if} ({@$post->lastEditTime|time}).]]></item>
-		<item name="wbb.post.editReason"><![CDATA[Edit Reason (optional)]]></item>
-		<item name="wbb.post.edit.close"><![CDATA[Prohibit Editing]]></item>
-		<item name="wbb.post.edit.delete"><![CDATA[Permanently Delete]]></item>
-		<item name="wbb.post.edit.delete.confirmMessage"><![CDATA[Do you really want to permanently delete this post?]]></item>
-		<item name="wbb.post.edit.enable"><![CDATA[Approve]]></item>
-		<item name="wbb.post.edit.merge"><![CDATA[Merge Posts]]></item>
+		<item name="wbb.post.add"><![CDATA[Rispondi alla discussione]]></item>
+		<item name="wbb.post.previousPosts"><![CDATA[Messaggi precedenti]]></item>
+		<item name="wbb.post.button.add"><![CDATA[Rispondi]]></item>
+		<item name="wbb.post.deleted"><![CDATA[Questo messaggio è stato eliminato {if $post->userID == $post->getLogEntry()->userID}dallo stesso autore{else}da “<a href="{link controller='User' id=$post->getLogEntry()->userID title=$post->getLogEntry()->username}{/link}" class="userLink" data-user-id="{@$post->getLogEntry()->userID}">{$post->getLogEntry()->username}</a>”{/if}{if $post->getLogEntry()->reason}: “{$post->getLogEntry()->reason}”{/if} ({@$post->getLogEntry()->time|time}).]]></item>
+		<item name="wbb.post.deleted.noData"><![CDATA[Il messaggio è stato eliminato senza ulteriori informazioni.]]></item>
+		<item name="wbb.post.edit"><![CDATA[Modifica messaggio]]></item>
+		<item name="wbb.post.editNote"><![CDATA[Il messaggio è stato modificata {#$post->editCount} volte, ultima modifica da “<a href="{link controller='User' id=$post->editorID}{/link}" class="userLink" data-user-id="{@$post->editorID}">{$post->editor}</a>”{if $post->editReason}: {$post->editReason}{/if} ({@$post->lastEditTime|time}).]]></item>
+		<item name="wbb.post.editReason"><![CDATA[Motivazione modifica (opzionale)]]></item>
+		<item name="wbb.post.edit.close"><![CDATA[Vieta la modifica]]></item>
+		<item name="wbb.post.edit.delete"><![CDATA[Elimina definitivamente]]></item>
+		<item name="wbb.post.edit.delete.confirmMessage"><![CDATA[Vuoi veramente eliminare definitivamente il messaggio?]]></item>
+		<item name="wbb.post.edit.enable"><![CDATA[Approva]]></item>
+		<item name="wbb.post.edit.merge"><![CDATA[Unisci messaggio]]></item>
 		<item name="wbb.post.edit.merge.description"><![CDATA[All displayed posts will be merged into the first post. Sort posts by drag &amp; drop to determine the first post and the merge order.]]></item>
 		<item name="wbb.post.edit.merge.success"><![CDATA[Posts have been merged]]></item>
 		<item name="wbb.post.edit.open"><![CDATA[Allow Editing]]></item>
