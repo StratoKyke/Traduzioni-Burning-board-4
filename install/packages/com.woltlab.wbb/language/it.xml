@@ -94,8 +94,8 @@
 	</category>
 	
 	<category name="wbb.acp.user">
-		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[TODO: Importi inferiori]]></item>
-		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[TODO: Importi maggiori]]></item>
+		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[Attenzione: Importi inferiori]]></item>
+		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[Attenzione: Importi maggiori]]></item>
 	</category>
 	
 	<category name="wbb.board">
@@ -147,7 +147,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.index.usersOnline.record"><![CDATA[{if WBB_USERS_ONLINE_RECORD > 0}- Record: {#WBB_USERS_ONLINE_RECORD} Utenti Online ({@WBB_USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
 		<item name="wbb.index.copyright"><![CDATA[<a href="http://www.woltlab.com">Forum Software: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a>]]></item>
 		<item name="wbb.index.news"><![CDATA[Notizie]]></item>
-		<item name="wbb.index.evaluation"><![CDATA[TODO: Questo software è una versione di prova. L´utilizzo è consentito sino al <strong>{@WBB_EVALUATION_END|plainTime}</strong>{if WBB_EVALUATION_END > TIME_NOW} ({@WBB_EVALUATION_END|dateDiff:TIME_NOW}){/if}.
+		<item name="wbb.index.evaluation"><![CDATA[Attenzione: Questo software è una versione di prova. L´utilizzo è consentito sino al <strong>{@WBB_EVALUATION_END|plainTime}</strong>{if WBB_EVALUATION_END > TIME_NOW} ({@WBB_EVALUATION_END|dateDiff:TIME_NOW}){/if}.
 		Per un uso legale di questo software oltre tale limite di tempo sarà necessario <a href="http://www.woltlab.com">comprare la licenza</a>, o eliminare il software e il suo contenuto subito!]]></item>
 	</category>
 	
