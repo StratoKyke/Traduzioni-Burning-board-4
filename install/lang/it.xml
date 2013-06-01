@@ -682,7 +682,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.category.user.cleanup"><![CDATA[Ripulire]]></item>
 		<item name="wcf.acp.option.category.user.list"><![CDATA[Lista Utenti]]></item>
 		<item name="wcf.acp.option.category.user.list.members"><![CDATA[Lista Utenti]]></item>
-		<item name="wcf.acp.option.category.user.list.online"><![CDATA[Lista “Utenti Online”]]></item>
+		<item name="wcf.acp.option.category.user.list.online"><![CDATA[Lista “Utenti online”]]></item>
 		<item name="wcf.acp.option.category.user.register"><![CDATA[Registrazione]]></item>
 		<item name="wcf.acp.option.category.user.password"><![CDATA[Password]]></item>
 		<item name="wcf.acp.option.category.user.ban"><![CDATA[Filtro]]></item>
@@ -691,7 +691,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.max_avatar_width"><![CDATA[Larghezza Massima Dell’Avatar]]></item>
 		<item name="wcf.acp.option.module_gravatar"><![CDATA[Gravatars]]></item>
 		<item name="wcf.acp.option.module_gravatar.description"><![CDATA[Abilita il supporto per Gravatars (“Global Recognized Avatar”).]]></item>
-		<item name="wcf.acp.option.module_users_online"><![CDATA[Lista “Utenti Online”]]></item>
+		<item name="wcf.acp.option.module_users_online"><![CDATA[Lista “Utenti online”]]></item>
 		<item name="wcf.acp.option.module_user_rank"><![CDATA[Livelli Utente]]></item>
 		<item name="wcf.acp.option.module_user_signature"><![CDATA[Firme]]></item>
 		<item name="wcf.acp.option.module_team_page"><![CDATA[Lista Staff]]></item>
@@ -2037,7 +2037,7 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 	</category>
 	
 	<category name="wcf.user.usersOnline">
-		<item name="wcf.user.usersOnline"><![CDATA[Utenti Online]]></item>
+		<item name="wcf.user.usersOnline"><![CDATA[Utenti online]]></item>
 		<item name="wcf.user.usersOnline.detail"><![CDATA[
 {if $usersOnlineList->stats[members] > 0}
 	{#$usersOnlineList->stats[members]} Utenti
@@ -2126,20 +2126,20 @@ Se non è possibile aprire il collegamento o si hanno problemi seguendo le istru
 	<category name="wcf.user.avatar">
 		<item name="wcf.user.avatar"><![CDATA[Avatar]]></item>
 		<item name="wcf.user.avatar.alt"><![CDATA[Avatar utente]]></item>
-		<item name="wcf.user.avatar.edit"><![CDATA[Gestione Avatar]]></item>
+		<item name="wcf.user.avatar.edit"><![CDATA[Gestione avatar]]></item>
 		<item name="wcf.user.avatar.error.disabled"><![CDATA[Gli amministratori {if $__wcf->user->avatarID || $__wcf->user->enableGravatar}hanno bannato il tuo avatar e {/if}è escluso dal usare un avatar{if $__wcf->user->disableAvatarReason}: {$__wcf->user->disableAvatarReason}{/if}.]]></item>
 		<item name="wcf.user.avatar.type.custom"><![CDATA[Carica il tuo avatar]]></item>
-		<item name="wcf.user.avatar.type.custom.crop"><![CDATA[Avatar Utilizzato]]></item>
+		<item name="wcf.user.avatar.type.custom.crop"><![CDATA[Avatar utilizzato]]></item>
 		<item name="wcf.user.avatar.type.custom.crop.description"><![CDATA[TUTTI]]></item>
 		<item name="wcf.user.avatar.type.custom.description"><![CDATA[È possibile utilizzare le seguenti estensioni di file “{"\n"|str_replace:', ':$__wcf->session->getPermission('user.profile.avatar.allowedFileExtensions')}” il vostro avatar deve avere una dimensione massima del file di {@$__wcf->session->getPermission('user.profile.avatar.maxSize')|filesize}. Le dimensioni minime sono 48 × 48 pixel, si raccomanda di fornire una dimensione di {@MAX_AVATAR_WIDTH}×{@MAX_AVATAR_HEIGHT} pixel.Ogni avatar che supera questo limite verrà ridimensionata, se possibile.]]></item>
 		<item name="wcf.user.avatar.type.gravatar"><![CDATA[Usa Gravatar]]></item>
 		<item name="wcf.user.avatar.type.gravatar.description"><![CDATA[Gravatar (Global Recognized Avatar) fornisce un avatar globalmente riutilizzabile collegato con il tuo indirizzo email “{$__wcf->user->email}”. Visita <a href="http://www.gravatar.com" class="externalURL">www.gravatar.com</a> per impostare o modificare il tuo avatar.]]></item>
 		<item name="wcf.user.avatar.type.gravatar.error.notFound"><![CDATA[L’indirizzo email non è collegato con un gravatar.]]></item>
-		<item name="wcf.user.avatar.type.none"><![CDATA[No Avatar]]></item>
+		<item name="wcf.user.avatar.type.none"><![CDATA[Nessun avatar]]></item>
 		<item name="wcf.user.avatar.type.none.description"><![CDATA[Il tuo avatar attualmente utilizzato sarà cancellato.]]></item>
-		<item name="wcf.user.avatar.upload.error.badImage"><![CDATA[L’Immagine caricata non è valida.]]></item>
-		<item name="wcf.user.avatar.upload.error.invalidExtension"><![CDATA[L’Immagine non corrisponde alle estensioni di file consentiti.]]></item>
-		<item name="wcf.user.avatar.upload.error.tooLarge"><![CDATA[L’Immagine supera le dimensioni massime del file.]]></item>
+		<item name="wcf.user.avatar.upload.error.badImage"><![CDATA[L’immagine caricata non è valida.]]></item>
+		<item name="wcf.user.avatar.upload.error.invalidExtension"><![CDATA[L’immagine non corrisponde alle estensioni di file consentiti.]]></item>
+		<item name="wcf.user.avatar.upload.error.tooLarge"><![CDATA[L’immagine supera le dimensioni massime del file.]]></item>
 		<item name="wcf.user.avatar.upload.error.tooSmall"><![CDATA[Le dimensioni delle immagini sono al di sotto delle dimensioni minime.]]></item>
 		<item name="wcf.user.avatar.upload.error.uploadFailed"><![CDATA[Si è verificato un errore sconosciuto.]]></item>
 		<item name="wcf.user.avatar.upload.success"><![CDATA[L’avatar è stato salvato.]]></item>
