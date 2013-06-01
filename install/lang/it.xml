@@ -811,6 +811,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.installation.step.update"><![CDATA[Aggiornamento “{$packageName}” …]]></item>
 		<item name="wcf.acp.package.installation.step.update.success"><![CDATA[Aggiornamento Completato]]></item>
 		<item name="wcf.acp.package.install.title"><![CDATA[Installazione]]></item>
+		<item name="wcf.acp.package.install.step.prepare"><![CDATA[Preparazione all´installazione]]></item>
 		<item name="wcf.acp.package.installation.requiredVersion"><![CDATA[Versione richiesta]]></item>
 		<item name="wcf.acp.package.license"><![CDATA[Licenza]]></item>
 		<item name="wcf.acp.package.list"><![CDATA[Pacchetti]]></item>
