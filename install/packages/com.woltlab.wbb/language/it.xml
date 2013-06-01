@@ -402,47 +402,47 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 	</category>
 	
 	<category name="wcf.clipboard">
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.delete"><![CDATA[Permanently Delete ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.deleteCompletely.confirmMessage"><![CDATA[Do you really want to permanently delete {if $count != 1}these posts{else}this post{/if}?]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.merge"><![CDATA[Merge ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread"><![CDATA[Move Into This Thread ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread.confirmMessage"><![CDATA[Do you really want to move {if $count != 1}these posts{else}this post{/if} into this thread?]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToNewThread"><![CDATA[Move Into a New Thread ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.restore"><![CDATA[Restore ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.trash"><![CDATA[Delete ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.post.trash.confirmMessage"><![CDATA[Do you really want to delete {if $count != 1}these posts{else}this post{/if}?]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.close"><![CDATA[Close ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete"><![CDATA[Permanently Delete ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete.confirmMessage"><![CDATA[Do you really want to permanently delete {if $count != 1}these threads{else}this thread{/if}?]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.done"><![CDATA[Mark As Done ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.enable"><![CDATA[Approve ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.merge"><![CDATA[Merge ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.move"><![CDATA[Move ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.open"><![CDATA[Open ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.removeLink"><![CDATA[Remove Redirection Notice ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.restore"><![CDATA[Restore ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash"><![CDATA[Delete ({#$count})]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash.confirmMessage"><![CDATA[Do you really want to delete {if $count != 1}these threads{else}this thread{/if}?]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.undone"><![CDATA[Mark As Undone ({#$count})]]></item>
-		<item name="wcf.clipboard.label.com.woltlab.wbb.post.marked"><![CDATA[{if $count == 1}One Post{else}{#$count} Posts{/if} Marked]]></item>
-		<item name="wcf.clipboard.label.com.woltlab.wbb.thread.marked"><![CDATA[{if $count == 1}One Thread{else}{#$count} Threads{/if} Marked]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.delete"><![CDATA[Elimina definitivamente ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.deleteCompletely.confirmMessage"><![CDATA[Vuoi veramente cancellare definitivamente {if $count != 1}questi messaggi{else}questo messaggio{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.merge"><![CDATA[Unisci ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread"><![CDATA[Sposta in questa discussione ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread.confirmMessage"><![CDATA[Vuoi veramente spostare {if $count != 1}questi messaggi{else}questo messaggio{/if} into this thread?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToNewThread"><![CDATA[Sposta in una nuova discussione ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.restore"><![CDATA[Ripristinare ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.trash"><![CDATA[Elimina ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.trash.confirmMessage"><![CDATA[Vuoi veramente eliminare {if $count != 1}questi messagi{else}questo messaggio{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.close"><![CDATA[Chiudi ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete"><![CDATA[Elimina permanentemente ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete.confirmMessage"><![CDATA[Vuoi veramente eliminare {if $count != 1}questa discussione{else}questa discussione{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.done"><![CDATA[Segna come risolto ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.enable"><![CDATA[Approva ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.merge"><![CDATA[Unisci ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.move"><![CDATA[Sposta ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.open"><![CDATA[Apri ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.removeLink"><![CDATA[Rimuovi reindirizzamento avviso ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.restore"><![CDATA[Ripristina ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash"><![CDATA[Elimina ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash.confirmMessage"><![CDATA[Vuoi veramente eliminare {if $count != 1}queste discussioni{else}questa discussione{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.undone"><![CDATA[Segna come non risolto ({#$count})]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.wbb.post.marked"><![CDATA[{if $count == 1}Un messaggio{else}{#$count} messaggi{/if} selezionati]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.wbb.thread.marked"><![CDATA[{if $count == 1}Una Discussione{else}{#$count} Discussioni{/if} selezionati]]></item>
 	</category>
 	
 	<category name="wcf.dashboard">
-		<item name="wcf.dashboard.objectType.com.woltlab.wbb.BoardPage"><![CDATA[Thread List]]></item>
-		<item name="wcf.dashboard.objectType.com.woltlab.wbb.BoardListPage"><![CDATA[Forum List]]></item>
-		<item name="wcf.dashboard.box.com.woltlab.wbb.boardTagCloud"><![CDATA[Tags]]></item>
-		<item name="wcf.dashboard.box.com.woltlab.wbb.latestPosts"><![CDATA[Latest Posts]]></item>
-		<item name="wcf.dashboard.box.com.woltlab.wbb.mostActiveThreads"><![CDATA[Most Active Threads]]></item>
-		<item name="wcf.dashboard.box.com.woltlab.wbb.topPoster"><![CDATA[Highest-Posting Members]]></item>
-		<item name="wcf.dashboard.box.mostActiveThreads.replies"><![CDATA[{#$thread->replies} {if $thread->replies == 1}Reply{else}Replies{/if}]]></item>
-		<item name="wcf.dashboard.box.topPoster.posts"><![CDATA[{#$topPosterUser->wbbPosts} Post{if $topPosterUser->wbbPosts != 1}s{/if}]]></item>
-		<item name="wcf.dashboard.box.com.woltlab.wbb.threadsAsNews"><![CDATA[News]]></item>
-		<item name="wcf.dashboard.box.com.woltlab.wbb.unreadPosts"><![CDATA[Unread Threads]]></item>
+		<item name="wcf.dashboard.objectType.com.woltlab.wbb.BoardPage"><![CDATA[Lista Discussioni]]></item>
+		<item name="wcf.dashboard.objectType.com.woltlab.wbb.BoardListPage"><![CDATA[ListaForum]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.wbb.boardTagCloud"><![CDATA[Tag]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.wbb.latestPosts"><![CDATA[Ultimi Messaggi]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.wbb.mostActiveThreads"><![CDATA[Discussioni più attive]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.wbb.topPoster"><![CDATA[Con più risposte]]></item>
+		<item name="wcf.dashboard.box.mostActiveThreads.replies"><![CDATA[{#$thread->replies} {if $thread->replies == 1}Risposta{else}Risposte{/if}]]></item>
+		<item name="wcf.dashboard.box.topPoster.posts"><![CDATA[{#$topPosterUser->wbbPosts} Messaggi]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.wbb.threadsAsNews"><![CDATA[Novità]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.wbb.unreadPosts"><![CDATA[Discussioni non lette]]></item>
 	</category>
 	
 	<category name="wcf.like">
-		<item name="wcf.like.objectType.com.woltlab.wbb.likeablePost"><![CDATA[Post]]></item>
+		<item name="wcf.like.objectType.com.woltlab.wbb.likeablePost"><![CDATA[Messaggio]]></item>
 	</category>
 	
 	<category name="wcf.page">
@@ -450,80 +450,80 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 	</category>
 	
 	<category name="wcf.user">
-		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.post"><![CDATA[Posts]]></item>
-		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.thread"><![CDATA[Threads]]></item>
-		<item name="wcf.user.searchPosts"><![CDATA[Find All Posts By “{$username}”]]></item>
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.post"><![CDATA[Messaggi]]></item>
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.wbb.activityPointEvent.thread"><![CDATA[Discussioni]]></item>
+		<item name="wcf.user.searchPosts"><![CDATA[Trova tutti i messaggi di “{$username}”]]></item>
 	</category>
 	
 	<category name="wcf.user.recentActivity">
-		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.thread"><![CDATA[Thread]]></item>
-		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.post"><![CDATA[Post]]></item>
-		<item name="wcf.user.recentActivity.com.woltlab.wbb.likeablePost.recentActivityEvent"><![CDATA[Like (Post)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.thread"><![CDATA[Discussione]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.post"><![CDATA[Messaggio]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.likeablePost.recentActivityEvent"><![CDATA[Mi piace (Messaggio)]]></item>
 	</category>
 	
 	<category name="wcf.user.profile">
-		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[Liked <a href="{link application='wbb' controller='Thread' object=$thread}postID={@$post->postID}{/link}#post{@$post->postID}" class="wbbPostLink" data-post-id="{@$post->postID}">{$post->username}’s post</a> in the thread <a href="{link application='wbb' controller='Thread' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">{$thread->topic}</a>.]]></item>
-		<item name="wcf.user.profile.recentActivity.post"><![CDATA[Replied to the thread <a href="{link application='wbb' controller='Thread' object=$thread}postID={@$post->postID}{/link}#post{@$post->postID}" class="wbbPostLink" data-post-id="{@$post->postID}">{$thread->topic}</a>.]]></item>
-		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[Posted a new thread: <a href="{link application='wbb' controller='Thread' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">{$thread->topic}</a>]]></item>
+		<item name="wcf.user.profile.recentActivity.likedPost"><![CDATA[Mi piace <a href="{link application='wbb' controller='Thread' object=$thread}postID={@$post->postID}{/link}#post{@$post->postID}" class="wbbPostLink" data-post-id="{@$post->postID}">il messaggio di {$post->username}</a> nella discussione <a href="{link application='wbb' controller='Thread' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">{$thread->topic}</a>.]]></item>
+		<item name="wcf.user.profile.recentActivity.post"><![CDATA[Ha risposto alla discusssione <a href="{link application='wbb' controller='Thread' object=$thread}postID={@$post->postID}{/link}#post{@$post->postID}" class="wbbPostLink" data-post-id="{@$post->postID}">{$thread->topic}</a>.]]></item>
+		<item name="wcf.user.profile.recentActivity.thread"><![CDATA[Pubblicato una nuova discussione: <a href="{link application='wbb' controller='Thread' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">{$thread->topic}</a>]]></item>
 	</category>
 	
 	<category name="wcf.user.option">
-		<item name="wcf.user.option.postsPerPage"><![CDATA[Posts Per Page]]></item>
-		<item name="wcf.user.option.threadsPerPage"><![CDATA[Threads Per Page]]></item>
-		<item name="wcf.user.option.watchThreadOnReply"><![CDATA[Automatically watch replied threads]]></item>
+		<item name="wcf.user.option.postsPerPage"><![CDATA[Messaggi per Pagina]]></item>
+		<item name="wcf.user.option.threadsPerPage"><![CDATA[Discussioni per Pagina]]></item>
+		<item name="wcf.user.option.watchThreadOnReply"><![CDATA[Guarda automaticamente le risposte alle discussioni]]></item>
 	</category>
 	
 	<category name="wcf.search">
-		<item name="wcf.search.type.com.woltlab.wbb.post"><![CDATA[Threads and Posts]]></item>
-		<item name="wcf.search.object.com.woltlab.wbb.post"><![CDATA[Post]]></item>
+		<item name="wcf.search.type.com.woltlab.wbb.post"><![CDATA[Discussioni e Messaggi]]></item>
+		<item name="wcf.search.object.com.woltlab.wbb.post"><![CDATA[Messaggio]]></item>
 	</category>
 	
 	<category name="wbb.user">
-		<item name="wbb.user.usersOnline.location.BoardListPage"><![CDATA[Forum List]]></item>
+		<item name="wbb.user.usersOnline.location.BoardListPage"><![CDATA[Lista Forum]]></item>
 		<item name="wbb.user.usersOnline.location.BoardPage"><![CDATA[<a href="{link controller='Board' application='wbb' object=$board}{/link}">Forum “{$board->title|language}”</a>]]></item>
-		<item name="wbb.user.usersOnline.location.ThreadPage"><![CDATA[<a href="{link controller='Thread' application='wbb' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">Thread “{$thread->topic}”</a>]]></item>
-		<item name="wbb.user.usersOnline.location.PostEditForm"><![CDATA[Editing post in <a href="{link controller='Thread' application='wbb' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">thread “{$thread->topic}”</a>]]></item>
-		<item name="wbb.user.usersOnline.location.PostAddForm"><![CDATA[Writing a reply in <a href="{link controller='Thread' application='wbb' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">thread “{$thread->topic}”</a>]]></item>
-		<item name="wbb.user.usersOnline.location.ThreadAddForm"><![CDATA[Creating a thread in <a href="{link controller='Board' application='wbb' object=$board}{/link}">forum “{$board->title|language}”</a>]]></item>
+		<item name="wbb.user.usersOnline.location.ThreadPage"><![CDATA[<a href="{link controller='Thread' application='wbb' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">Discussione “{$thread->topic}”</a>]]></item>
+		<item name="wbb.user.usersOnline.location.PostEditForm"><![CDATA[Stai modifica messaggio nella <a href="{link controller='Thread' application='wbb' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">Discussione“{$thread->topic}”</a>]]></item>
+		<item name="wbb.user.usersOnline.location.PostAddForm"><![CDATA[Stai scrivendo una risposta nella <a href="{link controller='Thread' application='wbb' object=$thread}{/link}" class="wbbTopicLink" data-thread-id="{@$thread->threadID}">Discussione “{$thread->topic}”</a>]]></item>
+		<item name="wbb.user.usersOnline.location.ThreadAddForm"><![CDATA[Creazione discussione nel <a href="{link controller='Board' application='wbb' object=$board}{/link}">forum “{$board->title|language}”</a>]]></item>
 	</category>
 	
 	<category name="wcf.acp.index">
-		<item name="wcf.acp.index.system.software.wbbVersion"><![CDATA[Burning Board&reg; Version]]></item>
+		<item name="wcf.acp.index.system.software.wbbVersion"><![CDATA[Burning Board&reg; Versione]]></item>
 	</category>
 	
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.board"><![CDATA[Forum]]></item>
-		<item name="wcf.acp.option.category.board.index"><![CDATA[Forum List]]></item>
-		<item name="wcf.acp.option.category.board.index.general"><![CDATA[General]]></item>
-		<item name="wcf.acp.option.category.board.index.boards"><![CDATA[Forum List]]></item>
-		<item name="wcf.acp.option.category.board.board"><![CDATA[Forums]]></item>
-		<item name="wcf.acp.option.category.board.board.general"><![CDATA[General]]></item>
-		<item name="wcf.acp.option.category.board.board.threads"><![CDATA[Thread List]]></item>
-		<item name="wcf.acp.option.category.board.thread"><![CDATA[Threads]]></item>
-		<item name="wcf.acp.option.category.board.thread.general"><![CDATA[General]]></item>
-		<item name="wcf.acp.option.category.board.thread.posts"><![CDATA[Post List]]></item>
-		<item name="wcf.acp.option.category.board.post"><![CDATA[Posts]]></item>
-		<item name="wcf.acp.option.category.board.post.add"><![CDATA[Post Creation]]></item>
-		<item name="wcf.acp.option.category.board.post.edit"><![CDATA[Post Editing]]></item>
-		<item name="wcf.acp.option.category.dashboard.content.threadsAsNews"><![CDATA[News]]></item>
-		<item name="wcf.acp.option.category.dashboard.sidebar.mostActiveThreads"><![CDATA[Most Active Threads]]></item>
-		<item name="wcf.acp.option.category.dashboard.sidebar.latestPosts"><![CDATA[Latest Posts]]></item>
-		<item name="wcf.acp.option.category.dashboard.content.unreadPosts"><![CDATA[Unread Threads]]></item>
-		<item name="wcf.acp.option.wbb_index_enable_stats"><![CDATA[Display forum statistics]]></item>
-		<item name="wcf.acp.option.wbb_index_enable_online_list"><![CDATA[Display “Users Online” list]]></item>
-		<item name="wcf.acp.option.wbb_index_enable_users_online_legend"><![CDATA[Display legend for “Users Online” list]]></item>
-		<item name="wcf.acp.option.wbb_board_default_days_prune"><![CDATA[Time Filter]]></item>
-		<item name="wcf.acp.option.wbb_board_default_days_prune.description"><![CDATA[Shows only threads within the given time frame.]]></item>
-		<item name="wcf.acp.option.wbb_board_default_sort_field"><![CDATA[Sort Field]]></item>
-		<item name="wcf.acp.option.wbb_board_default_sort_field.description"><![CDATA[Default sort field for threads]]></item>
-		<item name="wcf.acp.option.wbb_board_default_sort_order"><![CDATA[Sort Order]]></item>
-		<item name="wcf.acp.option.wbb_board_default_sort_order.description"><![CDATA[Default sort order for threads]]></item>
-		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note"><![CDATA[Display notice for threads in trash bin]]></item>
+		<item name="wcf.acp.option.category.board.index"><![CDATA[Lista Forum]]></item>
+		<item name="wcf.acp.option.category.board.index.general"><![CDATA[Generale]]></item>
+		<item name="wcf.acp.option.category.board.index.boards"><![CDATA[Lista Forum]]></item>
+		<item name="wcf.acp.option.category.board.board"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.option.category.board.board.general"><![CDATA[Generale]]></item>
+		<item name="wcf.acp.option.category.board.board.threads"><![CDATA[Lista Discussione]]></item>
+		<item name="wcf.acp.option.category.board.thread"><![CDATA[Discussioni]]></item>
+		<item name="wcf.acp.option.category.board.thread.general"><![CDATA[Generale]]></item>
+		<item name="wcf.acp.option.category.board.thread.posts"><![CDATA[Lista Messaggi]]></item>
+		<item name="wcf.acp.option.category.board.post"><![CDATA[Messaggi]]></item>
+		<item name="wcf.acp.option.category.board.post.add"><![CDATA[Creazione Messaggio]]></item>
+		<item name="wcf.acp.option.category.board.post.edit"><![CDATA[Modifica Messaggio]]></item>
+		<item name="wcf.acp.option.category.dashboard.content.threadsAsNews"><![CDATA[Novità]]></item>
+		<item name="wcf.acp.option.category.dashboard.sidebar.mostActiveThreads"><![CDATA[Discussioni più attive]]></item>
+		<item name="wcf.acp.option.category.dashboard.sidebar.latestPosts"><![CDATA[Ultimi messaggi]]></item>
+		<item name="wcf.acp.option.category.dashboard.content.unreadPosts"><![CDATA[Discussioni non lette]]></item>
+		<item name="wcf.acp.option.wbb_index_enable_stats"><![CDATA[Visualizza statistiche forum]]></item>
+		<item name="wcf.acp.option.wbb_index_enable_online_list"><![CDATA[Mostra Lista "Utenti Online"]]></item>
+		<item name="wcf.acp.option.wbb_index_enable_users_online_legend"><![CDATA[Mostra legenda Lista "Utenti Online"]]></item>
+		<item name="wcf.acp.option.wbb_board_default_days_prune"><![CDATA[Filtro tempo]]></item>
+		<item name="wcf.acp.option.wbb_board_default_days_prune.description"><![CDATA[Mostra solo i thread all´interno di un determinato intervallo di tempo.]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_field"><![CDATA[Ordina campo]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_field.description"><![CDATA[Campo di ordinamento predefinito per le conversazioni]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_order"><![CDATA[Ordine]]></item>
+		<item name="wcf.acp.option.wbb_board_default_sort_order.description"><![CDATA[Ordinamento predefinito per le discussioni]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note"><![CDATA[Visualizza l´avviso per i thread in cestino]]></item>
 		<item name="wcf.acp.option.wbb_board_enable_deleted_thread_note.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.wbb_board_enable_moderators"><![CDATA[Show forum moderators]]></item>
-		<item name="wcf.acp.option.wbb_board_enable_online_list"><![CDATA[Show members browsing this forum]]></item>
-		<item name="wcf.acp.option.wbb_board_enable_stats"><![CDATA[Show forum statistics]]></item>
-		<item name="wcf.acp.option.wbb_board_list_depth"><![CDATA[Forum List Depth]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_moderators"><![CDATA[Mostra moderatori forum]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_online_list"><![CDATA[Mostra utenti che stanno navigando nel forum]]></item>
+		<item name="wcf.acp.option.wbb_board_enable_stats"><![CDATA[Mostra statistiche forum]]></item>
+		<item name="wcf.acp.option.wbb_board_list_depth"><![CDATA[Lista Profondità forum]]></item>
 		<item name="wcf.acp.option.wbb_board_list_depth.description"><![CDATA[Maximum depth of forums shown on the forums list]]></item>
 		<item name="wcf.acp.option.wbb_board_list_enable_last_post"><![CDATA[Show last post of each forum]]></item>
 		<item name="wcf.acp.option.wbb_board_list_enable_online_list"><![CDATA[Show users browsing each forum]]></item>
