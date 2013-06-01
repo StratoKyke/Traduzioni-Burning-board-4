@@ -19,7 +19,7 @@
 		<item name="wcf.global.license.accept.description"><![CDATA[Hai accettato i termini e le condizioni del contratto di licenza? È possibile installare questo software solo dopo aver accettato il contratto di licenza.]]></item>
 		<item name="wcf.global.license.missingAcception"><![CDATA[È necessario accettare il contratto di licenza per proseguire l’installazione.]]></item>
 		<item name="wcf.global.systemRequirements.required"><![CDATA[Componenti sistema richiesti]]></item>
-		<item name="wcf.global.systemRequirements.memoryLimit">![CDATA[Limite memoria]]</item>
+		<item name="wcf.global.systemRequirements.memoryLimit"><![CDATA[Spazio libero necessario]]></item>
 		<item name="wcf.global.systemRequirements.recommended"><![CDATA[Componenti sistema consigliati]]></item>
 		<item name="wcf.global.systemRequirements.element.required"><![CDATA[Richiesto:]]></item>
 		<item name="wcf.global.systemRequirements.element.yours"><![CDATA[Trovato:]]></item>
