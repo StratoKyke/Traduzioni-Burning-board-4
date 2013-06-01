@@ -81,6 +81,6 @@
     <item name="wcf.user.notification.com.woltlab.wcf.moderatedUserGroup.application.edited"><![CDATA[Richiesta di adesione inviata]]></item>
     <item name="wcf.user.notification.com.woltlab.wcf.moderatedUserGroup.application.edited.title"><![CDATA[Adesione {if $newStatus == 'accepted'}Accettata{elseif $newStatus == 'rejected'}Rifiutata{else}Chiusa{/if}]]></item>
     <item name="wcf.user.notification.com.woltlab.wcf.moderatedUserGroup.application.edited.message"><![CDATA[“{$group->groupName|language}” {if $newStatus == 'accepted'}accettata{elseif $newStatus == 'rejected'}rifiutata{else}chiusa{/if} la tua richeista di adesione.]]></item>
-    <item name="wcf.user.notification.com.woltlab.wcf.moderatedUserGroup.application.edited.mail"><![CDATA["{@$author->username}" {if $newStatus == 'accepted'}accettata{else}{if $newStatus == 'rejected'}rifiutata{else}chiusa{/if} la tua richiesta di adesione per il gruppo utente "{@$group->groupName|language}".]]></item>
+    <item name="wcf.user.notification.com.woltlab.wcf.moderatedUserGroup.application.edited.mail"><![CDATA["{@$author->username}" {if $newStatus == 'accepted'}accettata{elseif $newStatus == 'rejected'}rifiutata{else}chiusa{/if} la tua richiesta di adesione per il gruppo utente "{@$group->groupName|language}".]]></item>
   </category>
 </language>
