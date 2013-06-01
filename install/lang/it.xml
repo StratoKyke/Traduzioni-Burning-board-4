@@ -326,7 +326,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.index.news"><![CDATA[Novità]]></item>
 		<item name="wcf.acp.index.system"><![CDATA[Sistema]]></item>
 		<item name="wcf.acp.index.system.software"><![CDATA[Software]]></item>
-		<item name="wcf.acp.index.system.software.wcfVersion"><![CDATA[Community Framework&trade; Versione]]></item>
+		<item name="wcf.acp.index.system.software.wcfVersion"><![CDATA[Versione Community Framework&trade;]]></item>
 		<item name="wcf.acp.index.system.server"><![CDATA[Server]]></item>
 		<item name="wcf.acp.index.system.os"><![CDATA[Sistema operativo]]></item>
 		<item name="wcf.acp.index.system.webserver"><![CDATA[Webserver]]></item>
