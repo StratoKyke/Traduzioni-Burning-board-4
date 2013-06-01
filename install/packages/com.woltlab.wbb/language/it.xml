@@ -42,110 +42,110 @@
 	</category>
 	
 	<category name="wbb.acp.bulkProcessing">
-		<item name="wbb.acp.bulkProcessing.action"><![CDATA[Action]]></item>
-		<item name="wbb.acp.bulkProcessing.action.close"><![CDATA[Close]]></item>
-		<item name="wbb.acp.bulkProcessing.action.delete"><![CDATA[Delete Permanently]]></item>
-		<item name="wbb.acp.bulkProcessing.action.deleteLinks"><![CDATA[Remove Links]]></item>
-		<item name="wbb.acp.bulkProcessing.action.enable"><![CDATA[Approve]]></item>
-		<item name="wbb.acp.bulkProcessing.action.move"><![CDATA[Move]]></item>
-		<item name="wbb.acp.bulkProcessing.action.moveTo"><![CDATA[Move to]]></item>
-		<item name="wbb.acp.bulkProcessing.action.open"><![CDATA[Open]]></item>
-		<item name="wbb.acp.bulkProcessing.action.restore"><![CDATA[Restore]]></item>
-		<item name="wbb.acp.bulkProcessing.action.trash"><![CDATA[Move to Trash Bin]]></item>
-		<item name="wbb.acp.bulkProcessing.action.markAsDone"><![CDATA[Mark As Done]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions"><![CDATA[Conditions]]></item>
+		<item name="wbb.acp.bulkProcessing.action"><![CDATA[Azione]]></item>
+		<item name="wbb.acp.bulkProcessing.action.close"><![CDATA[Chiudi]]></item>
+		<item name="wbb.acp.bulkProcessing.action.delete"><![CDATA[Elimina permanentemente]]></item>
+		<item name="wbb.acp.bulkProcessing.action.deleteLinks"><![CDATA[Rimuovi link]]></item>
+		<item name="wbb.acp.bulkProcessing.action.enable"><![CDATA[Approva]]></item>
+		<item name="wbb.acp.bulkProcessing.action.move"><![CDATA[Sposta]]></item>
+		<item name="wbb.acp.bulkProcessing.action.moveTo"><![CDATA[Sposta in]]></item>
+		<item name="wbb.acp.bulkProcessing.action.open"><![CDATA[Apri]]></item>
+		<item name="wbb.acp.bulkProcessing.action.restore"><![CDATA[Ripristina]]></item>
+		<item name="wbb.acp.bulkProcessing.action.trash"><![CDATA[Sposta nel cestino]]></item>
+		<item name="wbb.acp.bulkProcessing.action.markAsDone"><![CDATA[Segna come risolto]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions"><![CDATA[Condizioni]]></item>
 		<item name="wbb.acp.bulkProcessing.conditions.boards"><![CDATA[Forum]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.createdBy"><![CDATA[Started By]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.lastPostTime"><![CDATA[Last Reply]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.repliesLessThan"><![CDATA[Replies less than]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.repliesMoreThan"><![CDATA[Replies greater than]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.states"><![CDATA[States]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.announcement"><![CDATA[Announcement]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.closed"><![CDATA[Closed]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.deleted"><![CDATA[In trash bin]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.disabled"><![CDATA[Awaiting approval]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.normal"><![CDATA[Ordinary thread]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.notDeleted"><![CDATA[Not in trash bin]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.notDisabled"><![CDATA[Approved]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.notRedirect"><![CDATA[Not a link]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.open"><![CDATA[Open]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.createdBy"><![CDATA[Iniziata da]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.lastPostTime"><![CDATA[Ultima risposta]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.repliesLessThan"><![CDATA[Risposte minori di]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.repliesMoreThan"><![CDATA[Risposte maggiori di]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.states"><![CDATA[Stati]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.announcement"><![CDATA[Annuncio]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.closed"><![CDATA[Chiuso]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.deleted"><![CDATA[Nel cestino]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.disabled"><![CDATA[In Attesa di Approvazione]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.normal"><![CDATA[Discussione normale]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.notDeleted"><![CDATA[Non nel cestino]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.notDisabled"><![CDATA[Approvata]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.notRedirect"><![CDATA[Nessun link]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.open"><![CDATA[Aperta]]></item>
 		<item name="wbb.acp.bulkProcessing.conditions.state.redirect"><![CDATA[Link]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.sticky"><![CDATA[Sticky]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.done"><![CDATA[Marked as done]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.state.undone"><![CDATA[Outstanding]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.time"><![CDATA[Date]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.time.after"><![CDATA[After]]></item>
-		<item name="wbb.acp.bulkProcessing.conditions.time.before"><![CDATA[Before]]></item>
-		<item name="wbb.acp.bulkProcessing.thread"><![CDATA[Bulk processing of threads]]></item>
-		<item name="wbb.acp.bulkProcessing.thread.success"><![CDATA[The chosen action affected {#$affectedThreads} thread{if $affectedThreads != 1}s{/if}.{if $affectedThreads > 0}<br />Please make sure to <a href="{*TODO: insert link here*}">“Verify Integrity”</a> afterwards.{/if}]]></item>
-		<item name="wbb.acp.bulkProcessing.thread.warning"><![CDATA[Bulk processing of threads will be processed <b>without further confirmation</b> for all threads matching your criteria.]]></item>
-		<item name="wbb.acp.bulkProcessing.post"><![CDATA[Bulk processing of posts]]></item>
-		<item name="wbb.acp.bulkProcessing.post.success"><![CDATA[The chosen action affected {#$affectedPosts} post{if $affectedThreads != 1}s{/if}.{if $affectedPosts > 0}<br />Please make sure to <a href="{*TODO: insert link here*}">“Verify Integrity”</a> afterwards.{/if}]]></item>
-		<item name="wbb.acp.bulkProcessing.post.warning"><![CDATA[Bulk processing of posts will be processed <b>without further confirmation</b> for all posts matching your criteria.]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.sticky"><![CDATA[Rilievo]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.done"><![CDATA[Segnato come risolto]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.state.undone"><![CDATA[Segnato come non risolto]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.time"><![CDATA[Data]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.time.after"><![CDATA[Prima]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.time.before"><![CDATA[Dopo]]></item>
+		<item name="wbb.acp.bulkProcessing.thread"><![CDATA[Processo completo discussioni]]></item>
+		<item name="wbb.acp.bulkProcessing.thread.success"><![CDATA[L´azione scelta influenza {#$affectedThreads} discussioni.{if $affectedThreads > 0}<br />Si prega di assicurarsi di <a href="{*TODO: insert link here*}">“Verifica integrità”</a> successivamente.{/if}]]></item>
+		<item name="wbb.acp.bulkProcessing.thread.warning"><![CDATA[Processo completo di discussioni saranno trattati <b>senza ulteriore conferma</b> per tutte le tue decisioni.]]></item>
+		<item name="wbb.acp.bulkProcessing.post"><![CDATA[Processo completo messaggi]]></item>
+		<item name="wbb.acp.bulkProcessing.post.success"><![CDATA[L´azione scelta influenza {#$affectedPosts} messaggi.{if $affectedPosts > 0}<br />Si prega di assicurarsi di <a href="{*TODO: insert link here*}">“Verifica integrità”</a> successivamente.{/if}]]></item>
+		<item name="wbb.acp.bulkProcessing.post.warning"><![CDATA[Processo completo di messaggi saranno trattati <b>senza ulteriore conferma</b> per tutte le tue decisioni.]]></item>
 	</category>
 	
 	<category name="wbb.acp.menu">
-		<item name="wbb.acp.menu.link.board"><![CDATA[Forums]]></item>
-		<item name="wbb.acp.menu.link.board.add"><![CDATA[Add Forum]]></item>
-		<item name="wbb.acp.menu.link.board.list"><![CDATA[List Forums]]></item>
-		<item name="wbb.acp.menu.link.threadsAndPosts"><![CDATA[Threads &amp; Posts]]></item>
-		<item name="wbb.acp.menu.link.threadsAndPosts.threadBulkProcessing"><![CDATA[Bulk Processing of Threads]]></item>
-		<item name="wbb.acp.menu.link.threadsAndPosts.postBulkProcessing"><![CDATA[Bulk Processing of Posts]]></item>
+		<item name="wbb.acp.menu.link.board"><![CDATA[Forum]]></item>
+		<item name="wbb.acp.menu.link.board.add"><![CDATA[Aggiungi Forum]]></item>
+		<item name="wbb.acp.menu.link.board.list"><![CDATA[Lista Forum]]></item>
+		<item name="wbb.acp.menu.link.threadsAndPosts"><![CDATA[Discussioni &amp; Messaggi]]></item>
+		<item name="wbb.acp.menu.link.threadsAndPosts.threadBulkProcessing"><![CDATA[Processo completo delle discussioni]]></item>
+		<item name="wbb.acp.menu.link.threadsAndPosts.postBulkProcessing"><![CDATA[Processo completo dei messaggi]]></item>
 	</category>
 	
 	<category name="wbb.acp.user">
-		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[TODO: Beiträge kleiner als]]></item>
-		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[TODO: Beiträge größer als]]></item>
+		<item name="wbb.acp.user.conditions.postsLessThan"><![CDATA[TODO: Importi inferiori]]></item>
+		<item name="wbb.acp.user.conditions.postsGreaterThan"><![CDATA[TODO: Importi maggiori]]></item>
 	</category>
 	
 	<category name="wbb.board">
-		<item name="wbb.board.clicks"><![CDATA[Clicks]]></item>
-		<item name="wbb.board.displayOptions"><![CDATA[Display Options]]></item>
-		<item name="wbb.board.externalURL.title"><![CDATA[Forwarding to: {$boardNode->getBoard()->externalURL}]]></item>
-		<item name="wbb.board.filterByDate"><![CDATA[Timeframe]]></item>
-		<item name="wbb.board.filterByDate.1"><![CDATA[24 hours]]></item>
-		<item name="wbb.board.filterByDate.100"><![CDATA[100 days]]></item>
-		<item name="wbb.board.filterByDate.1000"><![CDATA[From any date]]></item>
-		<item name="wbb.board.filterByDate.14"><![CDATA[14 days]]></item>
-		<item name="wbb.board.filterByDate.3"><![CDATA[3 days]]></item>
-		<item name="wbb.board.filterByDate.30"><![CDATA[30 days]]></item>
-		<item name="wbb.board.filterByDate.365"><![CDATA[365 days]]></item>
-		<item name="wbb.board.filterByDate.60"><![CDATA[60 days]]></item>
-		<item name="wbb.board.filterByDate.7"><![CDATA[7 days]]></item>
-		<item name="wbb.board.sortBy"><![CDATA[Sort By]]></item>
-		<item name="wbb.board.markAsRead"><![CDATA[Mark This Forum Read]]></item>
-		<item name="wbb.board.markAsRead.doubleClick"><![CDATA[Double-Click to Mark This Forum Read]]></item>
-		<item name="wbb.board.stats.detail"><![CDATA[{#$board->threads} Thread{if $board->threads != 1}s{/if} - {#$board->posts} Post{if $board->posts != 1}s{/if} ({#$board->getPostsPerDay()} Post{if $board->getPostsPerDay() != 1}s{/if} Per Day)]]></item>
-		<item name="wbb.board.noThreads"><![CDATA[{if $board->threads > 0}No threads in this forum matched your criteria{else}There are no threads in this forum{/if}.]]></item>
-		<item name="wbb.board.filterByStatus"><![CDATA[Status]]></item>
-		<item name="wbb.board.filterByStatus.read"><![CDATA[Read]]></item>
-		<item name="wbb.board.filterByStatus.unread"><![CDATA[Unread]]></item>
-		<item name="wbb.board.filterByStatus.done"><![CDATA[Done]]></item>
-		<item name="wbb.board.filterByStatus.undone"><![CDATA[Undone]]></item>
-		<item name="wbb.board.filterByStatus.closed"><![CDATA[Closed]]></item>
-		<item name="wbb.board.filterByStatus.open"><![CDATA[Open]]></item>
-		<item name="wbb.board.filterByStatus.deleted"><![CDATA[Trashed]]></item>
-		<item name="wbb.board.filterByStatus.disabled"><![CDATA[Awaiting approval]]></item>
-		<item name="wbb.board.searchBoard"><![CDATA[Search This Forum Only]]></item>
-		<item name="wbb.board.searchAllBoards"><![CDATA[Search All Forums]]></item>
-		<item name="wbb.board.moderators"><![CDATA[Moderators]]></item>
+		<item name="wbb.board.clicks"><![CDATA[Click]]></item>
+		<item name="wbb.board.displayOptions"><![CDATA[Impostazioni Visualizzazione]]></item>
+		<item name="wbb.board.externalURL.title"><![CDATA[Inoltro di: {$boardNode->getBoard()->externalURL}]]></item>
+		<item name="wbb.board.filterByDate"><![CDATA[Filtro tempo]]></item>
+		<item name="wbb.board.filterByDate.1"><![CDATA[24 ore]]></item>
+		<item name="wbb.board.filterByDate.100"><![CDATA[100 giorni]]></item>
+		<item name="wbb.board.filterByDate.1000"><![CDATA[Sempre]]></item>
+		<item name="wbb.board.filterByDate.14"><![CDATA[14 giorni]]></item>
+		<item name="wbb.board.filterByDate.3"><![CDATA[3 giorni]]></item>
+		<item name="wbb.board.filterByDate.30"><![CDATA[30 giorni]]></item>
+		<item name="wbb.board.filterByDate.365"><![CDATA[365 giorni]]></item>
+		<item name="wbb.board.filterByDate.60"><![CDATA[60 giorni]]></item>
+		<item name="wbb.board.filterByDate.7"><![CDATA[7 giorni]]></item>
+		<item name="wbb.board.sortBy"><![CDATA[Ordina per]]></item>
+		<item name="wbb.board.markAsRead"><![CDATA[Segna il forum come letto]]></item>
+		<item name="wbb.board.markAsRead.doubleClick"><![CDATA[Double-Click per segnare il forum come letto]]></item>
+		<item name="wbb.board.stats.detail"><![CDATA[{#$board->threads} Discussioni - {#$board->posts} Messaggi ({#$board->getPostsPerDay()} Messaggi per giorno)]]></item>
+		<item name="wbb.board.noThreads"><![CDATA[{if $board->threads > 0}Non ci sono discussioni in questo forum corrisponde ai tuoi criteri{else}Non ci sono discussioni in questo forum{/if}.]]></item>
+		<item name="wbb.board.filterByStatus"><![CDATA[Stato]]></item>
+		<item name="wbb.board.filterByStatus.read"><![CDATA[Letto]]></item>
+		<item name="wbb.board.filterByStatus.unread"><![CDATA[Non letto]]></item>
+		<item name="wbb.board.filterByStatus.done"><![CDATA[Risolto]]></item>
+		<item name="wbb.board.filterByStatus.undone"><![CDATA[Non Risolto]]></item>
+		<item name="wbb.board.filterByStatus.closed"><![CDATA[Chiuso]]></item>
+		<item name="wbb.board.filterByStatus.open"><![CDATA[Aperto]]></item>
+		<item name="wbb.board.filterByStatus.deleted"><![CDATA[Cestinato]]></item>
+		<item name="wbb.board.filterByStatus.disabled"><![CDATA[In attesa di approvazione]]></item>
+		<item name="wbb.board.searchBoard"><![CDATA[Cerca solo in questo forum]]></item>
+		<item name="wbb.board.searchAllBoards"><![CDATA[Cerca in tutti i forum]]></item>
+		<item name="wbb.board.moderators"><![CDATA[Moderatori]]></item>
 	</category>
 	
 	<category name="wbb.header">
 		<item name="wbb.header.menu.board"><![CDATA[Forum]]></item>
-		<item name="wbb.header.menu.board.unreadPosts"><![CDATA[Unread Posts]]></item>
-		<item name="wbb.header.menu.board.undoneThreads"><![CDATA[Undone Threads]]></item>
-		<item name="wbb.header.menu.board.watchedThreads"><![CDATA[Watched Threads]]></item>
+		<item name="wbb.header.menu.board.unreadPosts"><![CDATA[Messaggi non letti]]></item>
+		<item name="wbb.header.menu.board.undoneThreads"><![CDATA[Discussioni non risolte]]></item>
+		<item name="wbb.header.menu.board.watchedThreads"><![CDATA[Discussioni visitate]]></item>
 	</category>
 	
 	<category name="wbb.index">
-		<item name="wbb.index.markAsRead"><![CDATA[Mark All Forums Read]]></item>
-		<item name="wbb.index.ignoreBoards"><![CDATA[Forums On / Off]]></item>
-		<item name="wbb.index.stats"><![CDATA[Statistics]]></item>
-		<item name="wbb.index.stats.detail"><![CDATA[{#$stats[members]} Member{if $stats.members != 1}s{/if} - {#$stats[threads]} Thread{if $stats[threads] != 1}s{/if} - {#$stats[posts]} Post{if $stats[posts] != 1}s{/if} ({#$stats[postsPerDay]} Post{if $stats[postsPerDay] != 1}s{/if} Per Day)<br />
-Latest Member: <a href="{link controller='User' object=$stats[newestMember]}{/link}" class="userLink" data-user-id="{@$stats[newestMember]->userID}">{$stats[newestMember]->username}</a>.]]></item>
-		<item name="wbb.index.usersOnline.record"><![CDATA[{if WBB_USERS_ONLINE_RECORD > 0}- Record: {#WBB_USERS_ONLINE_RECORD} User{if WBB_USERS_ONLINE_RECORD != 1}s{/if} ({@WBB_USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
-		<item name="wbb.index.copyright"><![CDATA[<a href="http://www.woltlab.com">Forum Software: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, developed by <strong>WoltLab&reg; GmbH</strong></a>]]></item>
+		<item name="wbb.index.markAsRead"><![CDATA[Segna tutti i forum come letti]]></item>
+		<item name="wbb.index.ignoreBoards"><![CDATA[Forum On/Off]]></item>
+		<item name="wbb.index.stats"><![CDATA[Statistiche]]></item>
+		<item name="wbb.index.stats.detail"><![CDATA[{#$stats[members]} Utenti - {#$stats[threads]} Discussioni - {#$stats[posts]} Messaggi ({#$stats[postsPerDay]} Messaggi per giorno)<br/>
+Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestMember]}{/link}" class="userLink" data-user-id="{@$stats[newestMember]->userID}">{$stats[newestMember]->username}</a>.]]></item>
+		<item name="wbb.index.usersOnline.record"><![CDATA[{if WBB_USERS_ONLINE_RECORD > 0}- Record: {#WBB_USERS_ONLINE_RECORD} Utenti Online ({@WBB_USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
+		<item name="wbb.index.copyright"><![CDATA[<a href="http://www.woltlab.com">Forum Software: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a>]]></item>
 		<item name="wbb.index.news"><![CDATA[News]]></item>
 		<item name="wbb.index.evaluation"><![CDATA[TODO: This software is a test version. The running time is limited until <strong>{@WBB_EVALUATION_END|plainTime}</strong>{if WBB_EVALUATION_END > TIME_NOW} ({@WBB_EVALUATION_END|dateDiff:TIME_NOW}){/if}.
 		For a legal use of this software beyond that time limit you need to <a href="http://www.woltlab.com">purchase a license</a>, or delete the software and its contents immediately.]]></item>
