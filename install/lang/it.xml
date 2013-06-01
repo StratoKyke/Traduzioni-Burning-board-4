@@ -1354,9 +1354,9 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		
 		<!-- variables for dynamic javascript datetime -->
 		<item name="wcf.date.relative.now"><![CDATA[Un momento fa]]></item>
-		<item name="wcf.date.relative.minutes"><![CDATA[(($minutes > 1) ? $minutes + ' minutes' : 'A minute') + ' ago']]></item>
-		<item name="wcf.date.relative.hours"><![CDATA[(($hours > 1) ? $hours + ' hours' : 'An hour' ) + ' ago']]></item>
-		<item name="wcf.date.relative.pastDays"><![CDATA[(($days > 1) ? '%day%' : 'Yesterday' ) + ', %time%']]></item>
+		<item name="wcf.date.relative.minutes"><![CDATA[{if $minutes > 1}{#$minutes} minuti{else}Un minuto{/if} fa]]></item>
+		<item name="wcf.date.relative.hours"><![CDATA[{if $hours > 1}{#$hours} ore{else}Un ora{/if} fa]]></item>
+		<item name="wcf.date.relative.pastDays"><![CDATA[{if $days > 1}{$day}{else}Ieri{/if}, {$time}]]></item>
 		
 		<!-- variables for localized date formats -->
 		<item name="wcf.date.hour"><![CDATA[Ora]]></item>
