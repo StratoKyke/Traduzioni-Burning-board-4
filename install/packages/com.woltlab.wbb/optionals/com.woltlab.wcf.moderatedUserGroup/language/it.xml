@@ -16,7 +16,7 @@
     <item name="wcf.acp.group.description"><![CDATA[Descrizione]]></item>
     <item name="wcf.acp.group.description.description"><![CDATA[La descrizione verrà mostrata nel gruppo utente.]]></item>
     <item name="wcf.acp.group.leader"><![CDATA[Leader del gruppo]]></item>
-    <item name="wcf.acp.group.leader.description"><![CDATA[ leader devono essere separati da una virgola. I leader possono approvare le domande e aggiungere utenti a questo gruppo.]]></item>
+    <item name="wcf.acp.group.leader.description"><![CDATA[I leader devono essere separati da una virgola. I leader possono approvare le domande e aggiungere utenti a questo gruppo.]]></item>
     <item name="wcf.acp.group.leader.error.empty"><![CDATA[I gruppi moderati e chiusi hanno bisogno di un capogruppo.]]></item>
     <item name="wcf.acp.group.leader.error.notFound"><![CDATA[Impossibile trovare l'utente {if $unknownLeader|count != 1}s{/if}:<ul class="inlineDataList">{foreach from=$unknownLeader item=username}<li>“{$username}”</li>{/foreach}</ul>.]]></item>
     <item name="wcf.acp.group.moderatedUserGroup"><![CDATA[Gruppo utenti moderato]]></item>
@@ -27,7 +27,7 @@
     <item name="wcf.user.userGroups.join"><![CDATA[Entra nel gruppo]]></item>
     <item name="wcf.user.userGroups.leave"><![CDATA[Esci dal gruppo]]></item>
     <item name="wcf.user.userGroups.leave.sure"><![CDATA[Hai veramente intenzione di lasciare il gruppo “{$group->groupName|language}”?]]></item>
-    <item name="wcf.user.userGroups.apply"><![CDATA[Richiesta di adesione al gruppo]></item>
+    <item name="wcf.user.userGroups.apply"><![CDATA[Richiesta di adesione al gruppo]]></item>
     <item name="wcf.user.userGroups.apply.reason"><![CDATA[Motivo]]></item>
     <item name="wcf.user.userGroups.apply.groupInformation"><![CDATA[Dettagli gruppo]]></item>
     <item name="wcf.user.userGroups.apply.applicationInformation"><![CDATA[Dettagli della richiesta]]></item>
