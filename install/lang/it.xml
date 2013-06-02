@@ -2008,17 +2008,17 @@ La tua registrazione è completata.]]></item>
 		<item name="wcf.user.register.needActivation.mail"><![CDATA[Caro {@$user->username},
 
 Grazie per la tua registrazione sul nostro sito: {@PAGE_TITLE|language}. 
-Si prega di confermare il tuo indirizzo e-mail per completare la registrazione.
+Per completare la registrazione, ti preghiamo di confermare il tuo indirizzo e-mail.
 
 Apri il link in basso:
 {link controller='RegisterActivation' encode=false}{/link} 
 
-Una volta richiesto, fornire i dettagli, come mostrato di seguito:
+Quando richiesto usa i seguenti dettagli:
 
-Tuo username: 		{@$user->username} 
+Username: 		{@$user->username} 
 Codice di attivazione: 	{@$user->activationCode} 
 
-Se non è possibile aprire il collegamento o si hanno problemi seguendo le istruzioni, si prega di contattare l'amministratore: {@MAIL_ADMIN_ADDRESS} 
+Se non riesci ad aprire il link o hai problemi a seguire le istruzioni contatta pure l'amministratore: {@MAIL_ADMIN_ADDRESS} 
 
 È possibile ignorare questa mail se non ti sei registrato al sito web: {@PAGE_TITLE|language}.]]></item>
 <item name="wcf.user.register.needActivation"><![CDATA[Il tuo account non è ancora attivo. È necessario completare il <a href="{link controller='RegisterActivation'}{/link}">processo di attivazione</a> prima.]]></item>
