@@ -13,27 +13,27 @@
 	
 	<category name="wcf.acp.menu">
 		<item name="wcf.acp.menu.link.infraction"><![CDATA[Avvertimenti]]></item>
-		<item name="wcf.acp.menu.link.infraction.suspension.add"><![CDATA[Aggiungi Sospensioni Predefinite]]></item>
-		<item name="wcf.acp.menu.link.infraction.suspension.list"><![CDATA[Lista Sospensioni Predefinite]]></item>
-		<item name="wcf.acp.menu.link.infraction.userSuspension.list"><![CDATA[Sospensioni Attive]]></item>
-		<item name="wcf.acp.menu.link.infraction.userWarning.list"><![CDATA[Avvertimenti Attivi]]></item>
-		<item name="wcf.acp.menu.link.infraction.warning.add"><![CDATA[Aggiungi Avvertimenti Predefiniti]]></item>
-		<item name="wcf.acp.menu.link.infraction.warning.list"><![CDATA[Lista Avvertimenti Predefiniti]]></item>
+		<item name="wcf.acp.menu.link.infraction.suspension.add"><![CDATA[Aggiungi sospensioni predefinite]]></item>
+		<item name="wcf.acp.menu.link.infraction.suspension.list"><![CDATA[Lista sospensioni predefinite]]></item>
+		<item name="wcf.acp.menu.link.infraction.userSuspension.list"><![CDATA[Sospensioni attive]]></item>
+		<item name="wcf.acp.menu.link.infraction.userWarning.list"><![CDATA[Avvertimenti attivi]]></item>
+		<item name="wcf.acp.menu.link.infraction.warning.add"><![CDATA[Aggiungi Avvertimenti predefiniti]]></item>
+		<item name="wcf.acp.menu.link.infraction.warning.list"><![CDATA[Lista avvertimenti predefiniti]]></item>
 	</category>
 	
 	<category name="wcf.acp.infraction">
-		<item name="wcf.acp.infraction.suspension.add"><![CDATA[Aggiungi Sospensioni Predefinite]]></item>
+		<item name="wcf.acp.infraction.suspension.add"><![CDATA[Aggiungi sospensioni predefinite]]></item>
 		<item name="wcf.acp.infraction.suspension.edit"><![CDATA[Modifica Sospensioni]]></item>
-		<item name="wcf.acp.infraction.suspension.edit.note"><![CDATA[Heads up! Le modifiche non riguardano le sospensioni attive, modificando il tempo scade o punti si applica solo alle sospensioni di nuova creazione.]]></item>
+		<item name="wcf.acp.infraction.suspension.edit.note"><![CDATA[Attento! Le modifiche non riguardano le sospensioni attive, modificando il tempo scade o punti si applica solo alle sospensioni di nuova creazione.]]></item>
 		<item name="wcf.acp.infraction.suspension.list"><![CDATA[Sospensioni Predefinite]]></item>
 		<item name="wcf.acp.infraction.suspension.noneAvailable"><![CDATA[Non ci sono sospensioni predefinite.]]></item>
 		<item name="wcf.acp.infraction.userWarning.list"><![CDATA[Avvertimenti]]></item>
 		<item name="wcf.acp.infraction.userWarning.noneAvailable"><![CDATA[Non ci sono avvertimenti attivi.]]></item>
 		<item name="wcf.acp.infraction.userSuspension.list"><![CDATA[Sospensioni]]></item>
 		<item name="wcf.acp.infraction.userSuspension.noneAvailable"><![CDATA[Non ci sono sospensioni attive.]]></item>
-		<item name="wcf.acp.infraction.warning.add"><![CDATA[Aggiungi Avvertimenti Predefiniti]]></item>
-		<item name="wcf.acp.infraction.warning.edit"><![CDATA[Modifica Avvertimenti]]></item>
-		<item name="wcf.acp.infraction.warning.list"><![CDATA[Avvertimenti Predefiniti]]></item>
+		<item name="wcf.acp.infraction.warning.add"><![CDATA[Aggiungi avvertimenti predefiniti]]></item>
+		<item name="wcf.acp.infraction.warning.edit"><![CDATA[Modifica avvertimenti]]></item>
+		<item name="wcf.acp.infraction.warning.list"><![CDATA[Avvertimenti predefiniti]]></item>
 		<item name="wcf.acp.infraction.warning.noneAvailable"><![CDATA[Non ci sono avvertimenti predefiniti.]]></item>
 	</category>
 	
@@ -80,10 +80,10 @@
 		<item name="wcf.infraction.suspension.expires.description"><![CDATA[La sospensione verrà revocata quando scadrà il periodo di tempo.]]></item>
 		<item name="wcf.infraction.suspension.expires.never"><![CDATA[La sospensione non ha scadenza]]></item>
 		<item name="wcf.infraction.suspension.action"><![CDATA[Tipo di sospensione]]></item>
-		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableAvatar"><![CDATA[Disattiva Avatar]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableAvatar"><![CDATA[Disattiva avatar]]></item>
 		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.addToGroup"><![CDATA[Aggiungi al gruppo]]></item>
 		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableSignature"><![CDATA[Disattiva firma]]></item>
-		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.ban"><![CDATA[Banna Utente]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.ban"><![CDATA[Banna utente]]></item>
 		<item name="wcf.infraction.suspension.delete.sure"><![CDATA[Vuoi davvero eliminare la sospensione “{$suspension->title|language}”?]]></item>
 		<item name="wcf.infraction.suspension.revokedBy"><![CDATA[Revocata da {$suspension->revokerUsername}]]></item>
 		<item name="wcf.infraction.suspension.revoke"><![CDATA[Revocata]]></item>

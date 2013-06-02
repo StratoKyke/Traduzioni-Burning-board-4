@@ -458,7 +458,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 	<category name="wcf.user.recentActivity">
 		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.thread"><![CDATA[Discussione]]></item>
 		<item name="wcf.user.recentActivity.com.woltlab.wbb.recentActivityEvent.post"><![CDATA[Messaggio]]></item>
-		<item name="wcf.user.recentActivity.com.woltlab.wbb.likeablePost.recentActivityEvent"><![CDATA[Mi piace (Messaggio)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.wbb.likeablePost.recentActivityEvent"><![CDATA[Mi piace (messaggio)]]></item>
 	</category>
 	
 	<category name="wcf.user.profile">
@@ -468,13 +468,13 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 	</category>
 	
 	<category name="wcf.user.option">
-		<item name="wcf.user.option.postsPerPage"><![CDATA[Messaggi per Pagina]]></item>
-		<item name="wcf.user.option.threadsPerPage"><![CDATA[Discussioni per Pagina]]></item>
+		<item name="wcf.user.option.postsPerPage"><![CDATA[Messaggi per pagina]]></item>
+		<item name="wcf.user.option.threadsPerPage"><![CDATA[Discussioni per pagina]]></item>
 		<item name="wcf.user.option.watchThreadOnReply"><![CDATA[Guarda automaticamente le risposte alle discussioni]]></item>
 	</category>
 	
 	<category name="wcf.search">
-		<item name="wcf.search.type.com.woltlab.wbb.post"><![CDATA[Discussioni e Messaggi]]></item>
+		<item name="wcf.search.type.com.woltlab.wbb.post"><![CDATA[Discussioni e messaggi]]></item>
 		<item name="wcf.search.object.com.woltlab.wbb.post"><![CDATA[Messaggio]]></item>
 	</category>
 	
