@@ -592,7 +592,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.meta_description"><![CDATA[Meta Description]]></item>
 		<item name="wcf.acp.option.meta_keywords"><![CDATA[Meta Keywords]]></item>
 		<item name="wcf.acp.option.module_master_password"><![CDATA[Abilita master password]]></item>
-		<item name="wcf.acp.option.module_master_password.description"><![CDATA[Consente di attivare una password aggiuntiva per proteggere sia le azioni critiche che dati sensibili.]]></item>
+		<item name="wcf.acp.option.module_master_password.description"><![CDATA[Le pagine e moduli del pannello di controllo che hanno una certa rilevanza in fatto di sicurezza possono essere protette con una master password aggiuntiva.]]></item>
 		<item name="wcf.acp.option.page_description"><![CDATA[Descrizione pagina]]></item>
 		<item name="wcf.acp.option.page_title"><![CDATA[Titolo pagina]]></item>
 		<item name="wcf.acp.option.proxy_server_http"><![CDATA[Proxy-Server (HTTP)]]></item>
@@ -622,6 +622,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.jquery_source"><![CDATA[Sorgente jQuery]]></item>
 		<item name="wcf.acp.option.jquery_source.local"><![CDATA[Versione locale]]></item>
 		<item name="wcf.acp.option.jquery_source.google"><![CDATA[Google Hosted Libraries CDN]]></item>
+		<item name="wcf.acp.option.jquery_source.cloudflare"><![CDATA[Cloudflare]]></item>
 		<item name="wcf.acp.option.jquery_source.microsoft"><![CDATA[Microsoft Ajax CDN]]></item>
 		<item name="wcf.acp.option.enable_benchmark"><![CDATA[Abilita benchmark]]></item>
 		<item name="wcf.acp.option.enable_benchmark.description"><![CDATA[Si consiglia vivamente di disattivare questa opzione in ambienti produttivi.]]></item>
@@ -675,7 +676,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.category.dashboard.sidebar"><![CDATA[Barra laterale]]></item>
 		<item name="wcf.acp.option.category.dashboard.content.recentActivities"><![CDATA[Attività Recenti]]></item>
 		<item name="wcf.acp.option.category.dashboard.sidebar.recentActivities"><![CDATA[Attività Recenti]]></item>
-		<item name="wcf.acp.option.category.user.profile"><![CDATA[Profileo]]></item>
+		<item name="wcf.acp.option.category.user.profile"><![CDATA[Profilo]]></item>
 		<item name="wcf.acp.option.category.user.avatar"><![CDATA[Avatar]]></item>
 		<item name="wcf.acp.option.category.user.signature"><![CDATA[Firma]]></item>
 		<item name="wcf.acp.option.category.user.title"><![CDATA[Titolo Utente]]></item>
@@ -686,7 +687,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.category.user.register"><![CDATA[Registrazione]]></item>
 		<item name="wcf.acp.option.category.user.password"><![CDATA[Password]]></item>
 		<item name="wcf.acp.option.category.user.ban"><![CDATA[Filtro]]></item>
-		<item name="wcf.acp.option.category.user.3rdPartyAuth"><![CDATA[Autentificazione di terze parti]]></item>
+		<item name="wcf.acp.option.category.user.3rdPartyAuth"><![CDATA[Autentificazione da terze parti]]></item>
 		<item name="wcf.acp.option.max_avatar_height"><![CDATA[Altezza Massima Dell’Avatar]]></item>
 		<item name="wcf.acp.option.max_avatar_width"><![CDATA[Larghezza Massima Dell’Avatar]]></item>
 		<item name="wcf.acp.option.module_gravatar"><![CDATA[Gravatars]]></item>
@@ -719,8 +720,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.register_enable_disclaimer.description"><![CDATA[Le condizioni di utlizzo deve essere accettato in fase di registrazione.]]></item>
 		<item name="wcf.acp.option.register_admin_notification"><![CDATA[Notifica all'amministratore per le nuove registrazioni]]></item>
 		<item name="wcf.acp.option.register_activation_method"><![CDATA[Attivazione]]></item>
-		<item name="wcf.acp.option.register_activation_method.byAdmin"><![CDATA[Solo gli amministratori possono attivare la registrazione]></item>
-		<item name="wcf.acp.option.register_activation_method.byUser"><![CDATA[Attivazione attravarso l’email ]]></item>
+		<item name="wcf.acp.option.register_activation_method.byAdmin"><![CDATA[Solo gli amministratori possono attivare la registrazione]]></item>
+		<item name="wcf.acp.option.register_activation_method.byUser"><![CDATA[Attivazione attravarso l’email]]></item>
 		<item name="wcf.acp.option.register_activation_method.disabled"><![CDATA[Non è richiesta l’attivazione]]></item>
 		<item name="wcf.acp.option.register_use_captcha"><![CDATA[Abilita protezione reCAPTCHA durante la registrazione]]></item>
 		<item name="wcf.acp.option.lost_password_use_captcha"><![CDATA[Abilita protezione reCAPTCHA per "Password smarrita"]]></item>
@@ -753,7 +754,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.like_allow_for_own_content"><![CDATA[Gli utenti possono mettere mi piace ai propri contenuti]]></item>
 		<item name="wcf.acp.option.like_enable_dislike"><![CDATA[Gli utenti possono mettere non mi piace]]></item>
 		<item name="wcf.acp.option.like_show_summary"><![CDATA[Mostra Sintesi Mi Piace]]></item>
-		<item name="wcf.acp.option.module_user_profile_wall"><![CDATA[Parete Profilo Utente]]></item>
+		<item name="wcf.acp.option.module_user_profile_wall"><![CDATA[Bacheca Profilo Utente]]></item>
 		<item name="wcf.acp.option.category.message.sidebar"><![CDATA[Pannello laterale]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_avatar"><![CDATA[Mostra Avatar]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_online_status"><![CDATA[Mostra stato online]]></item>
@@ -1543,7 +1544,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.form.error.empty"><![CDATA[Si prega di compilare questo campo.]]></item>
 		<item name="wcf.global.form.error.multilingual"><![CDATA[Si prega di compilare questo campo per tutte le lingue.]]></item>
 		<item name="wcf.global.language.noSelection"><![CDATA[Nessuna selezione]]></item>
-		<item name="wcf.global.loading"><![CDATA[Caricamento…]]></item>
+		<item name="wcf.global.loading"><![CDATA[Carico…]]></item>
 		<item name="wcf.global.name"><![CDATA[Nome]]></item>
 		<item name="wcf.global.objectID"><![CDATA[ID]]></item>
 		<item name="wcf.global.page.next"><![CDATA[Prossima Pagina]]></item>
@@ -1793,7 +1794,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.user.ipAddress"><![CDATA[indirizzo IP]]></item>
 		<item name="wcf.user.userAgent"><![CDATA[User Agent]]></item>
 		<item name="wcf.user.login"><![CDATA[Login]]></item>
-		<item name="wcf.user.login.data"><![CDATA[Credenziali]]></item>
+		<item name="wcf.user.login.data"><![CDATA[Dettagli Login]]></item>
 		<item name="wcf.user.password.error.false"><![CDATA[La password inserita è sbagliata.]]></item>
 		<item name="wcf.user.language"><![CDATA[Lingua]]></item>
 		<item name="wcf.user.language.description"><![CDATA[Lingua dell’interfaccia utente]]></item>
@@ -2175,25 +2176,25 @@ Se non si desidera ricevere ulteriori notifiche e-mail per questo evento, è pos
 		<item name="wcf.user.notification.markAllAsConfirmed"><![CDATA[Eliminare tutte le notifiche]]></item>
 		<item name="wcf.user.notification.markAllAsConfirmed.confirmMessage"><![CDATA[Vuoi davvero eliminare tutte le notifiche?]]></item>
 		<item name="wcf.user.notification.markAsConfirmed"><![CDATA[Confermare]]></item>
-		<item name="wcf.user.notification.noMoreNotifications"><![CDATA[Niente più notifiche]]></item>
+		<item name="wcf.user.notification.noMoreNotifications"><![CDATA[Non ci sono notifiche]]></item>
 		<item name="wcf.user.notification.noNotifications"><![CDATA[Non ci sono altre notifiche.]]></item>
 		<item name="wcf.user.notification.notifications"><![CDATA[Notifiche]]></item>
 		<item name="wcf.user.notification.showAll"><![CDATA[Mostra tutte le notifiche]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.user"><![CDATA[Profili Utente]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.user.follow.following"><![CDATA[Nuovo Follower]]></item>
 		<item name="wcf.user.notification.comment.title"><![CDATA[Nuovo Commento]]></item>
-		<item name="wcf.user.notification.comment.message"><![CDATA[Ha scritto un commento sul muro.]]></item>
-		<item name="wcf.user.notification.comment.mail"><![CDATA[{@$author->username} ha scritto un commento sul muro:
+		<item name="wcf.user.notification.comment.message"><![CDATA[Ha scritto un commento sulla bacheca.]]></item>
+		<item name="wcf.user.notification.comment.mail"><![CDATA[{@$author->username} ha scritto un commento sulla bacheca:
 {link controller='User' object=$owner encode=false forceFrontend=true}#wall{/link}]]></item>
 		<item name="wcf.user.notification.commentResponse.title"><![CDATA[Nuova risposta]]></item>
-		<item name="wcf.user.notification.commentResponse.message"><![CDATA[Ha scritto una risposta al tuo commento sulla parete di {$owner->username}.]]></item>
-		<item name="wcf.user.notification.commentResponse.mail"><![CDATA[{@$author->username} ha scritto una risposta al tuo commento sul muro di {@$owner->username}:
+		<item name="wcf.user.notification.commentResponse.message"><![CDATA[Ha scritto una risposta al tuo commento nella bacheca  di {$owner->username}.]]></item>
+		<item name="wcf.user.notification.commentResponse.mail"><![CDATA[{@$author->username} ha scritto una risposta al tuo commento sulla bacheca di {@$owner->username}:
 {link controller='User' object=$owner encode=false forceFrontend=true}{/link}#wall]]></item>
 		<item name="wcf.user.notification.commentResponseOwner.title"><![CDATA[Nuova risposta]]></item>
-		<item name="wcf.user.notification.commentResponseOwner.message"><![CDATA[Ha scritto una risposta al commento di {$commentAuthor->username} sulla tua parete.]]></item>
-		<item name="wcf.user.notification.commentResponseOwner.mail"><![CDATA[{@$author->username} ha scritto una risposta al commento di {@$commentAuthor->username} sulla tua parete:
+		<item name="wcf.user.notification.commentResponseOwner.message"><![CDATA[Ha scritto una risposta al commento di {$commentAuthor->username} sulla tua Bacheca.]]></item>
+		<item name="wcf.user.notification.commentResponseOwner.mail"><![CDATA[{@$author->username} ha scritto una risposta al commento di {@$commentAuthor->username} sulla tua bacheca:
 {link controller='User' object=$owner encode=false forceFrontend=true}{/link}#wall]]></item>
-		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.notification.comment"><![CDATA[Nuovo commento sulla tua parete]]></item>
+		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.notification.comment"><![CDATA[Nuovo commento sulla tua bacheca]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponse"><![CDATA[Nuova risposta a un commento sulla parete]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.user.profileComment.response.notification.commentResponseOwner"><![CDATA[Nuova risposta ad uno dei tuoi commenti]]></item>
 	</category>
@@ -2211,11 +2212,11 @@ Se non si desidera ricevere ulteriori notifiche e-mail per questo evento, è pos
 		<item name="wcf.user.profile.recentActivity.follow"><![CDATA[Ora segue <a href="{link controller='User' object=$user}{/link}">{$user->username}</a>.]]></item>
 		<item name="wcf.user.profile.visitors"><![CDATA[Visitatori profilo]]></item>
 		<item name="wcf.user.profile.content.wall.comment"><![CDATA[Commenti profili]]></item>
-		<item name="wcf.user.profile.content.wall.commentResponse"><![CDATA[Rispondi al commento sulla parete]]></item>
+		<item name="wcf.user.profile.content.wall.commentResponse"><![CDATA[Rispondi al commento sulla bacheca]]></item>
 		<item name="wcf.user.profile.content.wall.noEntries"><![CDATA[Non ci sono ancora commenti.]]></item>
-		<item name="wcf.user.profile.menu.wall"><![CDATA[Parete]]></item>
-		<item name="wcf.user.profile.recentActivity.profileComment"><![CDATA[Ha scritto un commento sul muro di <a href="{link controller='User' object=$user}{/link}#wall">{$user->username}</a>.]]></item>
-		<item name="wcf.user.profile.recentActivity.profileCommentResponse"><![CDATA[Risposto a un commento di <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a> sul muro di <a href="{link controller='User' object=$user}{/link}#wall">{$user->username}</a>.]]></item>
+		<item name="wcf.user.profile.menu.wall"><![CDATA[Bacheca]]></item>
+		<item name="wcf.user.profile.recentActivity.profileComment"><![CDATA[Ha scritto un commento sulla bacheca di <a href="{link controller='User' object=$user}{/link}#wall">{$user->username}</a>.]]></item>
+		<item name="wcf.user.profile.recentActivity.profileCommentResponse"><![CDATA[Risposto a un commento di <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a> sulla bacheca di <a href="{link controller='User' object=$user}{/link}#wall">{$user->username}</a>.]]></item>
 	</category>
 	
 	<category name="wcf.user.objectWatch">
@@ -2260,7 +2261,7 @@ Se non si desidera ricevere ulteriori notifiche e-mail per questo evento, è pos
 		<item name="wcf.user.option.twitter"><![CDATA[Twitter]]></item>
 		<item name="wcf.user.option.googlePlus"><![CDATA[Google+]]></item>
 		<item name="wcf.user.option.googlePlus.description"><![CDATA[21 cifre Google Plus user ID]]></item>
-		<item name="wcf.user.option.canWriteProfileComments"><![CDATA[Possono scrivere commenti sulla mia parete]]></item>
+		<item name="wcf.user.option.canWriteProfileComments"><![CDATA[Possono scrivere commenti sulla mia bacheca]]></item>
 	</category>
 	
 	<category name="wcf.user.mail">

@@ -19,7 +19,7 @@
 		<item name="wcf.acp.option.legal_notice_register.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.legal_notice_representative"><![CDATA[Rappresentanti]]></item>
 		<item name="wcf.acp.option.legal_notice_representative.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[ID IVA]]></item>
+		<item name="wcf.acp.option.legal_notice_vat_id"><![CDATA[Partita IVA]]></item>
 		<item name="wcf.acp.option.legal_notice_vat_id.description"><![CDATA[]]></item>
 	</category>
 	<category name="wcf.footer.menu">
