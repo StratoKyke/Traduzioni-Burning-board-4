@@ -229,7 +229,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.thread.moderation.info"><![CDATA[La discussione deve essere approvata prima di poter essere visuallizata. Fino ad allora non potrai né modificare né vedere la discussione.]]></item>
 		<item name="wbb.thread.moderation.redirect"><![CDATA[La tua discussione ha bisogno della approvazione manuale, sino ad allora non potrai vederla.]]></item>
 		<item name="wbb.thread.moved"><![CDATA[Sposta]]></item>
-		<item name="wbb.thread.newPosts"><![CDATA["There " + ((data.returnValues.newPostsCount == 1) ? "is 1 new post" : "are " + data.returnValues.newPostsCount + " new posts") + " in this thread."]]></item>
+		<item name="wbb.thread.newPosts"><![CDATA[{literal}{if $newPostsCount == 1}C'è un nuovo messaggio{else}Ci sono {#$newPostsCount} nuovi messaggi{/if} in questa discussione.{/literal}]]></item>
 		<item name="wbb.thread.newPosts.nextPage"><![CDATA[There {if $count == 1}is 1 new post{else}are {#$count} new posts{/if} on the <a href="{link application='wbb' controller='Thread' object=$thread}pageNo={@$pageNo}{/link}">next page</a>.]]></item>
 		<item name="wbb.thread.ownPosts"><![CDATA[LA discussione contiene tuoi messaggi]]></item>
 		<item name="wbb.thread.replies"><![CDATA[Risposte]]></item>
