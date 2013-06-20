@@ -1009,6 +1009,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.globals.fontFamily"><![CDATA[Font]]></item>
 		<item name="wcf.acp.style.globals.fontSize"><![CDATA[Grandezza Font]]></item>
 		<item name="wcf.acp.style.globals.layout"><![CDATA[Layout]]></item>
+		<item name="wcf.acp.style.globals.pageLogo"><![CDATA[Logo globale]]></item>
+		<item name="wcf.acp.style.globals.pageLogo.description"><![CDATA[Inserire qui il link del logo globale]]></item>
 		<item name="wcf.acp.style.globals.useFluidLayout"><![CDATA[Utilizzare larghezza fluida]]></item>
 		<item name="wcf.acp.style.image"><![CDATA[Anteprima Immagine]]></item>
 		<item name="wcf.acp.style.image.description"><![CDATA[Carica un’immagine di anteprima per questo stile, formati supportati: JPG e PNG. Le dimensioni dovrebbero essere 102px × 64px, immagini più grandi verranno ridimensionate.]]></item>
