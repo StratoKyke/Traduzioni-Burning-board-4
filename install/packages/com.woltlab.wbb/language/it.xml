@@ -424,8 +424,8 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash"><![CDATA[Elimina ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.trash.confirmMessage"><![CDATA[Vuoi veramente eliminare {if $count != 1}queste discussioni{else}questa discussione{/if}?]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.undone"><![CDATA[Segna come non risolto ({#$count})]]></item>
-		<item name="wcf.clipboard.label.com.woltlab.wbb.post.marked"><![CDATA[{if $count == 1}Un messaggio{else}{#$count} messaggi{/if} selezionati]]></item>
-		<item name="wcf.clipboard.label.com.woltlab.wbb.thread.marked"><![CDATA[{if $count == 1}Una Discussione{else}{#$count} Discussioni{/if} selezionati]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.wbb.post.marked"><![CDATA[{if $count == 1}Un messaggio{else}{#$count} messaggi{/if} {if $count == 1}selezionato{else} selezionati{/if}]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.wbb.thread.marked"><![CDATA[{if $count == 1}Una Discussione{else}{#$count} Discussioni{/if} {if $count == 1}selezionata{else} selezionate{/if}]]></item>
 	</category>
 	
 	<category name="wcf.dashboard">
