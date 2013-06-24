@@ -563,7 +563,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.acp.option.wbb_thread_min_word_count"><![CDATA[Numero minimo di parole nell´oggetto della discussione]]></item>
 		<item name="wcf.acp.option.wbb_thread_posts_per_page"><![CDATA[Messaggi per pagina]]></item>
 		<item name="wcf.acp.option.wbb_users_online_record_no_guests"><![CDATA[Escludi gli ospiti da registrare in linea dell'utente]]></item>
-		<item name="wcf.acp.option.wbb_module_ignore_boards"><![CDATA[Forum che possono essere ignorati]]></item>
+		<item name="wcf.acp.option.wbb_module_ignore_boards"><![CDATA[I forum possono essere ignorati]]></item>
 		<item name="wcf.acp.option.wbb_module_ignore_boards.description"><![CDATA[Consente agli utenti di ignorare singoli forum.]]></item>
 		<item name="wcf.acp.option.wbb_thread_show_similar_threads_when_creating_new_thread"><![CDATA[Visualizza le discussioni simili durante la creazione delle discussioni]]></item>
 		<item name="wcf.acp.option.wbb_thread_show_similar_threads_when_creating_new_thread.description"><![CDATA[Le ricerche per discussioni simili basano sul titolo della discussione e visualizza un elenco di partite.]]></item>

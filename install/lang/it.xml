@@ -760,9 +760,9 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.message_sidebar_enable_online_status"><![CDATA[Mostra stato online]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_rank"><![CDATA[Mostra Livello Utente]]></item>
 		<item name="wcf.acp.option.message_sidebar_enable_message_group_starter_icon"><![CDATA[Evidenziare chi ha iniziato una discussione]]></item>
-		<item name="wcf.acp.option.message_sidebar_enable_likes_received"><![CDATA[Mostra Mi Piace Dell'Autore]]></item>
-		<item name="wcf.acp.option.message_sidebar_enable_activity_points"><![CDATA[Mostra Punti Attività Dell'Autore]]></item>
-		<item name="wcf.acp.option.message_sidebar_user_options"><![CDATA[Mostra i campi utenti selezionati dell'autore]]></item>
+		<item name="wcf.acp.option.message_sidebar_enable_likes_received"><![CDATA[Mostra Mi Piace Dell´Autore]]></item>
+		<item name="wcf.acp.option.message_sidebar_enable_activity_points"><![CDATA[Mostra Punti Attività Dell´Autore]]></item>
+		<item name="wcf.acp.option.message_sidebar_user_options"><![CDATA[Mostra i campi utenti selezionati dell´autore]]></item>
 		<item name="wcf.acp.option.module_tagging"><![CDATA[Tagging]]></item>
 		<item name="wcf.acp.option.module_tagging.description"><![CDATA[Abilita i tag dei contenuti.]]></item>
 		<item name="wcf.acp.option.tagging_max_tag_length"><![CDATA[Lunghezza massima di un tag]]></item>
@@ -774,12 +774,18 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.category.message.general.poll"><![CDATA[Sondaggi]]></item>
 		<item name="wcf.acp.option.module_poll"><![CDATA[Sondaggi]]></item>
 		<item name="wcf.acp.option.poll_max_options"><![CDATA[Numero massimo di opzioni]]></item>
+		<item name="wcf.acp.option.error.validationFailed"><![CDATA[È stato immesso un valore non valido.]]></item>
+		<item name="wcf.acp.option.module_members_list"><![CDATA[Lista Utenti]]></item>
+		<item name="wcf.acp.option.footer_code"><![CDATA[Codice Footer]]></item>
+		<item name="wcf.acp.option.footer_code.description"><![CDATA[Il codice immesso verrà aggiunto al piè di pagina del tuo sito. Si può usare per incorporare servizi come "Google Analytics" o "Piwik".]]></item>
+		<item name="wcf.acp.option.profile_enable_visitors"><![CDATA[Mostra i visitatori del profilo]]></item>>
 	</category>
 	
 	<category name="wcf.acp.package">
 		<item name="wcf.acp.package.application.installed"><![CDATA[Applicazioni Installate]]></item>
 		<item name="wcf.acp.package.application.title"><![CDATA[Applicazioni]]></item>
 		<item name="wcf.acp.package.author"><![CDATA[Autore]]></item>
+		<item name="wcf.acp.package.availableVersions"><![CDATA[Versione Disponibile]]></item>
 		<item name="wcf.acp.package.button.info"><![CDATA[Dettagli]]></item>
 		<item name="wcf.acp.package.button.installPackage"><![CDATA[Installa Pacchetto]]></item>
 		<item name="wcf.acp.package.button.uninstall"><![CDATA[Disinstalla]]></item>
@@ -806,11 +812,13 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.installation.packageStatus.installed"><![CDATA[Già installato]]></item>
 		<item name="wcf.acp.package.installation.packageStatus.missing"><![CDATA[Mancante]]></item>
 		<item name="wcf.acp.package.installation.packageStatus.missingVersion"><![CDATA[Versione non adatta (installato: {$package.existingVersion})]]></item>
+		<item name="wcf.acp.package.installation.rollback"><![CDATA[Rollback Di Installazione]]></item>
 		<item name="wcf.acp.package.installation.step.install"><![CDATA[Installazione “{$packageName}” …]]></item>
 		<item name="wcf.acp.package.installation.step.install.success"><![CDATA[Installazione Completata]]></item>
-		<item name="wcf.acp.package.installation.step.prepare"><![CDATA[Preparazione all'installazone …]]></item>
+		<item name="wcf.acp.package.installation.step.prepare"><![CDATA[Preparazione all´installazone …]]></item>
 		<item name="wcf.acp.package.installation.step.update"><![CDATA[Aggiornamento “{$packageName}” …]]></item>
 		<item name="wcf.acp.package.installation.step.update.success"><![CDATA[Aggiornamento Completato]]></item>
+		<item name="wcf.acp.package.installedVersion"><![CDATA[Versione Installata]]></item>
 		<item name="wcf.acp.package.install.title"><![CDATA[Installazione]]></item>
 		<item name="wcf.acp.package.install.step.prepare"><![CDATA[Preparazione all´installazione]]></item>
 		<item name="wcf.acp.package.installation.requiredVersion"><![CDATA[Versione richiesta]]></item>
@@ -855,6 +863,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.update.server"><![CDATA[Pacchetto Server]]></item>
 		<item name="wcf.acp.package.update.server.message"><![CDATA[Avviso Server]]></item>
 		<item name="wcf.acp.package.update.server.url"><![CDATA[URL]]></item>
+		<item name="wcf.acp.package.update.title"><![CDATA[Aggiorna]]></item>
+		<item name="wcf.acp.package.update.step.prepare"><![CDATA[Preparzione all´aggiornamento…]]></item>
 		<item name="wcf.acp.package.update.title"><![CDATA[Carica]]></item>
 		<item name="wcf.acp.package.update.unauthorized"><![CDATA[Autorizzazione richiesta]]></item>
 		<item name="wcf.acp.package.update.username"><![CDATA[Username]]></item>
@@ -1055,6 +1065,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.template.list"><![CDATA[Template]]></item>
 		<item name="wcf.acp.template.group"><![CDATA[Gruppo Template]]></item>
 		<item name="wcf.acp.template.group.default"><![CDATA[Template Definitivi]]></item>
+		<item name="wcf.acp.template.application"><![CDATA[Applicazione]]></item>
+		<item name="wcf.acp.template.application.all"><![CDATA[Nessun filtro]]></item>
 		<item name="wcf.acp.template.add"><![CDATA[Aggiungi Template]]></item>
 		<item name="wcf.acp.template.edit"><![CDATA[Modifica Template]]></item>
 		<item name="wcf.acp.template.copy"><![CDATA[Copia Template]]></item>
@@ -1502,7 +1514,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.date.timezone.pacific.auckland"><![CDATA[(UTC+12:00) Auckland, Wellington]]></item>
 		<item name="wcf.date.timezone.pacific.fiji"><![CDATA[(UTC+12:00) Fiji]]></item>
 		<item name="wcf.date.timezone.asia.kamchatka"><![CDATA[(UTC+12:00) Kamchatka]]></item>
-		<item name="wcf.date.timezone.pacific.tongatapu"><![CDATA[(UTC+13:00) Nuku'alofa]]></item>
+		<item name="wcf.date.timezone.pacific.tongatapu"><![CDATA[(UTC+13:00) Nuku´alofa]]></item>
 		
 		<item name="wcf.date.period.start"><![CDATA[Da]]></item>
 		<item name="wcf.date.period.end"><![CDATA[a]]></item>
@@ -1578,6 +1590,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.acp.short"><![CDATA[Amministrazione]]></item>
 		<item name="wcf.global.worker.executing"><![CDATA[Esecuzione …]]></item>
 		<item name="wcf.global.filter"><![CDATA[Filtro]]></item>
+		<item name="wcf.global.noItems"><![CDATA[Non ci sono elementi.]]></item>
 	</category>
 	
 	<category name="wcf.imageViewer">
@@ -1676,6 +1689,8 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.activation"><![CDATA[Approvazione]]></item>
 		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.report"><![CDATA[Segnalazione]]></item>
 		<item name="wcf.moderation.showAll"><![CDATA[Mostra tutti gli elementi]]></item>
+		<item name="wcf.moderation.showDeletedContent"><![CDATA[Mostra contenuti eliminati]]></item>
+		<item name="wcf.moderation.deletedContent.objectTypes"><![CDATA[Contenuti elimianti]]></item>
 	</category>
 	
 	<category name="wcf.moderation.activation">
