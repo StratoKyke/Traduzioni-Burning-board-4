@@ -1066,14 +1066,14 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.template.group"><![CDATA[Gruppo Template]]></item>
 		<item name="wcf.acp.template.group.default"><![CDATA[Template Definitivi]]></item>
 		<item name="wcf.acp.template.application"><![CDATA[Applicazione]]></item>
-		<item name="wcf.acp.template.application.all"><![CDATA[Nessun filtro]]></item>
+		<item name="wcf.acp.template.application.all"><![CDATA[Tutte le applicazioni]]></item>
 		<item name="wcf.acp.template.add"><![CDATA[Aggiungi Template]]></item>
 		<item name="wcf.acp.template.edit"><![CDATA[Modifica Template]]></item>
 		<item name="wcf.acp.template.copy"><![CDATA[Copia Template]]></item>
 		<item name="wcf.acp.template.lastModificationTime"><![CDATA[Ultima Modifica]]></item>
 		<item name="wcf.acp.template.group.list"><![CDATA[Gruppi Template]]></item>
-		<item name="wcf.acp.template.group.add"><![CDATA[Aggiungi Gruppo Template]]></item>
-		<item name="wcf.acp.template.group.edit"><![CDATA[Modifica Gruppo template]]></item>
+		<item name="wcf.acp.template.group.add"><![CDATA[Aggiungi Famiglia Template]]></item>
+		<item name="wcf.acp.template.group.edit"><![CDATA[Modifica Famiglia template]]></item>
 		<item name="wcf.acp.template.group.templates"><![CDATA[Template]]></item>
 		<item name="wcf.acp.template.error.noGroups"><![CDATA[È necessario creare un <a href="{link controller='TemplateGroupAdd'}{/link}">Gruppo Template</a> prima.]]></item>
 		<item name="wcf.acp.template.group.noItems"><![CDATA[Non ci sono gruppi di Template.]]></item>
@@ -1577,7 +1577,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.subject"><![CDATA[Soggetto]]></item>
 		<item name="wcf.global.thousandsSeparator"><![CDATA[,]]></item>
 		<item name="wcf.global.title"><![CDATA[Titolo]]></item>
-		<item name="wcf.global.toLandingPage"><![CDATA[Alla pagina iniziale]]></item>
+		<item name="wcf.global.toLandingPage"><![CDATA[Vai al forum]]></item>
 		<item name="wcf.global.preview"><![CDATA[Anteprima]]></item>
 		<item name="wcf.global.multiSelect"><![CDATA[Più elementi possono essere selezionati tenendo premuto il tasto "Ctrl / Shift" (Windows) o "Command" (Mac OS) e fare clic sugli elementi desiderati.]]></item>
 		<item name="wcf.global.page.jumpTo"><![CDATA[Vai alla pagina]]></item>
