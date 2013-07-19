@@ -414,6 +414,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.close"><![CDATA[Chiudi ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete"><![CDATA[Elimina permanentemente ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete.confirmMessage"><![CDATA[Vuoi veramente eliminare {if $count != 1}questa discussione{else}questa discussione{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.disable"><![CDATA[Disapprova ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.done"><![CDATA[Segna come risolto ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.enable"><![CDATA[Approva ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.merge"><![CDATA[Unisci ({#$count})]]></item>
