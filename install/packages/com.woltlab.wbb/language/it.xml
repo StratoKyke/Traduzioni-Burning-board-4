@@ -254,10 +254,17 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.thread.inlineSimilarThreads"><![CDATA[Le seguenti discussioni hanno il titolo simile al tuo:]]></item>
 		<item name="wbb.thread.watchedThreads"><![CDATA[Discussioni visitate]]></item>
 		<item name="wbb.thread.watchedThreads.noThreads"><![CDATA[Non hai ancora guardato la discussione.]]></item>
+<<<<<<< HEAD
 		<item name="wbb.thread.watchedThreads.stopWatchingAll"><![CDATA[Disattiva sottoscrizione a tutte le discussioni]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingAll.confirmMessage"><![CDATA[Vuoi veramente disattivare la sottoscrizione a tutte le discussioni?]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingMarked"><![CDATA[{literal}Disattiva sottoscrizioni alle discussioni selezionate{if $count > 1} ({#$count}){/if}{/literal}]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingMarked.confirmMessage"><![CDATA[Vuoi veramente disattivare la sottoscrizione alle discussioni selezionate?]]></item>
+=======
+		<item name="wbb.thread.watchedThreads.stopWatchingAll">![CDATA[Cancella tutte le discussioni.]]</item>
+		<item name="wbb.thread.watchedThreads.stopWatchingAll.confirmMessage">![CDATA[Sei sicuro di voler cancellare tutte le discussioni?]]</item>
+		<item name="wbb.thread.watchedThreads.stopWatchingMarked">![CDATA[Cancella discussioni selezionate]]</item>
+		<item name="wbb.thread.watchedThreads.stopWatchingMarked.confirmMessage">![CDATA[Sei sicuro di voler cancellare le discussioni selezionate?]]</item>
+>>>>>>> fe40a856a4de8046f3210c7520a7b6bdb36374c9
 		<item name="wbb.thread.markAsRead.doubleClick"><![CDATA[Doppio click per segnare la discussione come letta]]></item>
 		<item name="wbb.thread.labeledThreads"><![CDATA[Discussioni assegnate con etichetta “{$label->label|language}”]]></item>
 		<item name="wbb.thread.unreadThreads"><![CDATA[Discussioni non Lette]]></item>
@@ -449,6 +456,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.close"><![CDATA[Chiudi ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete"><![CDATA[Elimina permanentemente ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete.confirmMessage"><![CDATA[Vuoi veramente eliminare {if $count != 1}questa discussione{else}questa discussione{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.disable"><![CDATA[Disapprova ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.done"><![CDATA[Segna come risolto ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.disable"><![CDATA[Disabilita ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.enable"><![CDATA[Approva ({#$count})]]></item>
