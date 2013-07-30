@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
+<!--Luglio 29, 2013-->
   <category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.mod.infraction"><![CDATA[Infrazioni]]></item>
 		<item name="wcf.acp.group.option.category.admin.user.infraction"><![CDATA[Infrazioni]]></item>
@@ -26,15 +27,11 @@
 		<item name="wcf.acp.infraction.suspension.edit"><![CDATA[Modifica Sospensioni]]></item>
 		<item name="wcf.acp.infraction.suspension.edit.note"><![CDATA[Attento! Le modifiche non riguardano le sospensioni attive, modificando il tempo scade o punti si applica solo alle sospensioni di nuova creazione.]]></item>
 		<item name="wcf.acp.infraction.suspension.list"><![CDATA[Sospensioni Predefinite]]></item>
-		<item name="wcf.acp.infraction.suspension.noneAvailable"><![CDATA[Non ci sono sospensioni predefinite.]]></item>
 		<item name="wcf.acp.infraction.userWarning.list"><![CDATA[Avvertimenti]]></item>
-		<item name="wcf.acp.infraction.userWarning.noneAvailable"><![CDATA[Non ci sono avvertimenti attivi.]]></item>
 		<item name="wcf.acp.infraction.userSuspension.list"><![CDATA[Sospensioni]]></item>
-		<item name="wcf.acp.infraction.userSuspension.noneAvailable"><![CDATA[Non ci sono sospensioni attive.]]></item>
 		<item name="wcf.acp.infraction.warning.add"><![CDATA[Aggiungi avvertimenti predefiniti]]></item>
 		<item name="wcf.acp.infraction.warning.edit"><![CDATA[Modifica avvertimenti]]></item>
 		<item name="wcf.acp.infraction.warning.list"><![CDATA[Avvertimenti predefiniti]]></item>
-		<item name="wcf.acp.infraction.warning.noneAvailable"><![CDATA[Non ci sono avvertimenti predefiniti.]]></item>
 	</category>
 	
 	<category name="wcf.acp.option">

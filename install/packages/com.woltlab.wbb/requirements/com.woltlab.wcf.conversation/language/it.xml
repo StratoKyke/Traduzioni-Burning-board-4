@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
+<!--Luglio 29, 2013-->
   <category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.user.conversation"><![CDATA[Conversazioni]]></item>
 		<item name="wcf.acp.group.option.mod.conversation.canModerateConversation"><![CDATA[Può moderare le conversazioni]]></item>
@@ -28,6 +29,13 @@
 		<item name="wcf.acp.option.conversation_reply_show_messages_max.description"><![CDATA[Numero di messaggi precedenti visualizzati sul modulo di risposta estesa.]]></item>
 	</category>
 	
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.com.woltlab.wcf.conversation"><![CDATA[Ricostruisci conversazioni]]></item>
+		<item name="wcf.acp.rebuildData.com.woltlab.wcf.conversation.description"><![CDATA[Ricostruisci contatore conversazioni]]></item>
+		<item name="wcf.acp.rebuildData.com.woltlab.wcf.conversation.message"><![CDATA[Ricostruisci messaggi conversazioni]]></item>
+		<item name="wcf.acp.rebuildData.com.woltlab.wcf.conversation.message.description"><![CDATA[Ricostruisci i messaggi delle conversazioni]]></item>
+	</category>
+		
 	<category name="wcf.clipboard">
 		<item name="wcf.clipboard.item.com.woltlab.wcf.conversation.conversation.assignLabel"><![CDATA[Assegnare un´etichetta({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wcf.conversation.conversation.close"><![CDATA[Chiuso ({#$count})]]></item>
@@ -125,6 +133,18 @@
 		<item name="wcf.conversation.log.conversation.removeParticipant"><![CDATA[Partecipanti rimossi: <a href="{link controller='User' id=$additionalData[userID] title=$additionalData[username]}{/link}" class="userLink" data-user-id="{@$additionalData[userID]}">{$additionalData[username]}</a>]]></item>
 	</category>
 	
+	<category name="wcf.acp.dataImport">
+		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.conversation"><![CDATA[Conversazioni]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.conversation.label"><![CDATA[Etichette]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.conversation.message"><![CDATA[Messaggi]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.conversation.user"><![CDATA[Participanti]]></item>
+		<item name="wcf.acp.dataImport.data.com.woltlab.wcf.conversation.attachment"><![CDATA[Allegati]]></item>
+	</category>
+	
+	<category name="wcf.moderation">
+		<item name="wcf.moderation.type.com.woltlab.wcf.conversation.message"><![CDATA[Conversazione]]></item>
+	</category>
+		
 	<category name="wcf.search">
 		<item name="wcf.search.type.com.woltlab.wcf.conversation.message"><![CDATA[Coversazioni]]></item>
 		<item name="wcf.search.object.com.woltlab.wcf.conversation.message"><![CDATA[Conversazione]]></item>
@@ -134,11 +154,19 @@
 		<item name="wcf.user.notification.conversation.message.message"><![CDATA[Risposto alla conversazione “{$message->getTitle()}”.]]></item>
 		<item name="wcf.user.notification.conversation.message.title"><![CDATA[Nuova risposta ad una conversazione]]></item>
 		<item name="wcf.user.notification.conversation.message.mail"><![CDATA[{@$author->username} ha risposto alla conversazione "{@$message->getTitle()}":
-{link controller='Conversation' object=$message->getConversation() encode=false forceFrontend=true}messageID={@$message->messageID}{/link}#message{@$message->messageID}]]></item>
+{if $notificationType == 'instant'}
+---------------------------------
+{@$message->getMailText()} 
+---------------------------------
+{/if}{link controller='Conversation' object=$message->getConversation() encode=false forceFrontend=true}messageID={@$message->messageID}{/link}#message{@$message->messageID}]]></item>
 		<item name="wcf.user.notification.conversation.message"><![CDATA[Conversazione iniziata “{$conversation->subject}”.]]></item>
 		<item name="wcf.user.notification.conversation.title"><![CDATA[Nuova conversazione]]></item>
 		<item name="wcf.user.notification.conversation.mail"><![CDATA[{@$author->username} iniziata la conversazione "{@$conversation->subject}":
-{link controller='Conversation' object=$conversation encode=false forceFrontend=true}{/link}]]></item>
+{if $notificationType == 'instant'}
+---------------------------------
+{@$conversation->getFirstMessage()->getMailText()} 
+---------------------------------
+{/if}{link controller='Conversation' object=$conversation encode=false forceFrontend=true}{/link}]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.conversation"><![CDATA[Conversazioni]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.conversation.notification.conversation"><![CDATA[Nuova converazione]]></item>
 		<item name="wcf.user.notification.com.woltlab.wcf.conversation.message.notification.conversationMessage"><![CDATA[Rispondi alla conversazione esistente]]></item>
@@ -153,8 +181,8 @@
 	<category name="wcf.user.usersOnline">
 		<item name="wcf.user.usersOnline.location.ConversationAddForm"><![CDATA[Crea Conversazione]]></item>
 		<item name="wcf.user.usersOnline.location.ConversationListPage"><![CDATA[Conversazioni]]></item>
-		<item name="wcf.user.usersOnline.location.ConversationMessageAddForm"><![CDATA[Rispondi a <a href="{link controller='Conversation' object=$conversation}{/link}" class="conversationLink" data-conversation-id="{@$conversation->conversationID}">Conversation “{$conversation->subject}”</a>]]></item>
+		<item name="wcf.user.usersOnline.location.ConversationMessageAddForm"><![CDATA[Rispondi a <a href="{link controller='Conversation' object=$conversation}{/link}" class="conversationLink" data-conversation-id="{@$conversation->conversationID}">Conversazione “{$conversation->subject}”</a>]]></item>
 		<item name="wcf.user.usersOnline.location.ConversationMessageEditForm"><![CDATA[Modifica messaggio in <a href="{link controller='Conversation' object=$conversation}{/link}" class="conversationLink" data-conversation-id="{@$conversation->conversationID}">Conversation “{$conversation->subject}”</a>]]></item>
-		<item name="wcf.user.usersOnline.location.ConversationPage"><![CDATA[<a href="{link controller='Conversation' object=$conversation}{/link}" class="conversationLink" data-conversation-id="{@$conversation->conversationID}">Conversation “{$conversation->subject}”</a>]]></item>
+		<item name="wcf.user.usersOnline.location.ConversationPage"><![CDATA[<a href="{link controller='Conversation' object=$conversation}{/link}" class="conversationLink" data-conversation-id="{@$conversation->conversationID}">Conversazione “{$conversation->subject}”</a>]]></item>
 	</category>
 </language>

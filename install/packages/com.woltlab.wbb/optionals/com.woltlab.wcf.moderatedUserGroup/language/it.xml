@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
-  <category name="wcf.acp.group">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
+<!--Luglio 29, 2013-->
+    <category name="wcf.acp.group">
     <item name="wcf.acp.group.groupType"><![CDATA[Tipologia gruppo utente]]></item>
     <item name="wcf.acp.group.groupType.type4"><![CDATA[Chiuso]]></item>
     <item name="wcf.acp.group.groupType.type5"><![CDATA[Libero a tutti]]></item>
@@ -18,7 +19,7 @@
     <item name="wcf.acp.group.leader"><![CDATA[Leader del gruppo]]></item>
     <item name="wcf.acp.group.leader.description"><![CDATA[I leader devono essere separati da una virgola. I leader possono approvare le domande e aggiungere utenti a questo gruppo.]]></item>
     <item name="wcf.acp.group.leader.error.empty"><![CDATA[I gruppi moderati e chiusi hanno bisogno di un capogruppo.]]></item>
-    <item name="wcf.acp.group.leader.error.notFound"><![CDATA[Impossibile trovare l'utente {if $unknownLeader|count != 1}s{/if}:<ul class="inlineDataList">{foreach from=$unknownLeader item=username}<li>“{$username}”</li>{/foreach}</ul>.]]></item>
+    <item name="wcf.acp.group.leader.error.notFound"><![CDATA[Impossibile trovare l´utente {if $unknownLeader|count != 1}s{/if}:<ul class="inlineDataList">{foreach from=$unknownLeader item=username}<li>“{$username}”</li>{/foreach}</ul>.]]></item>
     <item name="wcf.acp.group.moderatedUserGroup"><![CDATA[Gruppo utenti moderato]]></item>
   </category>
   

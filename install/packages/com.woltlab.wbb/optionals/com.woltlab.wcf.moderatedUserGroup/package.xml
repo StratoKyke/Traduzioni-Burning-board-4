@@ -4,12 +4,11 @@
 		<packagename>Moderated User Groups</packagename>
 		<packagename language="it">Gruppi Utenti Moderazione</packagename>
 		<packagename language="de">Moderierte Benutzergruppen</packagename>
-		<packagedescription><![CDATA[Moderated User Groups allows the user to send applications to join a user group.]]></packagedescription>
-		<packagedescription language="it"><![CDATA[Moderazione Gruppi di utenti consente all'utente di inviare le domande per partecipare a un gruppo di utenti.]]></packagedescription>
+		<packagedescription><![CDATA[Moderated User Groups allows the user to send applicatins to join a user group.]]></packagedescription>
+		<packagedescription language="it"><![CDATA[Moderazione Gruppi di utenti consente allutente di inviare le domande per partecipare a un gruppo di utenti.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Moderierte Benutzergruppen ermöglichen Gruppenbewerbungen für den Benutzer.]]></packagedescription>
-		<version>2.0.0 Beta 1</version>
-		<date>2013-05-29</date>
-		<plugin>com.woltlab.wcf.user</plugin>
+		<version>2.0.0 Beta 3</version>
+		<date>2013-07-27</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -18,7 +17,7 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 5">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">
@@ -32,5 +31,12 @@
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="userMenu">userMenu.xml</instruction>
 		<instruction type="userNotificationEvent">userNotificationEvent.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0 Beta 2">
+		<instruction type="acpTemplate">acptemplates_update.tar</instruction>
+		<instruction type="file">files_update.tar</instruction>
+		<instruction type="template">templates_update.tar</instruction>
+		<instruction type="sql">update_b3.sql</instruction>
 	</instructions>
 </package>
