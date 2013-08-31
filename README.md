@@ -1,4 +1,7 @@
 Traduzioni-Burning-board-4
 ==========================
 
-Qui verranno messe, condivise e tradotte i file di wbb 4 e wcf 2. Progetto firmato Inforge.net!! 
+Il team coder di inforge.net si sta occupando della traduzione della nuova piattaforma woltlab. Al momento sono presenti
+traduzioni del Woltlab Community Framework, Woltlab Burning Board e Woltlab Community Blog.
+
+Saluti Salvatore Mazzullo aka StratoKyke
