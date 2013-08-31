@@ -260,7 +260,6 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.thread.inlineSimilarThreads"><![CDATA[Le seguenti discussioni hanno il titolo simile al tuo:]]></item>
 		<item name="wbb.thread.watchedThreads"><![CDATA[Discussioni visitate]]></item>
 		<item name="wbb.thread.watchedThreads.noThreads"><![CDATA[Non hai ancora guardato la discussione.]]></item>
-<<<<<<< HEAD
 		<item name="wbb.thread.watchedThreads.stopWatchingAll"><![CDATA[Disattiva sottoscrizione a tutte le discussioni]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingAll.confirmMessage"><![CDATA[Vuoi veramente disattivare la sottoscrizione a tutte le discussioni?]]></item>
 		<item name="wbb.thread.watchedThreads.stopWatchingMarked"><![CDATA[{literal}Disattiva sottoscrizioni alle discussioni selezionate{if $count > 1} ({#$count}){/if}{/literal}]]></item>
