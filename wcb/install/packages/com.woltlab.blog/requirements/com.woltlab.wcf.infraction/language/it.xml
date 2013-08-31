@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.mod.infraction"><![CDATA[Infractions]]></item>
+		<item name="wcf.acp.group.option.category.admin.user.infraction"><![CDATA[Infractions]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canWarn"><![CDATA[Can warn users]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canUseCustomWarning"><![CDATA[Can use individual warnings]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.canRevoke"><![CDATA[Can revoke warnings]]></item>
+		<item name="wcf.acp.group.option.mod.infraction.warning.immune"><![CDATA[Can not be warned]]></item>
+		<item name="wcf.acp.group.option.admin.user.infraction.canManageWarning"><![CDATA[Can manage warnings]]></item>
+		<item name="wcf.acp.group.option.admin.user.infraction.canManageSuspension"><![CDATA[Can manage suspensions]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.infraction"><![CDATA[Warnings]]></item>
+		<item name="wcf.acp.menu.link.infraction.suspension.add"><![CDATA[Add Predefined Suspension]]></item>
+		<item name="wcf.acp.menu.link.infraction.suspension.list"><![CDATA[List Predefined Suspensions]]></item>
+		<item name="wcf.acp.menu.link.infraction.userSuspension.list"><![CDATA[Active Suspensions]]></item>
+		<item name="wcf.acp.menu.link.infraction.userWarning.list"><![CDATA[Active Warnings]]></item>
+		<item name="wcf.acp.menu.link.infraction.warning.add"><![CDATA[Add Predefined Warning]]></item>
+		<item name="wcf.acp.menu.link.infraction.warning.list"><![CDATA[List Predefined Warnings]]></item>
+	</category>
+	
+	<category name="wcf.acp.infraction">
+		<item name="wcf.acp.infraction.suspension.add"><![CDATA[Add Predefined Suspension]]></item>
+		<item name="wcf.acp.infraction.suspension.edit"><![CDATA[Edit Suspension]]></item>
+		<item name="wcf.acp.infraction.suspension.edit.note"><![CDATA[Heads up! Changes do not affect active suspensions, changing expiring time or points only applies to newly issued suspensions.]]></item>
+		<item name="wcf.acp.infraction.suspension.list"><![CDATA[Predefined Suspensions]]></item>
+		<item name="wcf.acp.infraction.userWarning.list"><![CDATA[Warnings]]></item>
+		<item name="wcf.acp.infraction.userSuspension.list"><![CDATA[Suspensions]]></item>
+		<item name="wcf.acp.infraction.warning.add"><![CDATA[Add Predefined Warning]]></item>
+		<item name="wcf.acp.infraction.warning.edit"><![CDATA[Edit Warning]]></item>
+		<item name="wcf.acp.infraction.warning.list"><![CDATA[Predefined Warnings]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_user_infraction"><![CDATA[Infractions]]></item>
+	</category>
+	
+	<category name="wcf.infraction">
+		<item name="wcf.infraction.warn"><![CDATA[Warn]]></item>
+		<item name="wcf.infraction.warn.success"><![CDATA[User has been warned.]]></item>
+		<item name="wcf.infraction.warning.objectInformation"><![CDATA[Content Details]]></item>
+		<item name="wcf.infraction.warning.data"><![CDATA[Warning Data]]></item>
+		<item name="wcf.infraction.warning.reason"><![CDATA[Reason]]></item>
+		<item name="wcf.infraction.warning.reason.description"><![CDATA[The user will receive a conversation containing this reason.]]></item>
+		<item name="wcf.infraction.warning.points"><![CDATA[Points]]></item>
+		<item name="wcf.infraction.warning.points.description"><![CDATA[Number of warning points added towards the user’s pool. Suspension will be triggered upon reaching a specific total amount of warning points.]]></item>
+		<item name="wcf.infraction.warning.expires"><![CDATA[Expires]]></item>
+		<item name="wcf.infraction.warning.expires.description"><![CDATA[Expired warnings are no longer counted towards the user’s warning points.]]></item>
+		<item name="wcf.infraction.warning.expires.never"><![CDATA[Warning does not expire]]></item>
+		<item name="wcf.infraction.warning.expires.never.short"><![CDATA[Never]]></item>
+		<item name="wcf.infraction.warning.expires.days"><![CDATA[Days]]></item>
+		<item name="wcf.infraction.warning.expires.hours"><![CDATA[Hours]]></item>
+		<item name="wcf.infraction.warning.expires.weeks"><![CDATA[Weeks]]></item>
+		<item name="wcf.infraction.warning.predefined"><![CDATA[Predefined Warning]]></item>
+		<item name="wcf.infraction.warning.custom"><![CDATA[Custom Warning]]></item>
+		<item name="wcf.infraction.warning.object"><![CDATA[Content]]></item>
+		<item name="wcf.infraction.warning.alreadyWarned"><![CDATA[There is already an active warning for given content.]]></item>
+		<item name="wcf.infraction.warning.revokedBy"><![CDATA[Revoked by {$warning->revokerUsername}]]></item>
+		<item name="wcf.infraction.warning.revoke"><![CDATA[Revoke]]></item>
+		<item name="wcf.infraction.warning.revoke.confirmMessage"><![CDATA[Do you really want to revoke this warning?]]></item>
+		<item name="wcf.infraction.warning.revoke.success"><![CDATA[Warning has been revoked.]]></item>
+		<item name="wcf.infraction.warning.time"><![CDATA[Date]]></item>
+		<item name="wcf.infraction.warning.judge"><![CDATA[Judge]]></item>
+		<item name="wcf.infraction.warning.status"><![CDATA[Status]]></item>
+		<item name="wcf.infraction.warning.status.active"><![CDATA[Active]]></item>
+		<item name="wcf.infraction.warning.status.expired"><![CDATA[Expired]]></item>
+		<item name="wcf.infraction.warning.delete.sure"><![CDATA[Do you really want to remove the warning “{$warning->title|language}”?]]></item>
+		<item name="wcf.infraction.suspension.time"><![CDATA[Date]]></item>
+		<item name="wcf.infraction.suspension.predefined"><![CDATA[Predefined Suspension]]></item>
+		<item name="wcf.infraction.suspension.points"><![CDATA[Points]]></item>
+		<item name="wcf.infraction.suspension.points.description"><![CDATA[Required amount of warning points until this suspension is triggered.]]></item>
+		<item name="wcf.infraction.suspension.data"><![CDATA[Suspension Data]]></item>
+		<item name="wcf.infraction.suspension.expires"><![CDATA[Expires]]></item>
+		<item name="wcf.infraction.suspension.expires.description"><![CDATA[Suspension will be revoked once it is expired.]]></item>
+		<item name="wcf.infraction.suspension.expires.never"><![CDATA[Suspension does not expire]]></item>
+		<item name="wcf.infraction.suspension.action"><![CDATA[Suspension Type]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableAvatar"><![CDATA[Disable Avatar]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.addToGroup"><![CDATA[Add to Group]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.disableSignature"><![CDATA[Disable Signature]]></item>
+		<item name="wcf.infraction.suspension.action.com.woltlab.wcf.infraction.suspension.ban"><![CDATA[Ban User]]></item>
+		<item name="wcf.infraction.suspension.delete.sure"><![CDATA[Do you really want to delete the suspension “{$suspension->title|language}”?]]></item>
+		<item name="wcf.infraction.suspension.revokedBy"><![CDATA[Revoked by {$suspension->revokerUsername}]]></item>
+		<item name="wcf.infraction.suspension.revoke"><![CDATA[Revoke]]></item>
+		<item name="wcf.infraction.suspension.revoke.confirmMessage"><![CDATA[Do you really want to revoke this suspension?]]></item>
+		<item name="wcf.infraction.suspension.revoke.success"><![CDATA[Suspension has been revoked.]]></item>
+		<item name="wcf.infraction.userWarning.message.subject"><![CDATA[Warning ({@$warning->title|language})]]></item>
+		<item name="wcf.infraction.userWarning.message.text"><![CDATA[You have been warned by {@$warning->getJudge()->username}:
+{@$warning->reason}]]></item>
+		<item name="wcf.infraction.warning.showDetails"><![CDATA[Show Details]]></item>
+		<item name="wcf.infraction.warning.details"><![CDATA[Details]]></item>
+	</category>
+	
+	<!-- I18N category -->
+	<category name="wcf.infraction.suspension" />
+	<category name="wcf.infraction.warning" />
+	
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.menu.warning"><![CDATA[Warnings]]></item>
+	</category>
+</language>

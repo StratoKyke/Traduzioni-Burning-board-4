@@ -1,0 +1,79 @@
+﻿License agreement for the acquisition of the WoltLab Burning board, copyright © 2001 - 2013 WoltLab GmbH
+
+1. Area of application
+1.1 the following license regulations refers to all with the WoltLab GmbH of closed sales contracts for the liable to pay the costs versions of the WoltLab Burning board (standard license, professional license and branding free license), manufactured by the WoltLab GmbH, Alexandrinenstr. 2-3, D-10969 Berlin.
+1.2 the regulations apply this license agreement excluding. Are already now contradicted to verbal special agreements or any trading conditions of the buyer.
+1.3 with the purchase, Download and the installation of the WoltLab Burning board explains you your agreement with the available license regulations. If you do not agree with the available regulations, you may not install this copy of the WoltLab Burning board.
+expires to 1.4 your right for the use of the WoltLab Burning board automatically, if one of the conditions of these license regulations is hurt. When expiring the right to use you are obligated to delete the WoltLab Burning board on the used servers and data bases as well as all copies of the WoltLab Burning board to destroy including the provided documentation and any changed and changed versions of the WoltLab Burning board.
+is not responsible to 1.5 the WoltLab GmbH for contents, which adjust third in a erworbenenen WoltLab Burning board. In particular the WoltLab GmbH is by the selling of the WoltLab Burning board neither Anbieterin of own information in accordance with § 8 TDG, still Diensteanbieterin of strange information in accordance with § 11 TDG.
+
+2. License extent
+The WoltLab Burning board acquired by you is exclusively for the user licensed and exclusively this registered in the registration mask with the purchase of the software is in the long term left.
+
+2.1 duplications
+They may multiply the software, as far as the respective duplication is necessary for the use of the software.
+2.1.1 to the necessary duplications the installation of the WoltLab Burning board counts, that means an installing of the software on a server using a data base.
+2.1.2 they may make a duplication beyond that for safeguard purposes. However only one backup copy of the WoltLab Burning board may be made only in each case and kept. The backup copy is to be marked as such of the left WoltLab Burning board.
+2.1.3 from reasons of data security and sicherstellung of the reactivation of a computer system after a total failure may manufacture you by regular safety device of the entire volume of data including the assigned computer programs (e.g. by the employment of a tape mechanism), backup copies in the compellingly necessary number. The data media concerned should accordingly to be marked. The backup copies may be used only for purely archivarischen purposes and for the purpose of the reactivation.
+additionally a copy of the WoltLab Burning board may install 2.1.4 the user as test version on a server, in order to be able to examine changes at the source code, Templates or at the data base. The test version may be used exclusively by you and not be operated as public forum.
+2.1.5 further duplications may not make you.
+
+2.2 multiple use
+2.2.1 the WoltLab Burning board may be used on each you the available server. If you change the server, you must delete the WoltLab Burning board of the server, used licensed for you, so far completely. Same applies to the use of the tables (tables) of the WoltLab Burning board within the used data base.
+2.2.2 repeated contemporaneous, at least however double installing, memory, operation, using or using of the WoltLab Burning board on one or more servers or with one or more data bases is inadmissible. This applies in particular if you liked to use an installation of the WoltLab Burning board on a server with two data bases or if it within a data base two versions of the tables of the WoltLab Burning board to use.
+2.2.3 would like to install you the WoltLab Burning board on for one or more servers or with one or more data bases at the same time, stores, operates and/or to use, must you an appropriate number of software copies of the WoltLab GmbH acquire.
+
+2.3 changes
+2.3.1 they may change the source code of the WoltLab Burning board as well as the appropriate data base structure of the software assigned by tables on own risk, work on and on your needs both graphically and functionally to adapt. The changes of the WoltLab Burning board or parts specified in sentence 1 of it may be used only under the condition of the number 2,2 (multiple use).
+2.3.2 copyright notes, series numbers as well as other of the software and source code identification serving characteristics of the WoltLab Burning board, in particular the visible references "Burning board (version), developed of the copyright notices as well as therein, mentioned by WoltLab GmbH" or parts, the contained left, may be removed or changed in no case. Same applies to a suppression or an unrecognizable making.
+2.3.3 the characteristics of the WoltLab Burning board serving in accordance with number of 2.3.2 copyright notes specified, seriennummern as well as the other software and source code identification is to be taken over into changed or worked on versions of the WoltLab Burning board.
+for 2.3.4 something else applies then only if you acquire an auxiliary license from the WoltLab GmbH, by which you are entitled to remove excluding the visible copyright notices. With removing or the changing of the visible copyright notices to you the WoltLab GmbH does not grant further rights to use than in the numbers 2.1 and the 2.2 specified.
+
+2.4 passing on
+2.4.1 You are justified to sell or give away the unchanged version of the WoltLab Burning board licensed with the purchase on you as well as the pertinent documentation, in the long term to a new user, presupposed, the new user explain himself in agreement with the available license regulations. They may not leave the WoltLab Burning board to new users, if the justified suspicion exists, which will hurt new users the conditions as per contract, manufactures in particular bad duplications.
+2.4.2 a letting, leasing or a further licensing of the WoltLab Burning board to profit-making purposes is inadmissible.
+2.4.3 You are obligated to keep the available license regulations, which were provided you with the purchase of the WoltLab Burning board. Before the passing on of the WoltLab Burning board you must submit these to the new user to the information. The license conditions can be seen and downloaded at any time on the InterNet side of the WoltLab GmbH under www.woltlab.de/products/burning_board/license.php.
+2.4.4 they should the WoltLab GmbH with acquisition of a passed on WoltLab Burning board in writing under indication of your name and complete address, as well as name and address of the salesman, immediately inform (woltlab@woltlab.de). This makes for the new user possible, with appropriate license, further a downloading of updates and the use support of the WoltLab GmbH.
+2.4.5 in the case of the passing on must hand you to the new user over the complete program copies and/or all existing backup copies and update and delete not the handed over copies and updates completely. With complete passing on, your right expires to the unchanged version for the use of the WoltLab Burning board.
+2.4.6 the passing on of one in the function and source code changed version of the WoltLab Burning board is inadmissible.
+
+3. Requirements for lack
+3.1 one points out that it is not possible after the present state of the art to exclude errors in data processing programs on all application conditions.
+3.2 lack of the supplied WoltLab Burning board are repaired by the WoltLab GmbH opposite entrepreneurs in the sense § 14 of the civil law book within one year, opposite consumers in the sense § 13 of the civil law book within 2 years, beginning after receipt of the WoltLab Burning board. This takes place after choice of the WoltLab GmbH by means of removal of the lack (rework) or supply of a faultless WoltLab Burning board (replacement).
+the lack can reduce 3.3 not within appropriate period be repaired or is the rework or replacement for other reasons as missed to be regarded, can the user for its choice the purchase price, withdraw from the contract, require payment of damages or substitution of futile expenditures. The two latter requirements regulate themselves after number 4 of the available regulations.
+3.4 of failing the rework or replacement is to be gone out only if the WoltLab GmbH were granted to opportunity sufficiently for the rework or replacement, without desired success was obtained, e.g. if the rework or replacement is impossible, justified doubts regarding the chances of success exists or if an unreasonableness for other reasons is present.
+
+4. Adhesion
+4.1 your requirements on payment of damages or substitution of futile expenditures depends without consideration for the right nature of the requirement on the available regulations.
+the WoltLab GmbH beside a roughnegligent or deliberate obligation injury is responsible to 4.2 for damage from the injury of the life, the body or the health also for a negligent obligation injury unrestrictedly. Same applies to obligation injuries of a legal representative or executing aides of the WoltLab GmbH.
+remains unaffected for 4.3 the adhesion after the product liability law (§ 14 product liability law).
+to 4.4 with the remaining liability claims the WoltLab GmbH is responsible unrestrictedly only with nonexistence of the guaranteed condition as well as for resolution and rough negligence also its legal representatives and executing aide. Opposite entrepreneurs in the sense § to 13 of the civil law book the WoltLab GmbH clings for executing aides only after number 4,5 of this adhesion clause.
+the WoltLab GmbH clings to 4.5 for easy negligence only, if an obligation is hurt, whose observance for the reaching of the contract purpose is of special importance (cardinal obligation). With injury of the cardinal obligation the adhesion is hum-moderately limited to the fivefold of the hiring payment as well as to such damage, on whose emergence in the context of a software hiring must be typically counted.
+is not responsible to 4.6 the WoltLab GmbH expressly for damage, which due to a use or a use of one in the source code changed or for changed version of the WoltLab Burning board developed.
+4.7 the adhesion for overrun one limits to the typical re-establishment expenditure, which would have occurred danger of appropriate preparation of backup copies with more regular and.
+4.8 the managing rain lungs applies also to all employees, coworkers, representatives and executing aides of the WoltLab GmbH.
+
+5. Investigation and obligationobligation obligations
+5.1 they are obligated to examine the supplied software for obvious lack. Obvious lack, e.g. a malfunctioning of the installation routine, are at the WoltLab GmbH within two weeks after supply in writing to ruegen. Lack, which are not obvious, must be reprimanded at the WoltLab GmbH within two weeks after recognizing.
+5.2 is the purchase of the software for both parts a commercial transaction, are obligated you to examine the supplied WoltLab Burning board within 8 working-days after supply in particular regarding the completeness of the software as well as the operability of fundamental program functions. Lack, which are determined here or can be recognized, must be announced the WoltLab GmbH within further 8 working-days in writing. Lack, which cannot be recognized in the context of the described normal investigation, must be reprimanded within 8 working-days after discovery under adherence to the stated requirementrequirement requirements.
+5.3 the lack, in particular the arisen symptoms, is to be described after forces in detail.
+the supplied WoltLab Burning board in reputation of the lack concerned is considered to 5.4 with injury of the investigation and obligationobligation obligations as authorized.
+
+6. Right choice and area of jurisdiction
+the right of the Federal Republic of Germany under exclusion of the UN Kaufrechts applies for 6.1 regarding all legal relations from these license regulations.
+6.2 if you are buyer in the sense of the commercial code, legal entity of the public right or publicly legal special estate, for all disputes, which develop in the context of the completion of this license agreement, Berlin as court conditions agreed.
+
+7. Salvatori clause
+In the case of the inefficacy of a determination of the license agreement you are authorized to replace the ineffective regulation by an effective whose economic success corresponds to that the ineffective regulation as far as possible.
+
+WoltLab GmbH
+Im Schwarzen Grund 21
+D-14195 Berlin
+
+E-Mail: woltlab@woltlab.com
+Tel.: +49 30 6167599-0 (Mo-Fr of 10-18 o'clock)
+Fax: +49 30 6167599-1
+Internet: woltlab.de, woltlab.info, woltlab.org, woltlab.com
+
+Managing directors entitled to act as substitute: Marcel Werk
+Trade register: District court Berlin Charlottenburg HRB 99901 B
