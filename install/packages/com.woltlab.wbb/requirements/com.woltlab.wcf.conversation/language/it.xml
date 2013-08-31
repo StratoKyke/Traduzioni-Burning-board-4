@@ -96,6 +96,7 @@
 		<item name="wcf.conversation.searchConversations"><![CDATA[Cerca Conversazioni]]></item>
 		<item name="wcf.conversation.participants.other"><![CDATA[e {if $conversation->participants - $participantSummaryCount == 1}un altro{else}{#$conversation->participants-$participantSummaryCount} altri{/if}]]></item>
 		<item name="wcf.conversation.attachments"><![CDATA[La conversazione contiene {#$conversation->attachments} allegati]]></item>
+		<item name="wcf.conversation.error.mailboxIsFull"><![CDATA[TODO: Sie haben das zulässige Limit für Konversationen bereits erreicht und könnte keine neuen Konversationen starten.]]></item>
 	</category>
 	
 	<category name="wcf.conversation.edit">

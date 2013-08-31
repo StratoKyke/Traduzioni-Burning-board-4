@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
-<!-- Luglio 28, 2013-->
+<!-- Agosto 13, 2013-->
     <category name="wbb.acp.board">
 		<item name="wbb.acp.board.boardType"><![CDATA[Tipo di Forum]]></item>
 		<item name="wbb.acp.board.boardType.board"><![CDATA[Forum]]></item>
@@ -46,6 +46,7 @@
 		<item name="wbb.acp.bulkProcessing.action.close"><![CDATA[Chiudi]]></item>
 		<item name="wbb.acp.bulkProcessing.action.delete"><![CDATA[Elimina permanentemente]]></item>
 		<item name="wbb.acp.bulkProcessing.action.deleteLinks"><![CDATA[Rimuovi link]]></item>
+		<item name="wbb.acp.bulkProcessing.action.disable"><![CDATA[Disabilita]]></item>
 		<item name="wbb.acp.bulkProcessing.action.enable"><![CDATA[Approva]]></item>
 		<item name="wbb.acp.bulkProcessing.action.move"><![CDATA[Sposta]]></item>
 		<item name="wbb.acp.bulkProcessing.action.moveTo"><![CDATA[Sposta in]]></item>
@@ -56,6 +57,7 @@
 		<item name="wbb.acp.bulkProcessing.conditions"><![CDATA[Condizioni]]></item>
 		<item name="wbb.acp.bulkProcessing.conditions.boards"><![CDATA[Forum]]></item>
 		<item name="wbb.acp.bulkProcessing.conditions.createdBy"><![CDATA[Iniziata da]]></item>
+		<item name="wbb.acp.bulkProcessing.conditions.languageIDs"><![CDATA[Lingue]]></item>
 		<item name="wbb.acp.bulkProcessing.conditions.lastPostTime"><![CDATA[Ultima risposta]]></item>
 		<item name="wbb.acp.bulkProcessing.conditions.repliesLessThan"><![CDATA[Risposte minori di]]></item>
 		<item name="wbb.acp.bulkProcessing.conditions.repliesMoreThan"><![CDATA[Risposte maggiori di]]></item>
@@ -163,6 +165,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.post.edit.close"><![CDATA[Vieta la modifica]]></item>
 		<item name="wbb.post.edit.delete"><![CDATA[Elimina definitivamente]]></item>
 		<item name="wbb.post.edit.delete.confirmMessage"><![CDATA[Vuoi veramente eliminare definitivamente il messaggio?]]></item>
+		<item name="wbb.post.edit.disable"><![CDATA[Disapprova]]></item>
 		<item name="wbb.post.edit.enable"><![CDATA[Approva]]></item>
 		<item name="wbb.post.edit.merge"><![CDATA[Unisci messaggio]]></item>
 		<item name="wbb.post.edit.merge.description"><![CDATA[Tutti i messaggi visualizzati saranno uniti nel primo messaggio. Ordina i messagi con il drag &amp; drop per determinare il primo messaggio e l´ordine dei messaggi uniti.]]></item>
@@ -212,6 +215,9 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.post.moderation.redirect"><![CDATA[Il tuo messaggio richiede l´approvazione manuale e non sarà visualizzato fino ad allora.]]></item>
 		<item name="wbb.post.option.hideEditNote"><![CDATA[Nascondi nota della modifica]]></item>
 		<item name="wbb.post.option.hideEditNote.description"><![CDATA[Non aggiungere la nota "Post modificato da...".]]></item>
+		<item name="wbb.post.delete"><![CDATA[TODO: Beitrag löschen]]></item>
+		<item name="wbb.post.delete.sure"><![CDATA[TODO: Diesen Beitrag in den Papierkorb verschieben]]></item>
+		<item name="wbb.post.deleteReason"><![CDATA[TODO: Begründung (optional)]]></item>
 	</category>
 	
 	<category name="wbb.thread">
@@ -277,12 +283,14 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.thread.edit.close"><![CDATA[Chiudi]]></item>
 		<item name="wbb.thread.edit.delete"><![CDATA[Elimina permanentemente]]></item>
 		<item name="wbb.thread.edit.done"><![CDATA[Segna come risolto]]></item>
+		<item name="wbb.thread.edit.disable"><![CDATA[Disapprova Discussione]]></item>
 		<item name="wbb.thread.edit.enable"><![CDATA[Approva Discussione]]></item>
 		<item name="wbb.thread.edit.merge"><![CDATA[Unisci le discussioni]]></item>
 		<item name="wbb.thread.edit.merge.description"><![CDATA[Si prega di selezionare la discussione di destinazione per la discussione in movimento.]]></item>
 		<item name="wbb.thread.edit.merge.success"><![CDATA[Le discussioni sono unite]]></item>
 		<item name="wbb.thread.edit.move"><![CDATA[Sposta]]></item>
 		<item name="wbb.thread.edit.open"><![CDATA[Apri]]></item>
+		<item name="wbb.thread.edit.removeLink"><![CDATA[Rimuovere Redirect Notice]]></item>
 		<item name="wbb.thread.edit.restore"><![CDATA[Ripristina]]></item>
 		<item name="wbb.thread.edit.scrape"><![CDATA[Rimuovi Rilievo]]></item>
 		<item name="wbb.thread.edit.sticky"><![CDATA[Metti in Rilievo]]></item>
@@ -456,7 +464,6 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.close"><![CDATA[Chiudi ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete"><![CDATA[Elimina permanentemente ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.delete.confirmMessage"><![CDATA[Vuoi veramente eliminare {if $count != 1}questa discussione{else}questa discussione{/if}?]]></item>
-		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.disable"><![CDATA[Disapprova ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.done"><![CDATA[Segna come risolto ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.disable"><![CDATA[Disabilita ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.thread.enable"><![CDATA[Approva ({#$count})]]></item>
@@ -502,7 +509,6 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 	<category name="wcf.like">
 		<item name="wcf.like.objectType.com.woltlab.wbb.likeablePost"><![CDATA[Messaggio]]></item>
 	</category>
-	
 	
 	<category name="wcf.moderation">
 		<item name="wcf.moderation.type.com.woltlab.wbb.post"><![CDATA[Messaggi]]></item>

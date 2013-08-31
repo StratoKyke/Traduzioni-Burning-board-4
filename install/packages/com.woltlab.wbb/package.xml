@@ -16,14 +16,15 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 5" file="requirements/com.woltlab.wcf.tar">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 3" file="requirements/com.woltlab.wcf.conversation.tar">com.woltlab.wcf.conversation</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 4" file="requirements/com.woltlab.wcf.infraction.tar">com.woltlab.wcf.infraction</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 7" file="requirements/com.woltlab.wcf.tar">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 5" file="requirements/com.woltlab.wcf.conversation.tar">com.woltlab.wcf.conversation</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 6" file="requirements/com.woltlab.wcf.infraction.tar">com.woltlab.wcf.infraction</requiredpackage>
 	</requiredpackages>
 	
 	<optionalpackages>
 		<optionalpackage file="optionals/com.woltlab.wcf.moderatedUserGroup.tar">com.woltlab.wcf.moderatedUserGroup</optionalpackage>
 		<optionalpackage file="optionals/com.woltlab.wcf.legalNotice.tar">com.woltlab.wcf.legalNotice</optionalpackage>
+		<optionalpackage file="optionals/com.woltlab.wcf.exporter.tar">com.woltlab.wcf.exporter</optionalpackage>
 	</optionalpackages>
 	
 	<instructions type="install">
@@ -50,16 +51,10 @@
 		<instruction type="cronjob">cronjob.xml</instruction>
 	</instructions>
 	
- <instructions type="update" fromversion="4.0.0 Beta 4">
-		<instruction type="file">files_update.tar</instruction>
+	<instructions type="update" fromversion="4.0.0 Beta 6">
 		<instruction type="acpTemplate">acptemplates_update.tar</instruction>
-		<instruction type="language">language/*.xml</instruction>
+		<instruction type="file">files_update.tar</instruction>
 		<instruction type="template">templates_update.tar</instruction>
-		<instruction type="style">blue-temptation-style.tgz</instruction>
-		
-		<instruction type="eventListener">eventListener.xml</instruction>
-		<instruction type="objectType">objectType.xml</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
-		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
 	</instructions>
 </package>

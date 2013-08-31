@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it" languagename="Italiano" countrycode="it">
-<!--Aggiornato al Luglio 28, 2013-->
+<!--Aggiornato al Agosto 28, 2013-->
 	<category name="wcf.acl">
 		<item name="wcf.acl.option.deny"><![CDATA[Negare]]></item>
 		<item name="wcf.acl.option.fullAccess"><![CDATA[Accesso completo]]></item>
@@ -20,15 +20,16 @@
 		<item name="wcf.acp.application.cookie"><![CDATA[Impostazioni Cookie]]></item>
 		<item name="wcf.acp.application.cookie.warning"><![CDATA[Le seguenti impostazioni vengono utilizzate per stabilire un accesso permanente sul vostro sito web; Ricordati di aggiornare questi valori ogni volta che cambi il nome di dominio o il percorso. Se non sei sicuro dei valori che è necessario fornire, è possibile copiare tranquillamente entrambi i valori da sopra.]]></item>
 		<item name="wcf.acp.application.cookieDomain"><![CDATA[Dominio Cookie]]></item>
-		<item name="wcf.acp.application.cookieDomain.error.containsPfad"><![CDATA[Il dominio cookie non può contenere il path del componente]]></item>
+		<item name="wcf.acp.application.cookieDomain.error.containsPath"><![CDATA[Il dominio cookie non può contenere il path del componente]]></item>
 		<item name="wcf.acp.application.cookieDomain.error.notValid"><![CDATA[Il dominio Cookie non corrisponde al dominio immesso sopra (sotto-domini come "www" possono essere omessi).]]></item>
 		<item name="wcf.acp.application.cookiePath"><![CDATA[Cookie Path]]></item>
 		<item name="wcf.acp.application.cookiePath.error.notValid"><![CDATA[Il Cookie path non coincide con il percorso del dominio sopra.]]></item>
 		<item name="wcf.acp.application.domain"><![CDATA[Impostazioni Dominio]]></item>
 		<item name="wcf.acp.application.domainName"><![CDATA[Dominio]]></item>
 		<item name="wcf.acp.application.domainName.description"><![CDATA[Se stai accedendo a questa applicazione attraverso "http://www.example.com/community/forum/", inserisci "www.example.com".]]></item>
-		<item name="wcf.acp.application.domainName.error.containsPfad"><![CDATA[Il dominio non può contenere il path del componente]]></item>
+		<item name="wcf.acp.application.domainName.error.containsPath"><![CDATA[Il dominio non può contenere il path del componente]]></item>
 		<item name="wcf.acp.application.domainPath"><![CDATA[Path]]></item>
+		<item name="wcf.acp.application.domainPath.error.conflict"><![CDATA[Questo percorso è già stato preso da applicazione “{$conflictApplication->getName()}”]]></item>
 		<item name="wcf.acp.application.domainPath.description"><![CDATA[Se stai accedendo a questa applicazione attraverso "http://www.example.com/community/forum/", inserisci "/community/forum/".]]></item>
 		<item name="wcf.acp.application.edit"><![CDATA[Modifica Applicazione]]></item>
 		<item name="wcf.acp.application.edit.title"><![CDATA[Modifica applicazione: “<a href="{link controller='Package' id=$application->packageID}{/link}">{$application->getPackage()->getName()}</a>”]]></item>
@@ -197,7 +198,9 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.dataImport.configure.settings.userMergeMode.1"><![CDATA[Rinomina utenti]]></item>
 		<item name="wcf.acp.dataImport.configure.settings.userMergeMode.2"><![CDATA[Unisci Utenti]]></item>
 		<item name="wcf.acp.dataImport.configure.settings.userMergeMode.3"><![CDATA[Unisci utenti con stessa email]]></item>
-		<item name="wcf.acp.dataImport.selectExporter.noExporters"><![CDATA[TODO: Es wurde keine Datenquelle für einen Datenimport gefunden.]]></item>
+		<item name="wcf.acp.dataImport.existingMapping.confirmMessage"><![CDATA[Vuoi davvero eliminare i mapping di importazione esistenti?]]></item
+		 <item name="wcf.acp.dataImport.existingMapping.notice"><![CDATA[Ci sono mapping di importazione creati da un precedente processo di importazione, questi mapping sono usati per gestire correttamente le connessioni tra i dati del forum importato e questa. Nel caso che hai importato tutti i dati desiderati, è possibile <a id="deleteMapping">eliminare</a> il mapping. Si raccomanda vivamente di tenere questi mapping fintanto che c'è ancora dati da importare, ora o in futuro.]]></item>
+		<item name="wcf.acp.dataImport.selectExporter.noExporters"><![CDATA[Non ci sono importatori di dati installati.]]></item>
 	</category>	
 	<category name="wcf.acp.exceptionLog">
 		<item name="wcf.acp.exceptionLog"><![CDATA[Log errori]]></item>
@@ -219,6 +222,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.group.add"><![CDATA[Aggiungi Gruppo utente]]></item>
 		<item name="wcf.acp.group.delete.sure"><![CDATA[Vuoi davvero eliminare il gruppo di utenti “{$group->groupName|language}”?]]></item>
 		<item name="wcf.acp.group.edit"><![CDATA[Modifica gruppo utente]]></item>
+		<item name="wcf.acp.group.option.editingOption"><![CDATA[Modifica impostazioni gruppo utente]]></item>
 		<item name="wcf.acp.group.edit.warning.selfIsMember"><![CDATA[Al momento siete un membro di questo gruppo utenti. Cambiare i permessi di accesso di questo gruppo potrebbe negarvi l'accesso al Pannello di Controllo dell'Amminstrazione. Prego fare attenzione!]]></item>
 		<item name="wcf.acp.group.group1"><![CDATA[Chiunque]]></item>
 		<item name="wcf.acp.group.group2"><![CDATA[Ospiti]]></item>
@@ -246,7 +250,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.group.option.admin.user.accessibleGroups.description"><![CDATA[Gli utenti di questo gruppo hanno accesso a questi gruppi, inoltre, è necessario specificare se è consentito a questi utenti di modificare questi gruppi.]]></item>
 		<item name="wcf.acp.group.option.admin.user.canAddGroup"><![CDATA[Può aggiungere gruppi di utenti]]></item>
 		<item name="wcf.acp.group.option.admin.user.canAddUser"><![CDATA[Può aggiungere utenti]]></item>
-		<item name="wcf.acp.group.option.admin.user.canAddUser.description"><![CDATA[Se qualche gruppo all'interno "Gruppi utenti accessibili" è selezionata, gli utenti possono assegnare questi gruppi agli utenti appena creati.]]></item>
+		<item name="wcf.acp.group.option.admin.user.canAddUser.description"><![CDATA[Se qualche gruppo allinterno "Gruppi utenti accessibili" è selezionata, gli utenti possono assegnare questi gruppi agli utenti appena creati.]]></item>
 		<item name="wcf.acp.group.option.admin.user.canDeleteGroup"><![CDATA[Può eliminare i gruppi utenti]]></item>
 		<item name="wcf.acp.group.option.admin.user.canDeleteUser"><![CDATA[Può eliminare gli utenti]]></item>
 		<item name="wcf.acp.group.option.admin.user.canEditGroup"><![CDATA[Può modificare i gruppi utenti]]></item>
@@ -352,6 +356,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.group.option.user.signature.maxLength"><![CDATA[Lunghezza massima della firma]]></item>
 		<item name="wcf.acp.group.option.admin.system.canImportData"><![CDATA[Può Importare i dati]]></item>
 		<item name="wcf.acp.group.option.admin.system.canRebuildData"><![CDATA[Può ricostruire i dati]]></item>
+		<item name="wcf.acp.group.description"><![CDATA[Descrizione]]></item>
+		<item name="wcf.acp.group.button.choose"><![CDATA[Cambia gruppo utente]]></item>
 	</category>
 	
 	<category name="wcf.acp.index">
@@ -364,6 +370,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.index.credits.trademarks"><![CDATA[“WoltLab&reg;” e “Burning Board&reg;” sono marchi registrati presso l'Ufficio per l'Armonizzazione nel Mercato Interno (UAMI) di Alicante, in Spagna.]]></item>
 		<item name="wcf.acp.index.credits.contributor.more"><![CDATA[Più informazioni]]></item>
 		<item name="wcf.acp.index.inRescueMode"><![CDATA[Si accede a questa installazione da un dominio sconosciuto, forse causata dal passaggio ad un nuovo host. Si prega di aggiornare le impostazioni di <a href="{link controller='ApplicationManagement'}{/link}">Gestisci Applicazioni</a>.]]></item>
+		<item name="wcf.acp.index.innoDBWarning"><![CDATA[L´opzione di configurazione di MySQL “innodb_flush_log_at_trx_commit” è settato su “1”, rallentare determinate query di database. Si consiglia vivamente di impostare il suo valore a "2".]]></item>
 		<item name="wcf.acp.index.news"><![CDATA[Novità]]></item>
 		<item name="wcf.acp.index.setup.notice"><![CDATA[L´installazione sarà continuata nel giro di pochi istanti, si prega di non ricaricare la pagina.]]></item>
 		<item name="wcf.acp.index.setup.title"><![CDATA[Attendere prego]]></item>
@@ -605,6 +612,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.http_enable_no_cache_headers.description"><![CDATA[Previene la cache del browser assicurando che gli utenti visualizzino sempre i contenuti più recenti. Aumenta il traffico e il carico del server.]]></item>
 		<item name="wcf.acp.option.http_gzip_level"><![CDATA[Livello compressione gzip]]></item>
 		<item name="wcf.acp.option.http_gzip_level.description"><![CDATA[Valori compresi tra 1 e 9 sono validi, si consiglia di utilizzare "1" per una buona compressione senza causare sovraccarico del server.]]></item>
+		<item name="wcf.acp.option.http_send_x_frame_options"><![CDATA[Nega l´embedding nel frame]]></item>
+		<item name="wcf.acp.option.http_send_x_frame_options.description"><![CDATA[Invia il <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'http://it.wikipedia.org/wiki/Clickjacking'|rawurlencode}" class="externalURL">“Opzioni X-Frame”</a> intestazione per evitare siti 3a parte da incorporare questo sito in una cornice (invio “SAMEORIGIN”).]]></item>
 		<item name="wcf.acp.option.image_adapter_type"><![CDATA[Libreria Grafica]]></item>
 		<item name="wcf.acp.option.image_adapter_type.gd"><![CDATA[Libreria GD (predefinito)]]></item>
 		<item name="wcf.acp.option.image_adapter_type.imagick"><![CDATA[ImageMagick]]></item>
@@ -709,16 +718,16 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.enable_share_buttons"><![CDATA[Mostra pulsante di condivisione dei contenuti]]></item>
 		<item name="wcf.acp.option.share_buttons_show_count"><![CDATA[Mostra numero di condivisioni]]></item>
 		<item name="wcf.acp.option.github_public_key"><![CDATA[GitHub Client ID]]></item>
-		<item name="wcf.acp.option.github_public_key.description"><![CDATA[Puoi ottenre il tuo Client ID e il tuo client secret su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://github.com/settings/applications'|rawurlencode}" class="externalURL">GitHub</a>.]]></item>
+		<item name="wcf.acp.option.github_public_key.description"><![CDATA[Puoi ottenre il tuo Client ID e il tuo client secret su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://github.com/settings/applications'|rawurlencode}" class="externalURL">GitHub</a>.  L'URL è: {link controller="GithubAuth" forceFrontend=true appendSession=false}{/link}]]></item>
 		<item name="wcf.acp.option.github_private_key"><![CDATA[GitHub Client Secret]]></item>
 		<item name="wcf.acp.option.twitter_public_key"><![CDATA[Twitter Consumer key]]></item>
-		<item name="wcf.acp.option.twitter_public_key.description"><![CDATA[È possibile ottenere sia la chiave dei consumatori e segreta dei consumatori su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://dev.twitter.com/apps'|rawurlencode}" class="externalURL">Twitter</a>.]]></item>
+		<item name="wcf.acp.option.twitter_public_key.description"><![CDATA[È possibile ottenere sia la chiave dei consumatori e segreta dei consumatori su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://dev.twitter.com/apps'|rawurlencode}" class="externalURL">Twitter</a>. L'url è: {link controller="TwitterAuth" forceFrontend=true appendSession=false}{/link}]]></item>
 		<item name="wcf.acp.option.twitter_private_key"><![CDATA[Twitter Consumer secret]]></item>
 		<item name="wcf.acp.option.facebook_public_key"><![CDATA[Facebook APP-ID]]></item>
-		<item name="wcf.acp.option.facebook_public_key.description"><![CDATA[È possibile ottenere la vostra APP-ID e l’applicazione segreta su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://developers.facebook.com/apps'|rawurlencode}" class="externalURL">Facebook</a>.]]></item>
+		<item name="wcf.acp.option.facebook_public_key.description"><![CDATA[È possibile ottenere la vostra APP-ID e l’applicazione segreta su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://developers.facebook.com/apps'|rawurlencode}" class="externalURL">Facebook</a>. L´url è: {link controller="FacebookAuth" forceFrontend=true appendSession=false}{/link}]]></item>
 		<item name="wcf.acp.option.facebook_private_key"><![CDATA[Facebook Application Secret]]></item>
 		<item name="wcf.acp.option.google_public_key"><![CDATA[Google Client ID]]></item>
-		<item name="wcf.acp.option.google_public_key.description"><![CDATA[È possibile ottenere il vostro ID cliente e Segreto Cliente su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://code.google.com/apis/console/'|rawurlencode}" class="externalURL">Google</a>.]]></item>
+		<item name="wcf.acp.option.google_public_key.description"><![CDATA[È possibile ottenere il vostro ID cliente e Segreto Cliente su <a href="{@$__wcf->getPath()}acp/dereferrer.php?url={'https://code.google.com/apis/console/'|rawurlencode}" class="externalURL">Google</a>. L'url è: {link controller="GoogleAuth" forceFrontend=true appendSession=false}{/link}]]></item>
 		<item name="wcf.acp.option.google_private_key"><![CDATA[Google Client Secret]]></item>
 		<item name="wcf.acp.option.category.dashboard"><![CDATA[Dashboard]]></item>
 		<item name="wcf.acp.option.category.dashboard.content"><![CDATA[Area contenuti]]></item>
@@ -875,7 +884,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.install.error.excludedPackages.excludedPackage"><![CDATA[“{$excludedPackage}” ({$excludedPackage->package}){if $excludedPackage->excludedPackageVersion} (Versioni escluse: {$excludedPackage->excludedPackageVersion}, Versione installata: {$excludedPackage->packageVersion}){/if}]]></item>
 		<item name="wcf.acp.package.install.error.excludingPackages"><![CDATA[Questi pacchetti già installati, vietano l'installazione di questo pacchetto:]]></item>
 		<item name="wcf.acp.package.install.error.excludingPackages.excludingPackage"><![CDATA[“{$excludingPackage}” ({$excludingPackage->package}){if $excludingPackage->excludedPackageVersion} (Versioni escluse: {$excludingPackage->excludedPackageVersion}){/if}]]></item>
-		<item name="wcf.acp.package.install.error.missingRequirements"><![CDATA[Non si soddisfano le richieste di questo pacchetto.]]></item>
+		<item name="wcf.acp.package.install.error.missingRequirements"><![CDATA[Non si soddisfano le richieste di questo pacchetto.]]></item><item name="wcf.acp.package.install.optionalPackage.missingRequirements"><![CDATA[Impossibile installare, alcuni o tutti i pacchetti richiesti non sono installati.]]></item>
 		<item name="wcf.acp.package.install.confirmMessage"><![CDATA[Vuoi veramente installare il pacchetto “{@$package->getName()}”?]]></item>
 		<item name="wcf.acp.package.install.title"><![CDATA[Installazione]]></item>
 		<item name="wcf.acp.package.install.step.prepare"><![CDATA[Preparazione all´installazione]]></item>
@@ -912,6 +921,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.uninstallation.title.packageName"><![CDATA[Il Pacchetto “{$queue->packageName}” sta per essere disinstallato…]]></item>
 		<item name="wcf.acp.package.updateDate"><![CDATA[Data Aggiornamento]]></item>
 		<item name="wcf.acp.package.update.credentials"><![CDATA[Credenziali]]></item>
+		<item name="wcf.acp.package.update.error.listNotFound"><![CDATA[L'elenco dei pacchetti non può essere recuperata]]></item>
 		<item name="wcf.acp.package.update.errorCode.401"><![CDATA[Le credenziali non sono valide, si prega di verificare {if $updateServer->requiresLicense()}licenza e numero di serie{else}username e password{/if}.]]></item>
 		<item name="wcf.acp.package.update.errorCode.403"><![CDATA[Non hai il permesso di accedere a questo pacchetto.]]></item>
 		<item name="wcf.acp.package.update.licenseNo"><![CDATA[Numero Licenza]]></item>
@@ -967,6 +977,8 @@ Esempi di rilevamento medium ID :
     <item name="wcf.acp.rebuildData.com.woltlab.wcf.user.description"><![CDATA[Ricostruisci counter utenti e livello]]></item>
     <item name="wcf.acp.rebuildData.com.woltlab.wcf.like"><![CDATA[Ricostruisci "Mi Piace"]]></item>
     <item name="wcf.acp.rebuildData.com.woltlab.wcf.like.description"><![CDATA[Sincronizza punti attività]]></item>
+	<item name="wcf.acp.rebuildData.com.woltlab.wcf.like.user"><![CDATA[Ricalcola mi piace degli utenti]]></item>
+	<item name="wcf.acp.rebuildData.com.woltlab.wcf.like.user.description"><![CDATA[Ricalcola la lista dei mi piace degli utenti]]></item>
     <item name="wcf.acp.rebuildData.com.woltlab.wcf.attachment"><![CDATA[Ricostruisci allegati]]></item>
     <item name="wcf.acp.rebuildData.com.woltlab.wcf.attachment.description"><![CDATA[Ricostruisci anteprima allegati]]></item>
    </category>
@@ -987,7 +999,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.updateServer.edit"><![CDATA[Modifica Server]]></item>
 		<item name="wcf.acp.updateServer.errorMessage"><![CDATA[Messaggio di Errore]]></item>
 		<item name="wcf.acp.updateServer.list"><![CDATA[Server D’aggiornamento]]></item>
-		<item name="wcf.acp.updateServer.lastErrorText"><![CDATA[Errori durante il tentativo di connessione scorso:]]></item>
+		<item name="wcf.acp.updateServer.lastErrorMessage"><![CDATA[Errori durante il tentativo di connessione scorso:]]></item>
 		<item name="wcf.acp.updateServer.loginPassword"><![CDATA[Password]]></item>
 		<item name="wcf.acp.updateServer.loginPassword.description"><![CDATA[Autenticazione Password (opzionale)]]></item>
 		<item name="wcf.acp.updateServer.loginUsername"><![CDATA[Username]]></item>
@@ -1086,7 +1098,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.general.files"><![CDATA[Anteprima immagine]]></item>
 		<item name="wcf.acp.style.globals"><![CDATA[Globale]]></item>
 		<item name="wcf.acp.style.globals.fixedLayoutWidth"><![CDATA[Larghezza]]></item>
-		<item name="wcf.acp.style.globals.fluidLayoutGap"><![CDATA[Margine pagina orizzontale]]></item>
+		<item name="wcf.acp.style.globals.fluidLayoutMinWidth"><![CDATA[TODO: Mindestbreite]]></item>
+		<item name="wcf.acp.style.globals.fluidLayoutMaxWidth"><![CDATA[TODO: Höchstbreite]]></item>
 		<item name="wcf.acp.style.globals.font"><![CDATA[Font]]></item>
 		<item name="wcf.acp.style.globals.fontFamily"><![CDATA[Font]]></item>
 		<item name="wcf.acp.style.globals.fontSize"><![CDATA[Grandezza Font]]></item>
@@ -1190,6 +1203,10 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.user.list"><![CDATA[Utenti]]></item>
 		<item name="wcf.acp.user.list.all"><![CDATA[Tutti gli utenti]]></item>
 		<item name="wcf.acp.user.list.count"><![CDATA[{#$items} Utenti]]></item>
+		<item name="wcf.acp.user.merge"><![CDATA[Unisci utenti]]></item>
+		<item name="wcf.acp.user.merge.destination"><![CDATA[Destinazione]]></item>
+		<item name="wcf.acp.user.merge.destination.description"><![CDATA[Gli utenti selezionati saranno fusi in questo account utente.]]></item>
+		<item name="wcf.acp.user.merge.markedUsers"><![CDATA[Unisci utenti follower]]></item>
 		<item name="wcf.acp.user.bulkProcessing"><![CDATA[Processo completo degli utenti]]></item>
 		<item name="wcf.acp.user.bulkProcessing.action"><![CDATA[Azioni]]></item>
 		<item name="wcf.acp.user.bulkProcessing.conditions"><![CDATA[Condizioni]]></item>
@@ -1337,6 +1354,10 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	</category>
 	
 	<category name="wcf.bbcode">
+	    <item name="wcf.bbcode.button.code"><![CDATA[Code]]></item>
+	    <item name="wcf.bbcode.button.inlineCode"><![CDATA[Inline-Code]]></item>
+	    <item name="wcf.bbcode.button.quote"><![CDATA[Quote]]></item>
+	    <item name="wcf.bbcode.button.spoiler"><![CDATA[Spoiler]]></item>
 		<item name="wcf.bbcode.code.text"><![CDATA[{@$highlighterTitle} ({#$lines} righe]]></item>
 		<item name="wcf.bbcode.code.bash.title"><![CDATA[Shell-Script]]></item>
 		<item name="wcf.bbcode.code.brainfuck.title"><![CDATA[Brainfuck Source Code]]></item>
@@ -1369,9 +1390,11 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.category.noneAvailable"><![CDATA[Non ci sono categorie.]]></item>
 		<item name="wcf.category.parentCategoryID"><![CDATA[Categoria Genitore]]></item>
 		<item name="wcf.category.parentCategoryID.error.notValid"><![CDATA[La categoria scelta non esiste.]]></item>
+		<item name="wcf.category.position"><![CDATA[Posizione]]></item>
 		<item name="wcf.category.showOrder"><![CDATA[Posizione]]></item>
 		<item name="wcf.category.description"><![CDATA[Descrizione]]></item>
 		<item name="wcf.category.title"><![CDATA[Titolo]]></item>
+		<item name="wcf.category.button.choose"><![CDATA[Cambia categoria]]></item>
 	</category>
 	
 	<category name="wcf.clipboard">
@@ -1593,6 +1616,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	</category>
 	
 	<category name="wcf.global">
+	<item name="wcf.global.availableUpdates"><![CDATA[Ci sono <a href="{link controller='PackageUpdate' isACP=true}{/link}">Aggiornamenti</a> per i pacchetti installati.]]></item>
 		<item name="wcf.global.button.add"><![CDATA[Aggiungi]]></item>
 		<item name="wcf.global.button.back"><![CDATA[&laquo; Indietro]]></item>
 		<item name="wcf.global.button.cancel"><![CDATA[Cancella]]></item>
@@ -1618,6 +1642,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.confirmation.title"><![CDATA[Conferma Richiesta]]></item>
 		<item name="wcf.global.decimalPoint"><![CDATA[.]]></item>
 		<item name="wcf.global.description"><![CDATA[Descrizione]]></item>
+		<item name="wcf.global.error.exception"><![CDATA[Si prega di inviare l'ID sopra per l'amministratore del sito.<br />Il messaggio di errore può essere visualizzato su “ACP » Logs » Errori”.]]></item>
 		<item name="wcf.global.error.permissionDenied"><![CDATA[Accesso negato. Non sei autorizzato a visualizzare questa pagina.]]></item>
 		<item name="wcf.global.error.permissionDenied.title"><![CDATA[Accesso negato.]]></item>
 		<item name="wcf.global.error.timeout"><![CDATA[Non hai ricevuto una risposta dal server, interruzione ordine.]]></item>
@@ -1625,10 +1650,6 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.success"><![CDATA[L’azione è stata completata con successo.]]></item>
 		<item name="wcf.global.success.add"><![CDATA[La voce è stata salvata.]]></item>
 		<item name="wcf.global.success.edit"><![CDATA[Le modifiche sono state salvate.]]></item>
-		<item name="wcf.global.form.data"><![CDATA[Informazioni Generali]]></item>
-		<item name="wcf.global.form.error"><![CDATA[Correggere i campi contrassegnati erronei sotto.]]></item>
-		<item name="wcf.global.form.error.empty"><![CDATA[Si prega di compilare questo campo.]]></item>
-		<item name="wcf.global.form.error.multilingual"><![CDATA[Si prega di compilare questo campo per tutte le lingue.]]></item>
 		<item name="wcf.global.language.noSelection"><![CDATA[Nessuna selezione]]></item>
 		<item name="wcf.global.loading"><![CDATA[Carico…]]></item>
 		<item name="wcf.global.name"><![CDATA[Nome]]></item>
@@ -1665,6 +1686,17 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.noItems"><![CDATA[Non ci sono elementi.]]></item>
 	</category>
 	
+	<category name="wcf.global.form">
+		<item name="wcf.global.form.data"><![CDATA[Informazioni Generali]]></item>
+		<item name="wcf.global.form.error"><![CDATA[Correggere i campi contrassegnati erronei sotto.]]></item>
+		<item name="wcf.global.form.error.empty"><![CDATA[Si prega di compilare questo campo.]]></item>
+		<item name="wcf.global.form.error.greaterThan"><![CDATA[Il valore immesso deve essere maggiore di {#$greaterThan}.]]></item>
+		<item name="wcf.global.form.error.greaterThan.javaScript"><![CDATA[{literal} Il valore immesso  deve essere maggiore di {#$greaterThan}.{/literal}]]></item>
+		<item name="wcf.global.form.error.lessThan"><![CDATA[Il valore immesso deve essere minore di {#$lessThan}.]]></item>
+		<item name="wcf.global.form.error.lessThan.javaScript"><![CDATA[{literal}Il valore immesso deve essere minore di {#$lessThan}.{/literal}]]></item>
+		<item name="wcf.global.form.error.multilingual"><![CDATA[Si prega di compilare questo campo per tutte le lingue.]]></item>
+	</category>		
+			
 	<category name="wcf.imageViewer">
 		<item name="wcf.imageViewer.close"><![CDATA[Chiudi]]></item>
 		<item name="wcf.imageViewer.counter"><![CDATA[{literal}Immagine {x} di {y}{/literal}]]></item>
@@ -1865,6 +1897,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.style.colorPicker.new"><![CDATA[Nuovo]]></item>
 		<item name="wcf.style.colorPicker.current"><![CDATA[Attuale]]></item>
 		<item name="wcf.style.currentStyle"><![CDATA[Stile Corrente]]></item>
+		<item name="wcf.style.colorPicker.button.apply"><![CDATA[Applica]]></item>
 	</category>
 	
 	<category name="wcf.tagging">
