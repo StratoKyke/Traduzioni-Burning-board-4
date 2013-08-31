@@ -198,8 +198,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.dataImport.configure.settings.userMergeMode.1"><![CDATA[Rinomina utenti]]></item>
 		<item name="wcf.acp.dataImport.configure.settings.userMergeMode.2"><![CDATA[Unisci Utenti]]></item>
 		<item name="wcf.acp.dataImport.configure.settings.userMergeMode.3"><![CDATA[Unisci utenti con stessa email]]></item>
-		<item name="wcf.acp.dataImport.existingMapping.confirmMessage"><![CDATA[Vuoi davvero eliminare i mapping di importazione esistenti?]]></item
-		 <item name="wcf.acp.dataImport.existingMapping.notice"><![CDATA[Ci sono mapping di importazione creati da un precedente processo di importazione, questi mapping sono usati per gestire correttamente le connessioni tra i dati del forum importato e questa. Nel caso che hai importato tutti i dati desiderati, è possibile <a id="deleteMapping">eliminare</a> il mapping. Si raccomanda vivamente di tenere questi mapping fintanto che c'è ancora dati da importare, ora o in futuro.]]></item>
+		<item name="wcf.acp.dataImport.existingMapping.confirmMessage"><![CDATA[Vuoi davvero eliminare i mapping di importazione esistenti?]]></item>
+		<item name="wcf.acp.dataImport.existingMapping.notice"><![CDATA[Ci sono mapping di importazione creati da un precedente processo di importazione, questi mapping sono usati per gestire correttamente le connessioni tra i dati del forum importato e questa. Nel caso che hai importato tutti i dati desiderati, è possibile <a id="deleteMapping">eliminare</a> il mapping. Si raccomanda vivamente di tenere questi mapping fintanto che c'è ancora dati da importare, ora o in futuro.]]></item>
 		<item name="wcf.acp.dataImport.selectExporter.noExporters"><![CDATA[Non ci sono importatori di dati installati.]]></item>
 	</category>	
 	<category name="wcf.acp.exceptionLog">

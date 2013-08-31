@@ -4,10 +4,10 @@
 		<packagename>Moderated User Groups</packagename>
 		<packagename language="it">Gruppi Utenti Moderazione</packagename>
 		<packagename language="de">Moderierte Benutzergruppen</packagename>
-		<packagedescription><![CDATA[Moderated User Groups allows the user to send applicatins to join a user group.]]></packagedescription>
+		<packagedescription><![CDATA[Moderated User Groups allows the user to send applications to join a user group.]]></packagedescription>
 		<packagedescription language="it"><![CDATA[Moderazione Gruppi di utenti consente allutente di inviare le domande per partecipare a un gruppo di utenti.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Moderierte Benutzergruppen ermöglichen Gruppenbewerbungen für den Benutzer.]]></packagedescription>
-		version>2.0.0 Beta 4</version>
+		<version>2.0.0 Beta 4</version>
 		<date>2013-07-30</date>
 	</packageinformation>
 	

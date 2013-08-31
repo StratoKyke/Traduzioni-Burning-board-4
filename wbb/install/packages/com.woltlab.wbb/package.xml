@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="com.woltlab.wbb" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
-	<!--Luglio 28, 2013-->
 		<packagename>WoltLab Burning Board</packagename>
 		<packagedescription>Burning Board is the modern, secure and user friendly solution for your discussion board!</packagedescription>
 		<packagedescription language="it">Burning Board è la soluzione amichevole, moderna, sicura e facile per il vostro forum! Traduzione in Italiano di Salvatore Mazzullo e Inforge.net</packagedescription>
 		<isapplication>1</isapplication>
-		<version>4.0.0 Beta 5</version>
-		<date>2013-07-27</date>
+		<version>4.0.0 Beta 7</version>
+		<date>2013-08-18</date>
 	</packageinformation>
 	
 	<authorinformation>
