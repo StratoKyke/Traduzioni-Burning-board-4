@@ -3,6 +3,7 @@
 	<packageinformation>
 		<packagename>WoltLab Community Blog</packagename>
 		<packagedescription>Community Blog is the modern, secure and user friendly solution for your blog!</packagedescription>
+		<packagedescription language="it">Community Blog è la soluzione amichevole, moderna, sicura e facile per il tuo blog!</packagedescription>
 		<isapplication>1</isapplication>
 		<version>2.0.0 Beta 1</version>
 		<date>2013-08-18</date>
