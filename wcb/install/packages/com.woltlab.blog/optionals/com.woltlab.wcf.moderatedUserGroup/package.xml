@@ -2,8 +2,10 @@
 <package name="com.woltlab.wcf.moderatedUserGroup" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename>Moderated User Groups</packagename>
+		<packagename language="it">Gruppi Utenti Moderazione</packagename>
 		<packagename language="de">Moderierte Benutzergruppen</packagename>
 		<packagedescription><![CDATA[Moderated User Groups allows the user to send applications to join a user group.]]></packagedescription>
+		<packagedescription language="it"><![CDATA[Moderazione Gruppi di utenti consente allutente di inviare le domande per partecipare a un gruppo di utenti.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Moderierte Benutzergruppen ermöglichen Gruppenbewerbungen für den Benutzer.]]></packagedescription>
 		<version>2.0.0 Beta 4</version>
 		<date>2013-07-30</date>
