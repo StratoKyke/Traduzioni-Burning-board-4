@@ -92,7 +92,7 @@
 		<item name="blog.index.stats.detail"><![CDATA[{#$stats[authors]} Autori - {#$stats[entries]} Articoli ({#$stats[entriesPerDay]} Articoli per giorno) - {#$stats[comments]} Commenti]]></item>
 		<item name="blog.index.evaluation"><![CDATA[Questo software è una versione di prova. Il tempo di esecuzione è limitata fino al <strong>{@BLOG_EVALUATION_END|plainTime}</strong>{if BLOG_EVALUATION_END > TIME_NOW} ({@BLOG_EVALUATION_END|dateDiff:TIME_NOW}){/if}.
 		Per un uso legale di questo software oltre tale limite di tempo è necessario  <a href="http://www.woltlab.com">comprare la licenza</a>, o cancellare immediatamente il software.]]></item>
-		<item name="blog.index.copyright"><![CDATA[<a href="http://www.woltlab.com"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Blog-Software: <strong>WoltLab Community Blog&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> Tradotto in lingua italiana dal gruppo coder di <a href="http://www.inforge.net">Inforge</a> e <a href="http://www.salvatoremazzullo.com">Salvatore Mazzullo</a> ]]></item>
+		<item name="blog.index.copyright"><![CDATA[<a href="http://www.woltlab.com"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Blog-Software: <strong>WoltLab Community Blog&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> Tradotto in italiano da <a href="http://www.salvatoremazzullo.com">Salvatore Mazzullo</a> e  <a href="http://www.inforge.net">Inforge</a>]]></item>
 	</category>
 	
 	<category name="wcf.acl.option">
