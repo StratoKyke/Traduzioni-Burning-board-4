@@ -5,8 +5,8 @@
 		<packagedescription>Community Blog is the modern, secure and user friendly solution for your blog!</packagedescription>
 		<packagedescription language="it">Community Blog è la soluzione amichevole, moderna, sicura e facile per il tuo blog!</packagedescription>
 		<isapplication>1</isapplication>
-		<version>2.0.0 Beta 1</version>
-		<date>2013-08-18</date>
+		<version>2.0.0 Beta 2</version>
+		<date>2013-09-06</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -15,9 +15,9 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 7" file="requirements/com.woltlab.wcf.tar">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 5" file="requirements/com.woltlab.wcf.conversation.tar">com.woltlab.wcf.conversation</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 6" file="requirements/com.woltlab.wcf.infraction.tar">com.woltlab.wcf.infraction</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 8" file="requirements/com.woltlab.wcf.tar">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 6" file="requirements/com.woltlab.wcf.conversation.tar">com.woltlab.wcf.conversation</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 7" file="requirements/com.woltlab.wcf.infraction.tar">com.woltlab.wcf.infraction</requiredpackage>
 	</requiredpackages>
 	
 	<optionalpackages>
@@ -45,7 +45,14 @@
 		
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="script">acp/install_com.woltlab.blog_2.0.0.php</instruction>
-		<instruction type="style">blue-temptation-style.tgz</instruction>
 		<instruction type="acpTemplate">acptemplates.tar</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0 Beta 1">
+		<instruction type="file">files_update.tar</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="template">templates_update.tar</instruction>
+		
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
 	</instructions>
 </package>

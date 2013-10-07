@@ -421,7 +421,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.language.export.allPackages"><![CDATA[Tutti i pacchetti]]></item>
 		<item name="wcf.acp.language.export.customValues"><![CDATA[Includi elementi personalizzati]]></item>
 		<item name="wcf.acp.language.export.selectPackages"><![CDATA[Pacchetti]]></item>
-		<item name="wcf.acp.language.import.error"><![CDATA[Errore durante l'importazione della lingua:]]></item>
+		<item name="wcf.acp.language.import.error"><![CDATA[Errore durante limportazione della lingua:]]></item>
 		<item name="wcf.acp.language.import.source.file"><![CDATA[Percorso dei file lingua]]></item>
 		<item name="wcf.acp.language.import.source.file.description"><![CDATA[Immettere il percorso relativo a un file di linguaggio XML valido.]]></item>
 		<item name="wcf.acp.language.import.source.upload"><![CDATA[Carica file lingua]]></item>
@@ -451,8 +451,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.masterPassword"><![CDATA[Master Password]]></item>
 		<item name="wcf.acp.masterPassword.confirm"><![CDATA[Conferma Master Password]]></item>
 		<item name="wcf.acp.masterPassword.enter"><![CDATA[Richiesta Master Password]]></item>
-		<item name="wcf.acp.masterPassword.enter.description"><![CDATA[La pagina o l’azione richiede la password principale per ragioni di sicurezza, la password verrà ricordato per la sessione corrente. Nel caso in cui hai dimenticato la password, resetta rimuovendo il file <em>{@RELATIVE_WCF_DIR}acp/masterPassword.inc.php</em>.]]></item>
-		<item name="wcf.acp.masterPassword.error.invalid"><![CDATA[La password non è corretta. Nel caso in cui hai dimenticato la password, resettare rimuovendo il file <em>{@RELATIVE_WCF_DIR}acp/masterPassword.inc.php</em>.]]></item>
+		<item name="wcf.acp.masterPassword.enter.description"><![CDATA[La pagina o l’azione richiede la password principale per ragioni di sicurezza, la password verrà ricordato per la sessione corrente. Nel caso in cui hai dimenticato la password, resetta rimuovendo il file <em>{@$__wcf->getPath()}acp/masterPassword.inc.php</em></em>.]]></item>
+		<item name="wcf.acp.masterPassword.error.notValid"><![CDATA[La password non è corretta. Nel caso in cui hai dimenticato la password, resettare rimuovendo il file <em>{@$__wcf->getPath()}acp/masterPassword.inc.php</em>.]]></item>
 		<item name="wcf.acp.masterPassword.error.notEqual"><![CDATA[Le password non corrispondono.]]></item>
 		<item name="wcf.acp.masterPassword.error.notSecure"><![CDATA[La password è considerata non sicura. Dovrebbe essere di almeno 8 caratteri, contenente lettere maiuscole e minuscole, numeri e simboli speciali.]]></item>
 		<item name="wcf.acp.masterPassword.example"><![CDATA[Suggerimento]]></item>
@@ -1098,8 +1098,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.general.files"><![CDATA[Anteprima immagine]]></item>
 		<item name="wcf.acp.style.globals"><![CDATA[Globale]]></item>
 		<item name="wcf.acp.style.globals.fixedLayoutWidth"><![CDATA[Larghezza]]></item>
-		<item name="wcf.acp.style.globals.fluidLayoutMinWidth"><![CDATA[TODO: Mindestbreite]]></item>
-		<item name="wcf.acp.style.globals.fluidLayoutMaxWidth"><![CDATA[TODO: Höchstbreite]]></item>
+		<item name="wcf.acp.style.globals.fluidLayoutMinWidth"><![CDATA[Larghezza Minima]]></item>
+		<item name="wcf.acp.style.globals.fluidLayoutMaxWidth"><![CDATA[Larghezza Massima]]></item>
 		<item name="wcf.acp.style.globals.font"><![CDATA[Font]]></item>
 		<item name="wcf.acp.style.globals.fontFamily"><![CDATA[Font]]></item>
 		<item name="wcf.acp.style.globals.fontSize"><![CDATA[Grandezza Font]]></item>
@@ -1679,6 +1679,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.error.backward"><![CDATA[Torna alla pagina precedente]]></item>
 		<item name="wcf.global.noDeclaration"><![CDATA[Non specificato]]></item>
 		<item name="wcf.global.defaultValue"><![CDATA[Valore predefinito]]></item>
+		<item name="wcf.global.noSelection"><![CDATA[(Nessuna selezione)]]></item>
 		<item name="wcf.global.acp"><![CDATA[Pannello di Amministrazione]]></item>
 		<item name="wcf.global.acp.short"><![CDATA[Amministrazione]]></item>
 		<item name="wcf.global.worker.executing"><![CDATA[Esecuzione …]]></item>
@@ -1688,7 +1689,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	
 	<category name="wcf.global.form">
 		<item name="wcf.global.form.data"><![CDATA[Informazioni Generali]]></item>
-		<item name="wcf.global.form.error"><![CDATA[Correggere i campi contrassegnati erronei sotto.]]></item>
+		<item name="wcf.global.form.error"><![CDATA[Correggere i campi contrassegnati in rosso sotto.]]></item>
 		<item name="wcf.global.form.error.empty"><![CDATA[Si prega di compilare questo campo.]]></item>
 		<item name="wcf.global.form.error.greaterThan"><![CDATA[Il valore immesso deve essere maggiore di {#$greaterThan}.]]></item>
 		<item name="wcf.global.form.error.greaterThan.javaScript"><![CDATA[{literal} Il valore immesso  deve essere maggiore di {#$greaterThan}.{/literal}]]></item>

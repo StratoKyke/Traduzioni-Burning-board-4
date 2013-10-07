@@ -5,13 +5,13 @@
 		<item name="blog.acp.menu.link.blog.category.list"><![CDATA[Lista Categorie]]></item>
 		<item name="blog.acp.menu.link.blog.category.add"><![CDATA[Aggiungi Categoria]]></item>
 	</category>
-	
+
 	<category name="blog.header">
 		<item name="blog.header.menu.blog"><![CDATA[Blog]]></item>
 		<item name="blog.header.menu.unreadEntries"><![CDATA[Articoli Non Letti]]></item>
 		<item name="blog.header.menu.watchedEntries"><![CDATA[Articoli Visitati]]></item>
 	</category>
-	
+
 	<category name="blog.entry">
 		<item name="blog.entry.add"><![CDATA[Aggiungi Articolo blog]]></item>
 		<item name="blog.entry.button.add"><![CDATA[Crea Articolo]]></item>
@@ -77,7 +77,7 @@
 		<item name="blog.entry.message"><![CDATA[Messaggi]]></item>
 		<item name="blog.entry.unreadEntries"><![CDATA[Articoli non letti]]></item>
 	</category>
-	
+
 	<category name="blog.user">
 		<item name="blog.user.usersOnline.location.BlogPage"><![CDATA[Lista Blog]]></item>
 		<item name="blog.user.usersOnline.location.EntryPage"><![CDATA[<a href="{link controller='Entry' application='blog' object=$entry}{/link}" class="blogEntryLink" data-entry-id="{@$entry->entryID}">Articolo “{$entry->subject}”</a>]]></item>
@@ -86,7 +86,7 @@
 		<item name="blog.user.usersOnline.location.EntryListPage.categorizedEntries"><![CDATA[<a href="{link controller='EntryList' application='blog' object=$category}{/link}">Articoli della categoria “{$category->getTitle()}”</a>]]></item>
 		<item name="blog.user.usersOnline.location.EntryListPage.userEntries"><![CDATA[<a href="{link controller='EntryList' application='blog'}userID={@$user->userID}{/link}">Articoli di “{$user->username}”</a>]]></item>
 	</category>
-	
+
 	<category name="blog.index">
 		<item name="blog.index.stats"><![CDATA[Statistiche]]></item>
 		<item name="blog.index.stats.detail"><![CDATA[{#$stats[authors]} Autori - {#$stats[entries]} Articoli ({#$stats[entriesPerDay]} Articoli per giorno) - {#$stats[comments]} Commenti]]></item>
@@ -94,12 +94,12 @@
 		Per un uso legale di questo software oltre tale limite di tempo è necessario  <a href="http://www.woltlab.com">comprare la licenza</a>, o cancellare immediatamente il software.]]></item>
 		<item name="blog.index.copyright"><![CDATA[<a href="http://www.woltlab.com"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Blog-Software: <strong>WoltLab Community Blog&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> Tradotto in italiano da <a href="http://www.salvatoremazzullo.com">Salvatore Mazzullo</a> e  <a href="http://www.inforge.net">Inforge</a>]]></item>
 	</category>
-	
+
 	<category name="wcf.acl.option">
 		<item name="wcf.acl.option.com.woltlab.blog.category.canViewCategory"><![CDATA[Può vedere le categorie]]></item>
 		<item name="wcf.acl.option.com.woltlab.blog.category.canUseCategory"><![CDATA[Può aggiungere voci nelle categorie]]></item>
 	</category>
-	
+
 	<category name="wcf.acp.dataImport">
 		<item name="wcf.acp.dataImport.data.com.woltlab.blog.entry"><![CDATA[Articoli Blog]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.blog.category"><![CDATA[Categorie Blog]]></item>
@@ -107,7 +107,7 @@
 		<item name="wcf.acp.dataImport.data.com.woltlab.blog.entry.comment"><![CDATA[Commenti Blog]]></item>
 		<item name="wcf.acp.dataImport.data.com.woltlab.blog.entry.like"><![CDATA[Mi piace Blog]]></item>
 	</category>
-	
+
 	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.user.blog"><![CDATA[Blog]]></item>
 		<item name="wcf.acp.group.option.category.mod.blog"><![CDATA[Blog]]></item>
@@ -136,15 +136,17 @@
 		<item name="wcf.acp.group.option.mod.blog.canModerateComment"><![CDATA[Può moderare i commenti degli articoli]]></item>
 		<item name="wcf.acp.group.option.admin.blog.canManageCategory"><![CDATA[Può gestire le categorie]]></item>
 	</category>
-	
+
 	<category name="wcf.acp.index">
 		<item name="wcf.acp.index.system.software.blogVersion"><![CDATA[Versione Community Blog&trade; ]]></item>
 	</category>
-	
+
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.blog"><![CDATA[Blog]]></item>
 		<item name="wcf.acp.option.category.blog.index"><![CDATA[Blog Index]]></item>
 		<item name="wcf.acp.option.category.blog.entry"><![CDATA[Articoli]]></item>
+		<item name="wcf.acp.option.category.dashboard.sidebar.latestEntries"><![CDATA[Ultimi Articoli]]></item>
+		<item name="wcf.acp.option.category.dashboard.sidebar.mostCommentedEntries"><![CDATA[Articoli più commentati]]></item>
 		<item name="wcf.acp.option.blog_index_enable_stats"><![CDATA[Mostra statistiche generali]]></item>
 		<item name="wcf.acp.option.blog_index_entries"><![CDATA[Numero degli articoli]]></item>
 		<item name="wcf.acp.option.blog_index_entries.description"><![CDATA[Numero di articoli presentati sull´index blog]]></item>
@@ -154,13 +156,19 @@
 		<item name="wcf.acp.option.blog_index_entry_categories.description"><![CDATA[Solo gli articoli pubblicati in queste categorie verranno mostrati sull´indice blog]]></item>
 		<item name="wcf.acp.option.blog_entries_per_page"><![CDATA[Articoli per pagina]]></item>
 		<item name="wcf.acp.option.blog_excerpt_length"><![CDATA[Lunghezza riassunto]]></item>
+		<item name="wcf.acp.option.blog_dashboard_box_latest_entries"><![CDATA[Numero di articoli]]></item>
+		<item name="wcf.acp.option.blog_dashboard_box_most_commented_entries"><![CDATA[Numero di Commenti]]></item>
+		<item name="wcf.acp.option.blog_dashboard_box_most_commented_entries_period"><![CDATA[Periodo]]></item>
+		<item name="wcf.acp.option.blog_dashboard_box_most_commented_entries_period.description"><![CDATA[Il periodo di creazione non può essere impostato nel futuro. [Periodo in giorni]]]></item>
+		<item name="wcf.acp.option.blog_message_sidebar_enable_user_entries"><![CDATA[Mostra contatore articoli degli autori]]></item>
+		<item name="wcf.acp.option.blog_user_profile_enable_user_entries"><![CDATA[Mostra contatore articoli sul profilo utente]]></item>
 	</category>
-	
+
 	<category name="wcf.acp.rebuildData">
 		<item name="wcf.acp.rebuildData.com.woltlab.blog.entry"><![CDATA[Ricostruire articoli blog]]></item>
 		<item name="wcf.acp.rebuildData.com.woltlab.blog.entry.description"><![CDATA[Ricostruire indice di ricerca articolo e distribuisce punti di attività]]></item>
 	</category>
-	
+
 	<category name="wcf.dashboard">
 		<item name="wcf.dashboard.box.com.woltlab.blog.tagCloud"><![CDATA[Tags]]></item>
 		<item name="wcf.dashboard.box.com.woltlab.blog.latestEntries"><![CDATA[Ultimi articoli]]></item>
@@ -168,27 +176,27 @@
 		<item name="wcf.dashboard.objectType.com.woltlab.blog.BlogPage"><![CDATA[Blog Index]]></item>
 		<item name="wcf.dashboard.objectType.com.woltlab.blog.EntryListPage"><![CDATA[Lista articoli Blog]]></item>
 	</category>
-	
+
 	<category name="wcf.moderation">
 		<item name="wcf.moderation.type.com.woltlab.blog.entry"><![CDATA[Articoli Blog]]></item>
 		<item name="wcf.moderation.deletedContent.com.woltlab.blog.entry"><![CDATA[Articoli cestinati]]></item>
 		<item name="wcf.moderation.deletedContent.objectType.com.woltlab.blog.entry"><![CDATA[Articoli Blog]]></item>
 	</category>
-	
+
 	<category name="wcf.page">
 		<item name="wcf.page.sitemap.blog"><![CDATA[Blog]]></item>
 	</category>
-	
+
 	<category name="wcf.user">
 		<item name="wcf.user.activityPoint.objectType.com.woltlab.blog.activityPointEvent.entry"><![CDATA[Articoli]]></item>
 	</category>
-	
+
 	<category name="wcf.user.objectWatch">
 		<item name="wcf.user.objectWatch.subscribe.com.woltlab.blog.category"><![CDATA[Visualizza categoria]]></item>
 		<item name="wcf.user.objectWatch.enableNotification.com.woltlab.blog.category"><![CDATA[Attivare le notifiche per i nuovi articoli in questa categoria]]></item>
 		<item name="wcf.user.objectWatch.unsubscribe.com.woltlab.blog.category"><![CDATA[Non visualizzare la categoria]]></item>
 	</category>
-	
+
 	<category name="wcf.user.notification">
 		<item name="wcf.user.notification.com.woltlab.blog"><![CDATA[Blog]]></item>
 		<item name="wcf.user.notification.com.woltlab.blog.entryComment.notification.comment"><![CDATA[Nuovo commento sul tuo articolo]]></item>
@@ -196,19 +204,19 @@
 		<item name="wcf.user.notification.com.woltlab.blog.entryComment.response.notification.commentResponseOwner"><![CDATA[Nuova risposta ad uno dei tuoi commenti]]></item>
 		<item name="wcf.user.notification.com.woltlab.blog.entry.entry"><![CDATA[Nuovo articolo]]></item>
 	</category>
-	
+
 	<category name="wcf.user.recentActivity">
 		<item name="wcf.user.recentActivity.com.woltlab.blog.recentActivityEvent.entry"><![CDATA[Articolo]]></item>
 		<item name="wcf.user.recentActivity.com.woltlab.blog.likeableEntry.recentActivityEvent"><![CDATA[Mi piace (Articolo)]]></item>
 		<item name="wcf.user.recentActivity.com.woltlab.blog.entryComment.recentActivityEvent"><![CDATA[Commento (Articolo)]]></item>
 		<item name="wcf.user.recentActivity.com.woltlab.blog.entryComment.response.recentActivityEvent"><![CDATA[Risposta (Articolo)]]></item>
 	</category>
-	
+
 	<category name="wcf.search">
 		<item name="wcf.search.type.com.woltlab.blog.entry"><![CDATA[Articolo]]></item>
 		<item name="wcf.search.object.com.woltlab.blog.entry"><![CDATA[Articolo]]></item>
 	</category>
-	
+
 	<category name="wcf.tagging">
 		<item name="wcf.tagging.objectType.com.woltlab.blog.entry"><![CDATA[Articolo]]></item>
 		<item name="wcf.tagging.taggedObjects.com.woltlab.blog.entry"><![CDATA[Articoli taggati con “{$tag->name}”]]></item>
