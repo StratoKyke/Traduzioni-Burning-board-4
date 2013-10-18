@@ -127,7 +127,7 @@ Estensioni file concesse: {', '|implode:$allowedFileExtensions}]]></item>
 	<category name="filebase.index">
 		<item name="filebase.index.stats"><![CDATA[Statistiche]]></item>
 		<item name="filebase.index.stats.detail"><![CDATA[{#$stats[authors]} autori - {#$stats[files]} file - {@$stats[size]|filesize} dimensione totale dei file - {#$stats[downloads]} download ({#$stats[downloadsPerDay]} download per giono) - {#$stats[comments]} commenti]]></item>
-		<item name="filebase.index.copyright"><![CDATA[<a href="http://www.woltlab.com/de/"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Filebase-Software: <strong>WoltLab Filebase&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> Tradotto in Italiano da <a href="http://www.salvatoremazzullo.com/">Salvatore Mazzullo</a> e <a href="http://www.inforge.net/community/">Inforge.net</a>]]></item>
+		<item name="filebase.index.copyright"><![CDATA[<a href="http://www.woltlab.com/de/"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Filebase-Software: <strong>WoltLab Filebase&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> <br> Tradotto in Italiano da <a href="http://www.salvatoremazzullo.com/">Salvatore Mazzullo</a> e <a href="http://www.inforge.net/community/">Inforge.net</a>]]></item>
 	</category>
 	
 	<category name="filebase.user">
