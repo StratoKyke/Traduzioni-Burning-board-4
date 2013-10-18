@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
-<!--Luglio 29, 2013-->
-  <category name="wcf.acp.group">
+<!--ottobre 18, 2013-->
+    <category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.user.conversation"><![CDATA[Conversazioni]]></item>
 		<item name="wcf.acp.group.option.mod.conversation.canModerateConversation"><![CDATA[Può moderare le conversazioni]]></item>
 		<item name="wcf.acp.group.option.user.conversation.canUseConversation"><![CDATA[Può usare le conversazioni]]></item>
@@ -85,6 +85,7 @@
 		<item name="wcf.conversation.participants.error.canNotUseConversation"><![CDATA[“{$errorData[username]}” Non ti è permesso partecipare a una conversazione.]]></item>
 		<item name="wcf.conversation.participants.error.doesNotAcceptConversation"><![CDATA[“{$errorData[username]}” non vuole essere aggiunto alle conversazioni.]]></item>
 		<item name="wcf.conversation.participants.error.ignoresYou"><![CDATA[“{$errorData[username]}” ti ha bloccato.]]></item>
+		<item name="wcf.conversation.participants.error.tooManyParticipants"><![CDATA[Hai aggiunto molti partecipanti. E´ possibile aggiungere {#$__wcf->getSession()->getPermission('user.conversation.maxParticipants')} partecipanti.]]></item>
 		<item name="wcf.conversation.participants.removeParticipant"><![CDATA[Rimuovere partecipante]]></item>
 		<item name="wcf.conversation.participants.removeParticipant.confirmMessage"><![CDATA[Vuoi davvero rimuovere “{$participant->username}” da questa conversazione?]]></item>
 		<item name="wcf.conversation.quota"><![CDATA[Quota]]></item>

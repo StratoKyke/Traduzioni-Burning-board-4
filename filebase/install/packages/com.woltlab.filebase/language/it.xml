@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="filebase.acp.menu">
+		<item name="filebase.acp.menu.link.filebase"><![CDATA[Filebase]]></item>
+		<item name="filebase.acp.menu.link.filebase.category.list"><![CDATA[Lista Categorie]]></item>
+		<item name="filebase.acp.menu.link.filebase.category.add"><![CDATA[Aggiungi Categorie]]></item>
+	</category>
+	
+	<category name="filebase.header">
+		<item name="filebase.header.menu.filebase"><![CDATA[Filebase]]></item>
+		<item name="filebase.header.menu.watchedFiles"><![CDATA[Watched Files]]></item>
+		<item name="filebase.header.menu.mostDownloadedFiles"><![CDATA[Most Downloaded]]></item>
+		<item name="filebase.header.menu.topFiles"><![CDATA[Top Rated]]></item>
+	</category>
+	
+	<category name="filebase.category">
+		<item name="filebase.category.categories"><![CDATA[Categories]]></item>
+		<item name="filebase.category.markAllAsRead"><![CDATA[Mark all files as read]]></item>
+	</category>
+	
+	<category name="filebase.file">
+		<item name="filebase.file.files"><![CDATA[Files]]></item>
+		<item name="filebase.file.featuredFiles"><![CDATA[Featured Files]]></item>
+		<item name="filebase.file.newestFiles"><![CDATA[Latest Files]]></item>
+		<item name="filebase.file.button.add"><![CDATA[Add File]]></item>
+		<item name="filebase.file.button.download"><![CDATA[Download]]></item>
+		<item name="filebase.file.downloadCounter"><![CDATA[{#$file->downloads} time{if $file->downloads != 1}s{/if} downloaded]]></item>
+		<item name="filebase.file.version.downloadCounter"><![CDATA[{#$version->downloads} time{if $version->downloads != 1}s{/if} downloaded]]></item>
+		<item name="filebase.file.version.more"><![CDATA[{literal}{if $count == 1}One older file{else}{#$count} older files{/if}{/literal}]]></item>
+		<item name="filebase.file.commentCounter"><![CDATA[{#$file->comments} comment{if $file->comments != 1}s{/if}]]></item>
+		<item name="filebase.file.downloads"><![CDATA[Downloads]]></item>
+		<item name="filebase.file.comments"><![CDATA[Comments]]></item>
+		<item name="filebase.file.lastChangeTime"><![CDATA[Last Change Time]]></item>
+		<item name="filebase.file.featured"><![CDATA[Featured]]></item>
+		<item name="filebase.file.isDeleted"><![CDATA[Deleted]]></item>
+		<item name="filebase.file.isDisabled"><![CDATA[Disabled]]></item>
+		<item name="filebase.file.version"><![CDATA[Version]]></item>
+		<item name="filebase.file.versions"><![CDATA[Versions]]></item>
+		<item name="filebase.file.overview"><![CDATA[Overview]]></item>
+		<item name="filebase.file.size"><![CDATA[File Size]]></item>
+		<item name="filebase.file.time"><![CDATA[Uploaded]]></item>
+		<item name="filebase.file.website"><![CDATA[Website]]></item>
+		<item name="filebase.file.moreFiles"><![CDATA[More Files]]></item>
+		<item name="filebase.file.moreFiles.all"><![CDATA[All Files]]></item>
+		<item name="filebase.file.information"><![CDATA[File Details]]></item>
+		<item name="filebase.file.recentActivity.file"><![CDATA[Added the file <a href="{link application='filebase' controller='File' object=$file}{/link}" class="filebaseFileLink" data-file-id="{@$file->fileID}">{$file->subject}</a>.]]></item>
+		<item name="filebase.file.recentActivity.version"><![CDATA[Added the version {$version->versionNumber} of the file <a href="{link application='filebase' controller='File' object=$version->getFile()}{/link}" class="filebaseFileLink" data-file-id="{@$version->getFile()->fileID}">{$version->getFile()->subject}</a>.]]></item>
+		<item name="filebase.file.recentActivity.likedFile"><![CDATA[Likes the file <a href="{link application='filebase' controller='File' object=$file}{/link}" class="filebaseFileLink" data-file-id="{@$file->fileID}">{$file->subject}</a>.]]></item>
+		<item name="filebase.file.recentActivity.fileComment"><![CDATA[Commented on the file <a href="{link application='filebase' controller='File' object=$file}{/link}#comments" class="filebaseFileLink" data-file-id="{@$file->fileID}">{$file->subject}</a>.]]></item>
+		<item name="filebase.file.recentActivity.fileCommentResponse"><![CDATA[Replied to a comment by <a href="{link controller='User' object=$commentAuthor}{/link}">{$commentAuthor->username}</a> on file <a href="{link application='filebase' controller='File' object=$file}{/link}#comments" class="filebaseFileLink" data-file-id="{@$file->fileID}">{$file->subject}</a>.]]></item>
+		<item name="filebase.file.ipAddress"><![CDATA[IP address]]></item>
+		<item name="filebase.file.version.add"><![CDATA[Add Version]]></item>
+		<item name="filebase.file.version.edit"><![CDATA[Edit Version]]></item>
+		<item name="filebase.file.add"><![CDATA[Add File]]></item>
+		<item name="filebase.file.edit"><![CDATA[Edit File]]></item>
+		<item name="filebase.file.upload"><![CDATA[Upload File]]></item>
+		<item name="filebase.file.upload.confirmOverwrite"><![CDATA[You have already uploaded a file, continuing will overwrite the existing one.]]></item>
+		<item name="filebase.file.upload.error.invalidExtension"><![CDATA[The file extension is invalid]]></item>
+		<item name="filebase.file.upload.error.tooLarge"><![CDATA[The file is too big]]></item>
+		<item name="filebase.file.upload.limits"><![CDATA[Maximum file size: {@$__wcf->session->getPermission('user.filebase.maxFileSize')|filesize}<br />
+Allowed file extensions: {', '|implode:$allowedFileExtensions}]]></item>
+		<item name="filebase.file.categories"><![CDATA[Categories]]></item>
+		<item name="filebase.file.categories.description"><![CDATA[Select the appropriate categories for your file!]]></item>
+		<item name="filebase.file.versionNumber"><![CDATA[Version Number]]></item>
+		<item name="filebase.file.versionNumber.error.notUnique"><![CDATA[This version number is already in use]]></item>
+		<item name="filebase.file.teaser"><![CDATA[Teaser]]></item>
+		<item name="filebase.file.teaser.description"><![CDATA[Short description of your file (maximum {#FILEBASE_MAX_TEASER_LENGTH} characters).]]></item>
+		<item name="filebase.file.website.description"><![CDATA[Optional: Website (URL) with further details on this file.]]></item>
+		<item name="filebase.file.message"><![CDATA[Description]]></item>
+		<item name="filebase.file.enableComments"><![CDATA[Enable comments]]></item>
+		<item name="filebase.file.enableComments.description"><![CDATA[Allow other users to comment on your file.]]></item>
+		<item name="filebase.file.watchedFiles"><![CDATA[Watched Files]]></item>
+		<item name="filebase.file.watchedFiles.noFiles"><![CDATA[You are not watching any files.]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingAll"><![CDATA[Stop watching files]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingAll.confirmMessage"><![CDATA[Do you really want to stop watching all files?]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingMarked"><![CDATA[{literal}Stop watching marked file{if $count > 1}s{/if}{if $count > 1} ({#$count}){/if}{/literal}]]></item>
+		<item name="filebase.file.watchedFiles.stopWatchingMarked.confirmMessage"><![CDATA[Do you really want to stop watching all marked files?]]></item>
+		<item name="filebase.file.categorizedFiles"><![CDATA[Files in category “{$category->getTitle()}”]]></item>
+		<item name="filebase.file.userFiles"><![CDATA[Files by “{$user->username}”]]></item>
+		<item name="filebase.file.noFiles"><![CDATA[No files matched your criteria.]]></item>
+		<item name="filebase.file.searchFiles"><![CDATA[Search Files]]></item>
+		<item name="filebase.file.version.description"><![CDATA[Description]]></item>
+		<item name="filebase.file.edit.delete"><![CDATA[Delete]]></item>
+		<item name="filebase.file.edit.disable"><![CDATA[Disable]]></item>
+		<item name="filebase.file.edit.enable"><![CDATA[Approve]]></item>
+		<item name="filebase.file.edit.restore"><![CDATA[Restore]]></item>
+		<item name="filebase.file.edit.trash"><![CDATA[Move to trash bin]]></item>
+		<item name="filebase.file.edit.setAsFeatured"><![CDATA[Mark as “Featured”]]></item>
+		<item name="filebase.file.edit.unsetAsFeatured"><![CDATA[Remove “Featured”-marking]]></item>
+		<item name="filebase.file.version.edit.delete"><![CDATA[Delete]]></item>
+		<item name="filebase.file.version.edit.disable"><![CDATA[Disable]]></item>
+		<item name="filebase.file.version.edit.enable"><![CDATA[Approve]]></item>
+		<item name="filebase.file.version.edit.restore"><![CDATA[Restore]]></item>
+		<item name="filebase.file.version.edit.trash"><![CDATA[Move to trash bin]]></item>
+		<item name="filebase.file.version.information"><![CDATA[Details]]></item>
+		<item name="filebase.file.version.isDeleted"><![CDATA[Deleted]]></item>
+		<item name="filebase.file.version.isDisabled"><![CDATA[Disabled]]></item>
+		<item name="filebase.file.version.upload"><![CDATA[Upload Version]]></item>
+		<item name="filebase.file.version.notification.title"><![CDATA[New file version]]></item>
+		<item name="filebase.file.version.notification.message"><![CDATA[Added the version “{$version->versionNumber}” to file “{$version->getFile()->subject}”.]]></item>
+		<item name="filebase.file.version.notification.mail"><![CDATA[{@$author->username} added the version "{@$version->versionNumber}" to file "{@$version->getFile()->subject}":
+{link application='filebase' controller='File' object=$version->getFile() encode=false forceFrontend=true}{/link}]]></item>
+		<item name="filebase.file.comment.notification.title"><![CDATA[New comment (file)]]></item>
+		<item name="filebase.file.comment.notification.message"><![CDATA[Commented on your file “{$file->subject}”.]]></item>
+		<item name="filebase.file.comment.notification.mail"><![CDATA[{@$author->username} commented on your file "{@$file->subject}":
+{link application='filebase' controller='File' object=$file encode=false forceFrontend=true}#comments{/link}]]></item>
+		<item name="filebase.file.commentResponse.notification.title"><![CDATA[New reply (file)]]></item>
+		<item name="filebase.file.commentResponse.notification.message"><![CDATA[Replied to your comment on the file “{$file->subject}”.]]></item>
+		<item name="filebase.file.commentResponse.notification.mail"><![CDATA[{@$author->username} replied to your comment on the file "{@$file->subject}":
+{link application='filebase' controller='File' object=$file encode=false forceFrontend=true}#comments{/link}]]></item>
+		<item name="filebase.file.commentResponseOwner.notification.title"><![CDATA[New reply (file)]]></item>
+		<item name="filebase.file.commentResponseOwner.notification.message"><![CDATA[Replied to a comment by “{$commentAuthor->username}” on the file “{$file->subject}”.]]></item>
+		<item name="filebase.file.commentResponseOwner.notification.mail"><![CDATA[{@$author->username} replied to a comment by "{@$commentAuthor->username}" on the file "{@$file->subject}":
+{link application='filebase' controller='File' object=$file encode=false forceFrontend=true}#comments{/link}]]></item>
+		<item name="filebase.file.confirmDelete"><![CDATA[Do you really want to permanently delete this file?]]></item>
+		<item name="filebase.file.version.confirmDelete"><![CDATA[Do you really want to permanently delete this version?]]></item>
+		<item name="filebase.file.log.file.trash.summary"><![CDATA[File was deleted by “{if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}”{if $additionalData[reason]} for the following reason: “{$additionalData[reason]|tableWordwrap}”{/if}. ({@$time|time})]]></item>
+		<item name="filebase.file.log.file.version.trash.summary"><![CDATA[Version was deleted by “{if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}”{if $additionalData[reason]} for the following reason: “{$additionalData[reason]|tableWordwrap}”{/if}. ({@$time|time})]]></item>
+		<item name="filebase.file.confirmTrash"><![CDATA[Do you really want to delete this file?]]></item>
+		<item name="filebase.file.confirmTrash.reason"><![CDATA[Reason (optional)]]></item>
+		<item name="filebase.file.version.confirmTrash"><![CDATA[Do you really want to delete this version?]]></item>
+		<item name="filebase.file.version.confirmTrash.reason"><![CDATA[Reason (optional)]]></item>
+		<item name="filebase.file.markAsRead.doubleClick"><![CDATA[Double-Click to Mark This File Read]]></item>
+		<item name="filebase.file.website.error.invalid"><![CDATA[You have entered an invalid URL.]]></item>
+	</category>
+	
+	<category name="filebase.index">
+		<item name="filebase.index.stats"><![CDATA[Statistics]]></item>
+		<item name="filebase.index.stats.detail"><![CDATA[{#$stats[authors]} autor{if $stats[authors] != 1}s{/if} - {#$stats[files]} file{if $stats[files] != 1}s{/if} - {@$stats[size]|filesize} total file size - {#$stats[downloads]} download{if $stats[downloads] != 1}s{/if} ({#$stats[downloadsPerDay]} download{if $stats[downloadsPerDay] != 1}s{/if} per day) - {#$stats[comments]} comment{if $stats[comments] != 1}s{/if}]]></item>
+		<item name="filebase.index.copyright"><![CDATA[<a href="http://www.woltlab.com/de/"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Filebase-Software: <strong>WoltLab Filebase&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, developed by <strong>WoltLab&reg; GmbH</strong></a>]]></item>
+	</category>
+	
+	<category name="filebase.user">
+		<item name="filebase.user.usersOnline.location.FilebasePage"><![CDATA[Filebase Index Page]]></item>
+		<item name="filebase.user.usersOnline.location.FilePage"><![CDATA[<a href="{link controller='File' application='filebase' object=$file}{/link}" class="filebaseFileLink" data-file-id="{@$file->fileID}">File “{$file->subject}”</a>]]></item>
+		<item name="filebase.user.usersOnline.location.FileListPage.categorizedFiles"><![CDATA[<a href="{link controller='FileList' application='filebase' object=$category}{/link}">Files of category “{$category->getTitle()}”</a>]]></item>
+		<item name="filebase.user.usersOnline.location.FileListPage.userFiles"><![CDATA[<a href="{link controller='FileList' application='filebase'}userID={@$user->userID}{/link}">Files by “{$user->username}”</a>]]></item>
+		<item name="filebase.user.usersOnline.location.FileAddForm"><![CDATA[Adding new file]]></item>
+		<item name="filebase.user.usersOnline.location.FileEditForm"><![CDATA[Editing file <a href="{link controller='File' application='filebase' object=$file}{/link}" class="filebaseFileLink" data-file-id="{@$file->fileID}">{$file->subject}</a>]]></item>
+		<item name="filebase.user.usersOnline.location.VersionAddForm"><![CDATA[Adding a new version of the file <a href="{link controller='File' application='filebase' object=$file}{/link}" class="filebaseFileLink" data-file-id="{@$file->fileID}">{$file->subject}</a>]]></item>
+		<item name="filebase.user.usersOnline.location.VersionEditForm"><![CDATA[Editing version {$version->versionNumber} of the file <a href="{link controller='File' application='filebase' object=$file}{/link}" class="filebaseFileLink" data-file-id="{@$file->fileID}">{$file->subject}</a>]]></item>
+	</category>
+	
+	<category name="wcf.acl.option">
+		<item name="wcf.acl.option.com.woltlab.filebase.category.canViewCategory"><![CDATA[Can view category]]></item>
+		<item name="wcf.acl.option.com.woltlab.filebase.category.canDownload"><![CDATA[Can download files within this category]]></item>
+		<item name="wcf.acl.option.com.woltlab.filebase.category.canUseCategory"><![CDATA[Can enlist files in this category]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.group.option.category.mod.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.group.option.category.admin.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canViewFile"><![CDATA[Can view files]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDownloadFile"><![CDATA[Can download files]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddFile"><![CDATA[Can upload files]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddFileWithoutModeration"><![CDATA[Can upload files without prior approval]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canEditFile"><![CDATA[Can edit own files]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDeleteFile"><![CDATA[Can delete own files]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDisableCommentFunction"><![CDATA[Can disable comments for own files]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxTextLength"><![CDATA[Maximum Description Length (File)]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxVersionTextLength"><![CDATA[Maximum Description Length (Version)]]></item>
+		<item name="wcf.acp.group.option.user.filebase.maxFileSize"><![CDATA[Maximum File Size]]></item>
+		<item name="wcf.acp.group.option.user.filebase.allowedFileExtensions"><![CDATA[Allowed File Extensions]]></item>
+		<item name="wcf.acp.group.option.user.filebase.allowedFileExtensions.description"><![CDATA[One file extension per line]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canViewScreenshot"><![CDATA[Can view screenshots]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canUploadScreenshot"><![CDATA[Can upload screenshots]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canAddComment"><![CDATA[Can write comments]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canEditComment"><![CDATA[Can edit own comments]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canDeleteComment"><![CDATA[Can delete own comments]]></item>
+		<item name="wcf.acp.group.option.admin.filebase.canManageCategory"><![CDATA[Can manage categories]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canEditFile"><![CDATA[Can edit files]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDeleteFile"><![CDATA[Can move files to trash bin]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canModerateFile"><![CDATA[Can moderate files]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canViewDeletedFile"><![CDATA[Can view deleted files]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canRestoreFile"><![CDATA[Can restore files]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDeleteFileCompletely"><![CDATA[Can delete files]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canEditComment"><![CDATA[Can edit comments]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canDeleteComment"><![CDATA[Can delete comments]]></item>
+		<item name="wcf.acp.group.option.mod.filebase.canModerateComment"><![CDATA[Can moderate comments]]></item>
+	</category>
+	
+	<category name="wcf.acp.index">
+		<item name="wcf.acp.index.system.software.filebaseVersion"><![CDATA[WoltLab Filebase&trade; version]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.acp.option.category.filebase.file"><![CDATA[Files]]></item>
+		<item name="wcf.acp.option.filebase_index_enable_stats"><![CDATA[Show general statistics]]></item>
+		<item name="wcf.acp.option.filebase_files_enable_language_flag"><![CDATA[Display file language as flag]]></item>
+		<item name="wcf.acp.option.filebase_files_per_page"><![CDATA[Files per Page]]></item>
+		<item name="wcf.acp.option.filebase_max_teaser_length"><![CDATA[Maximum Teaser Length]]></item>
+		<item name="wcf.acp.option.filebase_storage"><![CDATA[File Disk Location]]></item>
+		<item name="wcf.acp.option.filebase_storage.description"><![CDATA[You may define a different storage location on disk. Previously uploaded files have to me manually moved to the new directory.]]></item>
+		<item name="wcf.acp.option.filebase_dashboard_box_files"><![CDATA[Amount of Files]]></item>
+		<item name="wcf.acp.option.filebase_message_sidebar_enable_user_files"><![CDATA[Show users’s file count]]></item>
+		<item name="wcf.acp.option.filebase_user_profile_enable_user_files"><![CDATA[Show user’s file count in profile]]></item>
+		<item name="wcf.acp.option.filebase_index_enable_online_list"><![CDATA[Display “Users Online” list]]></item>
+	</category>
+	
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.com.woltlab.filebase.file"><![CDATA[Rebuild Files]]></item>
+		<item name="wcf.acp.rebuildData.com.woltlab.filebase.file.description"><![CDATA[Rebuilds search index and distributes activity points]]></item>
+	</category>
+	
+	<category name="wcf.dashboard">
+		<item name="wcf.dashboard.box.com.woltlab.filebase.tagCloud"><![CDATA[Tags]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.filebase.mostDownloaded"><![CDATA[Most Downloaded]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.filebase.latestUpdates"><![CDATA[Latest Updates]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.filebase.topFiles"><![CDATA[Top Rated]]></item>
+		<item name="wcf.dashboard.box.com.woltlab.filebase.newestFiles"><![CDATA[Latest Files]]></item>
+		<item name="wcf.dashboard.objectType.com.woltlab.filebase.FilebasePage"><![CDATA[Filebase Index Page]]></item>
+		<item name="wcf.dashboard.objectType.com.woltlab.filebase.FileListPage"><![CDATA[File List]]></item>
+	</category>
+	
+	<category name="wcf.clipboard">
+		<item name="wcf.clipboard.label.com.woltlab.filebase.file.marked"><![CDATA[{if $count == 1}One file{else}{#$count} files{/if} marked]]></item>
+		<item name="wcf.clipboard.label.com.woltlab.filebase.version.marked"><![CDATA[{if $count == 1}One version{else}{#$count} versions{/if} marked]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.trash.confirmMessage"><![CDATA[Do you really want to delete the marked file{if $count != 1}s{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.version.trash.confirmMessage"><![CDATA[Do you really want to delete the marked version {if $count != 1}s{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.delete.confirmMessage"><![CDATA[Do you really want to permanently delete the marked file{if $count != 1}s{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.version.delete.confirmMessage"><![CDATA[Do you really want to permanently delete the marked version{if $count != 1}s{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.trash"><![CDATA[Move to trash bin ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.enable"><![CDATA[Approve ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.disable"><![CDATA[Disable ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.delete"><![CDATA[Delete ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.file.restore"><![CDATA[Restore ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.trash"><![CDATA[Move to trash bin ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.enable"><![CDATA[Approve ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.disable"><![CDATA[Disable ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.delete"><![CDATA[Delete ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.filebase.version.restore"><![CDATA[Restore ({#$count})]]></item>
+	</category>
+	
+	<category name="wcf.like">
+		<item name="wcf.like.objectType.com.woltlab.filebase.likeableFile"><![CDATA[File]]></item>
+	</category>
+	
+	<category name="wcf.moderation">
+		<item name="wcf.moderation.type.com.woltlab.filebase.file"><![CDATA[File]]></item>
+		<item name="wcf.moderation.type.com.woltlab.filebase.version"><![CDATA[File version]]></item>
+		<item name="wcf.moderation.deletedContent.com.woltlab.filebase.file"><![CDATA[Trashed Files]]></item>
+		<item name="wcf.moderation.deletedContent.objectType.com.woltlab.filebase.file"><![CDATA[Files]]></item>
+		<item name="wcf.moderation.deletedContent.com.woltlab.filebase.version"><![CDATA[Trashed File Version]]></item>
+		<item name="wcf.moderation.deletedContent.objectType.com.woltlab.filebase.version"><![CDATA[File Version]]></item>
+	</category>
+	
+	<category name="wcf.page">
+		<item name="wcf.page.sitemap.filebase"><![CDATA[Filebase]]></item>
+	</category>
+	
+	<category name="wcf.search">
+		<item name="wcf.search.type.com.woltlab.filebase.file"><![CDATA[Files]]></item>
+		<item name="wcf.search.object.com.woltlab.filebase.file"><![CDATA[File]]></item>
+	</category>
+	
+	<category name="wcf.tagging">
+		<item name="wcf.tagging.objectType.com.woltlab.filebase.file"><![CDATA[Files]]></item>
+		<item name="wcf.tagging.taggedObjects.com.woltlab.filebase.file"><![CDATA[Files tagged with “{$tag->name}”]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.activityPoint.objectType.com.woltlab.filebase.activityPointEvent.file"><![CDATA[Files]]></item>
+	</category>
+		
+	<category name="wcf.user.notification">
+		<item name="wcf.user.notification.com.woltlab.filebase"><![CDATA[Filebase]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.version.version"><![CDATA[New version of a watched file]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.notification.comment"><![CDATA[New comment on your file]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.response.notification.commentResponse"><![CDATA[New reply on a comment on your file]]></item>
+		<item name="wcf.user.notification.com.woltlab.filebase.fileComment.response.notification.commentResponseOwner"><![CDATA[New reply on one of your comments]]></item>
+	</category>
+	
+	<category name="wcf.user.objectWatch">
+		<item name="wcf.user.objectWatch.subscribe.com.woltlab.filebase.file"><![CDATA[Watch file]]></item>
+		<item name="wcf.user.objectWatch.enableNotification.com.woltlab.filebase.file"><![CDATA[Enable notifications for new versions of this file]]></item>
+		<item name="wcf.user.objectWatch.unsubscribe.com.woltlab.filebase.file"><![CDATA[Do not watch file]]></item>
+	</category>
+	
+	<category name="wcf.user.recentActivity">
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.fileComment.response.recentActivityEvent"><![CDATA[Reply (file)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.fileComment.recentActivityEvent"><![CDATA[Comment (file)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.likeableFile.recentActivityEvent"><![CDATA[Like (file)]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.recentActivityEvent.file"><![CDATA[File]]></item>
+		<item name="wcf.user.recentActivity.com.woltlab.filebase.recentActivityEvent.version"><![CDATA[File version]]></item>
+	</category>
+</language>

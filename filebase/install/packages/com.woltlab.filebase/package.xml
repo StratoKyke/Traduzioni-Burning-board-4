@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.woltlab.blog" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+<package name="com.woltlab.filebase" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
-		<packagename>WoltLab Community Blog</packagename>
-		<packagedescription>Community Blog is the modern, secure and user friendly solution for your blog!</packagedescription>
-		<packagedescription language="it">Community Blog è la soluzione amichevole, moderna, sicura e facile per il tuo blog!</packagedescription>
+		<packagename>WoltLab Filebase</packagename>
+		<packagedescription>WoltLab Filebase is the modern, secure and user friendly solution file-sharing solution for your community.</packagedescription>
+		<packagedescription language="it">WoltLab Filebase è la soluzione moderna, sicura e facile da usare per condividere file con la tu comminity.</packagedescription>
 		<isapplication>1</isapplication>
-		<version>2.0.0 Beta 4</version>
-		<date>2013-09-30</date>
+		<version>2.0.0 Beta 1</version>
+		<date>2013-10-01</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -23,7 +23,6 @@
 	<optionalpackages>
 		<optionalpackage file="optionals/com.woltlab.wcf.moderatedUserGroup.tar">com.woltlab.wcf.moderatedUserGroup</optionalpackage>
 		<optionalpackage file="optionals/com.woltlab.wcf.legalNotice.tar">com.woltlab.wcf.legalNotice</optionalpackage>
-		<optionalpackage file="optionals/com.woltlab.wcf.exporter.tar">com.woltlab.wcf.exporter</optionalpackage>
 	</optionalpackages>
 	
 	<instructions type="install">
@@ -32,27 +31,18 @@
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="objectType">objectType.xml</instruction>
 		<instruction type="pageMenu">pageMenu.xml</instruction>
-		<instruction type="acpMenu">acpMenu.xml</instruction>
-		<instruction type="userGroupOption">userGroupOption.xml</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
-		<instruction type="eventListener">eventListener.xml</instruction>
-		<instruction type="dashboardBox">dashboardBox.xml</instruction>
-		<instruction type="userNotificationEvent">userNotificationEvent.xml</instruction>
-		<instruction type="cronjob">cronjob.xml</instruction>
 		<instruction type="aclOption">aclOption.xml</instruction>
+		<instruction type="acpMenu">acpMenu.xml</instruction>
+		<instruction type="dashboardBox">dashboardBox.xml</instruction>
+		<instruction type="eventListener">eventListener.xml</instruction>
 		<instruction type="sitemap">sitemap.xml</instruction>
+		<instruction type="templateListener">templateListener.xml</instruction>
+		<instruction type="userNotificationEvent">userNotificationEvent.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
 		<instruction type="option">option.xml</instruction>
-		
 		<instruction type="language">language/*.xml</instruction>
-		<instruction type="script">acp/install_com.woltlab.blog_2.0.0.php</instruction>
 		<instruction type="acpTemplate">acptemplates.tar</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="2.0.0 Beta 3">
-		<instruction type="file">files_update.tar</instruction>
-		<instruction type="template">templates_update.tar</instruction>
-		<instruction type="language">language/*.xml</instruction>
-		
-		<instruction type="option">option.xml</instruction>
+		<instruction type="clipboardAction">clipboardAction.xml</instruction>
+		<instruction type="script">acp/install_com.woltlab.filebase_1.0.0.php</instruction>
 	</instructions>
 </package>

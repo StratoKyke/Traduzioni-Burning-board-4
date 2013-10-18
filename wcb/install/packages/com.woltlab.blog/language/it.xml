@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
+<!--Ottobre 18, 2013-->
 	<category name="blog.acp.menu">
 		<item name="blog.acp.menu.link.blog"><![CDATA[Blog]]></item>
 		<item name="blog.acp.menu.link.blog.category.list"><![CDATA[Lista Categorie]]></item>
@@ -54,6 +55,7 @@
 		<item name="blog.entry.moderation.info"><![CDATA[Gli articoli creati da te devono essere approvati manualmente da un moderatore.]]></item>
 		<item name="blog.entry.moderation.redirect"><![CDATA[Articolo creato, sarà pubblicato non appena un moderatore lo approva.]]></item>
 		<item name="blog.entry.moreEntries"><![CDATA[Altri Articoli]]></item>
+		<item name="blog.entry.moreEntries.all"><![CDATA[Mostra Tutti]]></item>
 		<item name="blog.entry.noEntries"><![CDATA[Non ci sono articoli.]]></item>
 		<item name="blog.entry.notification.mail"><![CDATA[{@$author->username} ha scritto un articolo "{@$entry->subject}":
 {link application='blog' controller='Entry' object=$entry encode=false forceFrontend=true}{/link}]]></item>
@@ -129,12 +131,15 @@
 		<item name="wcf.acp.group.option.user.blog.canDeleteComment"><![CDATA[Può eliminare i propri commenti]]></item>
 		<item name="wcf.acp.group.option.mod.blog.canEditEntry"><![CDATA[Può modificare gli articoli]]></item>
 		<item name="wcf.acp.group.option.mod.blog.canDeleteEntry"><![CDATA[Può eliminare gli articoli]]></item>
+		<item name="wcf.acp.group.option.mod.blog.canRestoreEntry"><![CDATA[Può recuperare gli articoli]]></item>
+		<item name="wcf.acp.group.option.mod.blog.canDeleteEntryCompletely"><![CDATA[Può cancellare gli articoli]]></item>
 		<item name="wcf.acp.group.option.mod.blog.canModerateEntry"><![CDATA[Può moderare gli articoli]]></item>
 		<item name="wcf.acp.group.option.mod.blog.canViewDeletedEntry"><![CDATA[Può vedere gli articoli eliminati]]></item>
 		<item name="wcf.acp.group.option.mod.blog.canEditComment"><![CDATA[Può modificare i commenti degli articoli]]></item>
 		<item name="wcf.acp.group.option.mod.blog.canDeleteComment"><![CDATA[Può eliminare i commenti degli articoli]]></item>
 		<item name="wcf.acp.group.option.mod.blog.canModerateComment"><![CDATA[Può moderare i commenti degli articoli]]></item>
 		<item name="wcf.acp.group.option.admin.blog.canManageCategory"><![CDATA[Può gestire le categorie]]></item>
+		<item name="wcf.acp.group.option.user.blog.maxEntryLength"><![CDATA[Lunghezza massima degli articoli]]></item>
 	</category>
 
 	<category name="wcf.acp.index">
@@ -162,6 +167,7 @@
 		<item name="wcf.acp.option.blog_dashboard_box_most_commented_entries_period.description"><![CDATA[Il periodo di creazione non può essere impostato nel futuro. [Periodo in giorni]]]></item>
 		<item name="wcf.acp.option.blog_message_sidebar_enable_user_entries"><![CDATA[Mostra contatore articoli degli autori]]></item>
 		<item name="wcf.acp.option.blog_user_profile_enable_user_entries"><![CDATA[Mostra contatore articoli sul profilo utente]]></item>
+		<item name="wcf.acp.option.blog_index_enable_online_list"><![CDATA[Mostra lista “Utenti Online”]]></item>
 	</category>
 
 	<category name="wcf.acp.rebuildData">
@@ -175,6 +181,10 @@
 		<item name="wcf.dashboard.box.com.woltlab.blog.mostCommentedEntries"><![CDATA[Articoli più commentati]]></item>
 		<item name="wcf.dashboard.objectType.com.woltlab.blog.BlogPage"><![CDATA[Blog Index]]></item>
 		<item name="wcf.dashboard.objectType.com.woltlab.blog.EntryListPage"><![CDATA[Lista articoli Blog]]></item>
+	</category>
+	
+	<category name="wcf.like">
+		<item name="wcf.like.objectType.com.woltlab.blog.likeableEntry"><![CDATA[Articoli Blog]]></item>
 	</category>
 
 	<category name="wcf.moderation">

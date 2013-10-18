@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="it">
-<!-- Agosto 13, 2013-->
+<!-- Ottobre 18, 2013-->
     <category name="wbb.acp.board">
 		<item name="wbb.acp.board.boardType"><![CDATA[Tipo di Forum]]></item>
 		<item name="wbb.acp.board.boardType.board"><![CDATA[Forum]]></item>
@@ -216,9 +216,10 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.post.moderation.redirect"><![CDATA[Il tuo messaggio richiede l´approvazione manuale e non sarà visualizzato fino ad allora.]]></item>
 		<item name="wbb.post.option.hideEditNote"><![CDATA[Nascondi nota della modifica]]></item>
 		<item name="wbb.post.option.hideEditNote.description"><![CDATA[Non aggiungere la nota "Post modificato da...".]]></item>
-		<item name="wbb.post.delete"><![CDATA[TODO: Beitrag löschen]]></item>
-		<item name="wbb.post.delete.sure"><![CDATA[TODO: Diesen Beitrag in den Papierkorb verschieben]]></item>
-		<item name="wbb.post.deleteReason"><![CDATA[TODO: Begründung (optional)]]></item>
+		<item name="wbb.post.delete"><![CDATA[Cancella messaggio]]></item>
+		<item name="wbb.post.delete.sure"><![CDATA[Sposta questo messaggio nel cestino]]></item>
+		<item name="wbb.post.deleteReason"><![CDATA[Motivo (Opzionale)]]></item>
+		<item name="wbb.post.closed"><![CDATA[La modifica del messaggio è stata vietata.]]></item>
 	</category>
 	
 	<category name="wbb.thread">
@@ -375,6 +376,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canEnablePost"><![CDATA[Può approvare i messaggi]]></item>
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canMovePost"><![CDATA[Può spostare i messaggi]]></item>
 		<item name="wcf.acl.option.com.woltlab.wbb.board.canMergePost"><![CDATA[Può unire i messaggi]]></item>
+		<item name="wcf.acl.option.com.woltlab.wbb.board.canLikePost"><![CDATA[Può mettere “Mi Piace“ nei messaggi]]></item>
 	</category>
 	
 	<category name="wcf.acp.group">
@@ -439,6 +441,7 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.acp.group.option.user.board.postEditTimeout.description"><![CDATA[Durante questo periodo i membri possono modificare i loro messaggi [tempo in minuti, -1 per infinito]]]></item>
 		<item name="wcf.acp.group.option.user.board.floodControlTime"><![CDATA[Prevenzione Flood]]></item>
 		<item name="wcf.acp.group.option.user.board.floodControlTime.description"><![CDATA[Periodo minimo tra creazione di due messaggi [Tempo in minuti]]]></item>
+		<item name="wcf.acp.group.option.user.board.canLikePost"><![CDATA[Può mettere “Mi Piace“ nei messaggi]]></item>
 	</category>
 	
 	<category name="wcf.acp.label">
@@ -448,6 +451,8 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 	<category name="wcf.clipboard">
 		<item name="wcf.clipboard.item.com.woltlab.wbb.post.delete"><![CDATA[Elimina definitivamente ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.post.deleteCompletely.confirmMessage"><![CDATA[Vuoi veramente cancellare definitivamente {if $count != 1}questi messaggi{else}questo messaggio{/if}?]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.disable"><![CDATA[Disapprova ({#$count})]]></item>
+		<item name="wcf.clipboard.item.com.woltlab.wbb.post.enable"><![CDATA[Approva ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.post.merge"><![CDATA[Unisci ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread"><![CDATA[Sposta in questa discussione ({#$count})]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wbb.post.moveToExistingThread.confirmMessage"><![CDATA[Vuoi veramente spostare {if $count != 1}questi messaggi{else}questo messaggio{/if} into this thread?]]></item>
