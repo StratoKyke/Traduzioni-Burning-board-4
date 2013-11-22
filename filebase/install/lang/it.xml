@@ -1103,7 +1103,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.colors.primaryBorderColor"><![CDATA[Colore Bordo (Principale)]]></item>
 		<item name="wcf.acp.style.colors.primaryColor"><![CDATA[Colore Font (Primario)]]></item>
 		<item name="wcf.acp.style.colors.tabular"><![CDATA[Tabelle]]></item>
-		<item name="wcf.acp.style.colors.userPanel"><![CDATA[Panello Utente]]></item>
+		<item name="wcf.acp.style.colors.userPanel"><![CDATA[Pannello Utente]]></item>
 		<item name="wcf.acp.style.copyright"><![CDATA[Copyright]]></item>
 		<item name="wcf.acp.style.copyStyle"><![CDATA[Copia]]></item>
 		<item name="wcf.acp.style.copyStyle.confirmMessage"><![CDATA[Vuoi veramente copiare lo stile “{$style->styleName}”?]]></item>
