@@ -44,6 +44,9 @@
 	
 	<category name="wbb.acp.bulkProcessing">
 		<item name="wbb.acp.bulkProcessing.action"><![CDATA[Azione]]></item>
+		<item name="wbb.acp.bulkProcessing.action.changeLanguage"><![CDATA[Cambia lingua]]></item>
+		<item name="wbb.acp.bulkProcessing.action.changeLanguage.newLanguageID"><![CDATA[Nuova lingua]]></item>
+		<item name="wbb.acp.bulkProcessing.action.changeLanguage.noLanguage"><![CDATA[Nessuna lingua]]></item>
 		<item name="wbb.acp.bulkProcessing.action.close"><![CDATA[Chiudi]]></item>
 		<item name="wbb.acp.bulkProcessing.action.delete"><![CDATA[Elimina permanentemente]]></item>
 		<item name="wbb.acp.bulkProcessing.action.deleteLinks"><![CDATA[Rimuovi link]]></item>
@@ -299,16 +302,15 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 	
 	<category name="wbb.thread.log">
 		<item name="wbb.thread.log"><![CDATA[Log]]></item>
-		<item name="wbb.thread.log.action"><![CDATA[Azione]]></item>
 		<item name="wbb.thread.log.noEntries"><![CDATA[Non ci sono log per questa discussione.]]></item>
-		<item name="wbb.thread.log.post.close"><![CDATA[Vietata la modifica da <a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">messaggio{if $post->subject} “{$post->subject}”{/if}</a> da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>” ({@$post->time|time})]]></item>
+		<item name="wbb.thread.log.post.close"><![CDATA[Vietata la modifica da <a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#post{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">messaggio{if $post->subject} “{$post->subject}”{/if}</a> da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>”]]></item>
 		<item name="wbb.thread.log.post.delete"><![CDATA[Messaggio Eliminato]]></item>
 		<item name="wbb.thread.log.post.disable"><![CDATA[<a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#post{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">Messaggio{if $post->subject} “{$post->subject}”{/if}</a> di “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>” disattivato]]></item>
 		<item name="wbb.thread.log.post.edit"><![CDATA[<a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">messaggio{if $post->subject} “{$post->subject}”{/if}</a> modificato da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>” ({@$post->time|time})]]></item>
 		<item name="wbb.thread.log.post.enable"><![CDATA[<a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#post{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">Messaggio{if $post->subject} “{$post->subject}”{/if}</a> di “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>” approvato]]></item>
-		<item name="wbb.thread.log.post.open"><![CDATA[Modifica ammessa da <a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">messaggio{if $post->subject} “{$post->subject}”{/if}</a> da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>” ({@$post->time|time})]]></item>
-		<item name="wbb.thread.log.post.restore"><![CDATA[<a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> ripristinato da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>” ({@$post->time|time})]]></item>
-		<item name="wbb.thread.log.post.trash"><![CDATA[<a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> spostato nel cestino da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>” ({@$post->time|time})]]></item>
+		<item name="wbb.thread.log.post.open"><![CDATA[Modifica ammessa da <a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">messaggio{if $post->subject} “{$post->subject}”{/if}</a> da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>”]]></item>
+		<item name="wbb.thread.log.post.restore"><![CDATA[<a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> ripristinato da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>”]]></item>
+		<item name="wbb.thread.log.post.trash"><![CDATA[<a href="{link application='wbb' controller='Thread' id=$post->threadID}postID={@$post->postID}#p{@$post->postID}{/link}" class="wbbPostLink" data-post-id="{@$post->postID}">post{if $post->subject} “{$post->subject}”{/if}</a> spostato nel cestino da “<a href="{link controller='User' id=$post->userID title=$post->username}{/link}" class="userLink" data-user-id="{@$post->userID}">{$post->username}</a>”]]></item>
 		<item name="wbb.thread.log.thread.close"><![CDATA[Discussione chiusa]]></item>
 		<item name="wbb.thread.log.thread.delete"><![CDATA[Discussione “” eliminata]]></item>
 		<item name="wbb.thread.log.thread.disable"><![CDATA[Discussione disapprovata]]></item>
@@ -318,8 +320,6 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wbb.thread.log.thread.restore"><![CDATA[Ripristina discussione]]></item>
 		<item name="wbb.thread.log.thread.trash"><![CDATA[Discussione spostata nel cestino{if $additionalData[reason]}: “{$additionalData[reason]}” {/if}]]></item>
 		<item name="wbb.thread.log.thread.trash.summary"><![CDATA[La discussione è stata eliminata da “{if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}”{if $additionalData[reason]}: “{$additionalData[reason]}”{/if} ({@$time|time})]]></item>
-		<item name="wbb.thread.log.time"><![CDATA[Data]]></item>
-		<item name="wbb.thread.log.title"><![CDATA[Log]]></item>
 		<item name="wbb.thread.log.thread.setLabel"><![CDATA[Etichetta impostato su <span class="badge label{if $additionalData[label]->cssClassName} {$additionalData[label]->cssClassName}{/if}">{$additionalData[label]->label|language}</span>]]></item>
 	</category>
 	

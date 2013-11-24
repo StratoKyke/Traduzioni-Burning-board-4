@@ -5,8 +5,8 @@
 		<packagedescription>Provides an extensible warning and suspension system</packagedescription>
 		<packagename language="it">Sistema Infrazioni Utenti</packagename>
 		<packagedescription language="it">Sistema di Avvertimenti e Sospensioni per gli utenti</packagedescription>
-		<version>2.0.0 Beta 8</version>
-		<date>2013-10-19</date>
+		<version>2.0.0 RC 1</version>
+		<date>2013-11-20</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -15,8 +15,8 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 9">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 7">com.woltlab.wcf.conversation</requiredpackage>
+		<requiredpackage minversion="2.0.0 RC 2">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 RC 1">com.woltlab.wcf.conversation</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">
@@ -36,7 +36,7 @@
 		<instruction type="script">acp/install_com.woltlab.wcf.infraction_2.0.0.php</instruction>
 	</instructions>
 	
-	<instructions type="update" fromversion="2.0.0 Beta 7">
-		<instruction type="file">files_update.tar</instruction>
+	<instructions type="update" fromversion="2.0.0 Beta 9">
+		<!-- fake update -->
 	</instructions>
 </package>

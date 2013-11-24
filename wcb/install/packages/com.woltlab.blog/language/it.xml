@@ -78,6 +78,7 @@
 		<item name="blog.entry.categories"><![CDATA[Categorie]]></item>
 		<item name="blog.entry.message"><![CDATA[Messaggi]]></item>
 		<item name="blog.entry.unreadEntries"><![CDATA[Articoli non letti]]></item>
+		<item name="blog.entry.log.trash.summary"><![CDATA[La voce è stata eliminata da “{if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}”{if $additionalData[reason]} per la seguente ragione: “{$additionalData[reason]}”{/if}. ({@$time|time})]]></item>
 	</category>
 
 	<category name="blog.user">

@@ -10,7 +10,9 @@
 		<item name="filebase.header.menu.filebase"><![CDATA[Filebase]]></item>
 		<item name="filebase.header.menu.watchedFiles"><![CDATA[File visualizzati]]></item>
 		<item name="filebase.header.menu.mostDownloadedFiles"><![CDATA[Più Scaricati]]></item>
+		<item name="filebase.header.menu.bestSellingFiles"><![CDATA[Più venduti]]></item>
 		<item name="filebase.header.menu.topFiles"><![CDATA[Più votati]]></item>
+		<item name="filebase.header.menu.myFiles"><![CDATA[Mie File]]></item>
 	</category>
 	
 	<category name="filebase.category">
@@ -22,10 +24,13 @@
 		<item name="filebase.file.files"><![CDATA[File]]></item>
 		<item name="filebase.file.featuredFiles"><![CDATA[File In Rilievo]]></item>
 		<item name="filebase.file.newestFiles"><![CDATA[Ultimi File]]></item>
+		<item name="filebase.file.bestSellingFiles"><![CDATA[File più venduti]]></item>
 		<item name="filebase.file.button.add"><![CDATA[Aggiungi File]]></item>
 		<item name="filebase.file.button.download"><![CDATA[Download]]></item>
+		<item name="filebase.file.button.purchase"><![CDATA[Compra adesso]]></item>
 		<item name="filebase.file.downloadCounter"><![CDATA[File scaricato {#$file->downloads} volte]]></item>
 		<item name="filebase.file.version.downloadCounter"><![CDATA[Versione file scaricata {#$version->downloads} volte]]></item>
+		<item name="filebase.file.purchaseCounter"><![CDATA[Comprato {#$file->purchases} volte]]></item>
 		<item name="filebase.file.version.more"><![CDATA[{literal}{if $count == 1}un file più vecchio{else}{#$count} file più vecchi{/if}{/literal}]]></item>
 		<item name="filebase.file.commentCounter"><![CDATA[{#$file->comments} {if $count == 1}commento{else}{#$count} commenti{/if}]]></item>
 		<item name="filebase.file.downloads"><![CDATA[Download]]></item>
@@ -114,20 +119,41 @@ Estensioni file concesse: {', '|implode:$allowedFileExtensions}]]></item>
 {link application='filebase' controller='File' object=$file encode=false forceFrontend=true}#comments{/link}]]></item>
 		<item name="filebase.file.confirmDelete"><![CDATA[Vuoi veramente eliminare permanentemente questo file?]]></item>
 		<item name="filebase.file.version.confirmDelete"><![CDATA[Vuoi veramente eliminare permanentemente questa versione del file?]]></item>
-		<item name="filebase.file.log.file.trash.summary"><![CDATA[Il file è stato eliminato da “{if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}”{if $additionalData[reason]} per la seguente ragione: “{$additionalData[reason]|tableWordwrap}”{/if}. ({@$time|time})]]></item>
-		<item name="filebase.file.log.file.version.trash.summary"><![CDATA[La versione è stata eliminata da “{if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}”{if $additionalData[reason]} per la seguente ragione: “{$additionalData[reason]|tableWordwrap}”{/if}. ({@$time|time})]]></item>
+		<item name="filebase.file.version.deleted"><![CDATA[Questa versione è stata cancellata {if $version->userID == $version->getLogEntry()->userID}dall´autore{else}da “<a href="{link controller='User' id=$version->getLogEntry()->userID title=$version->getLogEntry()->username}{/link}" class="userLink" data-user-id="{@$version->getLogEntry()->userID}">{$version->getLogEntry()->username}</a>”{/if}{if $version->getLogEntry()->reason}: “{$version->getLogEntry()->reason}”{/if} ({@$version->getLogEntry()->time|time}).]]></item>
 		<item name="filebase.file.confirmTrash"><![CDATA[Vuoi veramente eliminare questo file?]]></item>
 		<item name="filebase.file.confirmTrash.reason"><![CDATA[Motivazione (Opzionale)]]></item>
 		<item name="filebase.file.version.confirmTrash"><![CDATA[Vuoi veramente eliminare questa versione?]]></item>
 		<item name="filebase.file.version.confirmTrash.reason"><![CDATA[Motivazione (Opzionale)]]></item>
 		<item name="filebase.file.markAsRead.doubleClick"><![CDATA[Doppio click per segnare il file come letto]]></item>
 		<item name="filebase.file.website.error.invalid"><![CDATA[Sei entrato in un link non valido.]]></item>
+		<item name="filebase.file.commercial"><![CDATA[Commerciale]]></item>
+		<item name="filebase.file.isCommercial"><![CDATA[Vendi file]]></item>
+		<item name="filebase.file.currency"><![CDATA[Valuta]]></item>
+		<item name="filebase.file.price"><![CDATA[Prezzo]]></item>
+		<item name="filebase.file.price.error.invalid"><![CDATA[Hai inserito un prezzo non valido.]]></item>
+		<item name="filebase.file.purchases"><![CDATA[Acquisti]]></item>
+	</category>
+	
+	<category name="filebase.file.log">
+		<item name="filebase.file.log"><![CDATA[Log]]></item>
+		<item name="filebase.file.log.noEntries"><![CDATA[Non ci sono log per questo file.]]></item>
+		<item name="filebase.file.log.file.trash.summary"><![CDATA[Il file è stato eliminato da “{if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-user-id="{@$userID}">{$username}</a>{else}{$username}{/if}”{if $additionalData[reason]} per la seguente ragione: “{$additionalData[reason]|tableWordwrap}”{/if}. ({@$time|time})]]></item>
+		<item name="filebase.file.log.file.version.delete"><![CDATA[Versione eliminata]]></item>
+		<item name="filebase.file.log.file.version.disable"><![CDATA[Disapprovata la versione{if $version->versionNumber} “{$version->versionNumber}”{/if}]]></item>
+		<item name="filebase.file.log.file.version.enable"><![CDATA[Approvata la versione{if $version->versionNumber} “{$version->versionNumber}”{/if}]]></item>
+		<item name="filebase.file.log.file.version.restore"><![CDATA[Ripristinata la versione{if $version->versionNumber} “{$version->versionNumber}”{/if}]]></item>
+		<item name="filebase.file.log.file.version.trash"><![CDATA[Sposta la versione{if $version->versionNumber} “{$version->versionNumber}”{/if} nel cestino{if $additionalData[reason]}: “{$additionalData[reason]}” {/if}]]></item>
+		<item name="filebase.file.log.file.delete"><![CDATA[Elimina il file]]></item>
+		<item name="filebase.file.log.file.disable"><![CDATA[Disapprova il file]]></item>
+		<item name="filebase.file.log.file.enable"><![CDATA[Approva il file]]></item>
+		<item name="filebase.file.log.file.restore"><![CDATA[Ripristina il file]]></item>
+		<item name="filebase.file.log.file.trash"><![CDATA[Spostato il file nel cestino{if $additionalData[reason]}: “{$additionalData[reason]}” {/if}]]></item>
 	</category>
 	
 	<category name="filebase.index">
 		<item name="filebase.index.stats"><![CDATA[Statistiche]]></item>
 		<item name="filebase.index.stats.detail"><![CDATA[{#$stats[authors]} autori - {#$stats[files]} file - {@$stats[size]|filesize} dimensione totale dei file - {#$stats[downloads]} download ({#$stats[downloadsPerDay]} download per giono) - {#$stats[comments]} commenti]]></item>
-		<item name="filebase.index.copyright"><![CDATA[<a href="http://www.woltlab.com/de/"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Filebase-Software: <strong>WoltLab Filebase&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> <br> Tradotto in Italiano da <a href="http://www.salvatoremazzullo.com/">Salvatore Mazzullo</a> e <a href="http://www.inforge.net/community/">Inforge.net</a>]]></item>
+		<item name="filebase.index.copyright"><![CDATA[<a href="http://www.woltlab.com/de/"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Filebase-Software: <strong>WoltLab Filebase&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> <br> Tradotto in Italiano da <a href="http://www.salvatoremazzullo.com/">Salvatore Mazzullo</a> <a href="http://woltlab.it">Woltlab Italia</a>]]></item>
 	</category>
 	
 	<category name="filebase.user">
@@ -197,6 +223,10 @@ Estensioni file concesse: {', '|implode:$allowedFileExtensions}]]></item>
 		<item name="wcf.acp.option.filebase_message_sidebar_enable_user_files"><![CDATA[Mostra il numero dei file caricati degli utenti]]></item>
 		<item name="wcf.acp.option.filebase_user_profile_enable_user_files"><![CDATA[Mostra il numero dei file caricati degli utenti nel profilo]]></item>
 		<item name="wcf.acp.option.filebase_index_enable_online_list"><![CDATA[Visualizza lista “Utenti Online”]]></item>
+		<item name="wcf.acp.option.category.dashboard.sidebar.files"><![CDATA[File]]></item>
+		<item name="wcf.acp.option.filebase_enable_version_number"><![CDATA[Abilita la versione del file]]></item>
+		<item name="wcf.acp.option.filebase_enable_version_number.description"><![CDATA[Gli utenti sono tenuti a specificare una versione per ogni file caricato]]></item>
+		<item name="wcf.acp.option.filebase_enable_multilingualism"><![CDATA[Abilita multilinguismo]]></item>
 	</category>
 	
 	<category name="wcf.acp.rebuildData">

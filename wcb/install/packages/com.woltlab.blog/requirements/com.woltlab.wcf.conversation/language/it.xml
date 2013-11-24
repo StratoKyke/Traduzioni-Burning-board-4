@@ -5,6 +5,10 @@
 		<item name="wcf.acp.group.option.category.user.conversation"><![CDATA[Conversazioni]]></item>
 		<item name="wcf.acp.group.option.mod.conversation.canModerateConversation"><![CDATA[Può moderare le conversazioni]]></item>
 		<item name="wcf.acp.group.option.user.conversation.canUseConversation"><![CDATA[Può usare le conversazioni]]></item>
+		<item name="wcf.acp.group.option.user.conversation.canSetCanInvite"><![CDATA[Può concedere autorizzazioni]]></item>
+		<item name="wcf.acp.group.option.user.conversation.canSetCanInvite.description"><![CDATA[Quando si inizia una nuova conversazione, gli utenti di questo gruppo possono concedere ai partecipanti il permesso di aggiungere nuovi partecipanti. Le modifiche non influenzano le conversazioni esistenti.]]></item>
+		<item name="wcf.acp.group.option.user.conversation.canAddInvisibleParticipants"><![CDATA[Può aggiungere partecipanti invisibili]]></item>
+		<item name="wcf.acp.group.option.user.conversation.canAddInvisibleParticipants.description"><![CDATA[Gli utenti di questo gruppo possono aggiungere partecipanti invisibili sulla creazione di una nuova conversazione. Le modifiche non incidono sulle conversazioni esistenti.]]></item>
 		<item name="wcf.acp.group.option.user.conversation.maxParticipants"><![CDATA[Numero di partecipanti massimi]]></item>
 		<item name="wcf.acp.group.option.user.conversation.maxParticipants.description"><![CDATA[Inserire il numero di partecipanti massimi ad una conversazione]]></item>
 		<item name="wcf.acp.group.option.user.conversation.maxConversations"><![CDATA[Numero massimo di conversazioni]]></item>

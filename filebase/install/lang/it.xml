@@ -42,7 +42,6 @@
 	<category name="wcf.acp.attachment">
 		<item name="wcf.acp.attachment.list"><![CDATA[Allegati]]></item>
 		<item name="wcf.acp.attachment.stats"><![CDATA[{#$stats.count} Allegati - {@$stats.size|filesize} - {#$stats.downloads} Downloads]]></item>
-		<item name="wcf.acp.attachment.noItems"><![CDATA[Non ci sono allegati.]]></item>
 	</category>
 	
 	<category name="wcf.acp.bbcode">
@@ -52,9 +51,8 @@
 		<item name="wcf.acp.bbcode.allowedChildren.error.notValid"><![CDATA[La lista dei allowed children è invalida.]]></item>
 		<item name="wcf.acp.bbcode.attribute"><![CDATA[Attributo]]></item>
 		<item name="wcf.acp.bbcode.attribute.attributeHtml"><![CDATA[Attributo codice HTML]]></item>
-		<item name="wcf.acp.bbcode.attribute.validationPattern"><![CDATA[spressione regolare per la convalida]]></item>
-		<item name="wcf.acp.bbcode.attribute.validationPattern.error.notValid"><![CDATA[L'espressione regolare ha fallito la validazione.]]></item>
 		<item name="wcf.acp.bbcode.attribute.validationPattern"><![CDATA[L’espressione regolare per la convalida]]></item>
+		<item name="wcf.acp.bbcode.attribute.validationPattern.error.notValid"><![CDATA[L'espressione regolare ha fallito la validazione.]]></item>
 		<item name="wcf.acp.bbcode.attribute.required"><![CDATA[Richieso]]></item>
 		<item name="wcf.acp.bbcode.attribute.useText"><![CDATA[Utilizzare il contenuto]]></item>
 		<item name="wcf.acp.bbcode.attribute.useText.description"><![CDATA[Il contenuto tra i tag BBCode verrà utilizzato come valore di attributo se non è stato specificato esplicitamente]]></item>
@@ -90,7 +88,7 @@ Esempi di rilevamento medium ID :
 </ul>]]></item>
 		<item name="wcf.acp.bbcode.mediaProvider.regex.error.notValid"><![CDATA[L’espressione regolare ha fallito la validazione.]]></item>
 		<item name="wcf.acp.bbcode.mediaProvider.title"><![CDATA[Media Providers]]></item>
-		<item name="wcf.acp.bbcode.showButton"><![CDATA[Pulsante mostrato nell'editor WYSIWYG]]></item>
+		<item name="wcf.acp.bbcode.showButton"><![CDATA[Pulsante mostrato nell´editor WYSIWYG]]></item>
 		<item name="wcf.acp.bbcode.wysiwygIcon"><![CDATA[Immagine pulsante]]></item>
 		<item name="wcf.acp.bbcode.wysiwygIcon.description"><![CDATA[L´immagine deve essere caricata in wcf/icon/.]]></item>
 	</category>
@@ -155,7 +153,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.cronjob.log.success"><![CDATA[Successo]]></item>
 		<item name="wcf.acp.cronjob.log.error"><![CDATA[Errore]]></item>
 		<item name="wcf.acp.cronjob.log.error.showDetails"><![CDATA[Mostra dettagli]]></item>
-		<item name="wcf.acp.cronjob.log.error.details"><![CDATA[Messaggio d'errore]]></item>
+		<item name="wcf.acp.cronjob.log.error.details"><![CDATA[Messaggio d´errore]]></item>
 		<item name="wcf.acp.cronjob.log.noEntries"><![CDATA[Non ci sono ancora voci.]]></item>
 	</category>
 	
@@ -164,6 +162,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.dashboard.option"><![CDATA[Configurazione box della DashBoard]]></item>
 		<item name="wcf.acp.dashboard.box.sort"><![CDATA[Ordina i box per determinare l’ordine in cui verranno visualizzati. Puoi abilitare o disabilitare i box semplicemente trascinandoli in "Box Attivi" oppure "Box Disattivati".]]></item>
 	</category>
+	
 	<category name="wcf.acp.dataImport">
 		<item name="wcf.acp.dataImport"><![CDATA[Importa Dati]]></item>
 		<item name="wcf.acp.dataImport.cli.configure.data.alreadySelected"><![CDATA[Questi dati sono stati appena importati.]]></item>
@@ -210,6 +209,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.dataImport.selectExporter.noExporters"><![CDATA[Non ci sono importatori di dati installati.]]></item>
 		<item name="wcf.acp.dataImport.started"><![CDATA[Importazione iniziata.]]></item>
 	</category>	
+	
 	<category name="wcf.acp.exceptionLog">
 		<item name="wcf.acp.exceptionLog"><![CDATA[Log errori]]></item>
 		<item name="wcf.acp.exceptionLog.exception.file"><![CDATA[File (Linea)]]></item>
@@ -219,7 +219,6 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.exceptionLog.exception.stacktrace"><![CDATA[Stacktrace]]></item>
 		<item name="wcf.acp.exceptionLog.exception.copy"><![CDATA[Copia messaggio derrore]]></item>
 		<item name="wcf.acp.exceptionLog.exceptionNotFound"><![CDATA[Nessun errore è stato trovato con l’ID “{$exceptionID}”.]]></item>
-		<item name="wcf.acp.exceptionLog.noneAvailable"><![CDATA[Non ci sono log degli errori.]]></item>
 		<item name="wcf.acp.exceptionLog.search"><![CDATA[Cerca]]></item>
 		<item name="wcf.acp.exceptionLog.search.exceptionID"><![CDATA[ID errore]]></item>
 		<item name="wcf.acp.exceptionLog.search.logFile"><![CDATA[Logfile]]></item>
@@ -325,7 +324,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.group.option.category.admin.user.rank"><![CDATA[Livelli utente]]></item>
 		<item name="wcf.acp.group.option.category.user.signature"><![CDATA[Firme]]></item>
 		<item name="wcf.acp.group.option.user.profile.avatar.allowedFileExtensions"><![CDATA[Estensione file ammessi]]></item>
-		<item name="wcf.acp.group.option.user.profile.avatar.canUploadAvatar"><![CDATA[Può vedere gli avatar degli altri utenti ]]></item>
+		<item name="wcf.acp.group.option.user.profile.avatar.canSeeAvatars"><![CDATA[Può vedere gli avatar degli altri utenti ]]></item>
 		<item name="wcf.acp.group.option.user.profile.avatar.canUploadAvatar"><![CDATA[Può caricare avatar]]></item>
 		<item name="wcf.acp.group.option.user.profile.avatar.maxSize"><![CDATA[Dimensione massima del avatar]]></item>
 		<item name="wcf.acp.group.option.user.profile.canChangeEmail"><![CDATA[Può cambiare l’indirizzo email]]></item>
@@ -415,10 +414,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.label.group.forceSelection"><![CDATA[Forza selezione di una etichetta]]></item>
 		<item name="wcf.acp.label.group.groupName"><![CDATA[Titolo]]></item>
 		<item name="wcf.acp.label.group.list"><![CDATA[Gruppi di etichette]]></item>
-		<item name="wcf.acp.label.group.noneAvailable"><![CDATA[Non ci sono gruppi di etichette.]]></item>
 		<item name="wcf.acp.label.label"><![CDATA[Etichetta]]></item>
 		<item name="wcf.acp.label.list"><![CDATA[Etichette]]></item>
-		<item name="wcf.acp.label.noneAvailable"><![CDATA[Non ci sono ancora etichette.]]></item>
 	</category>
 	
 	<category name="wcf.acp.language">
@@ -459,7 +456,6 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.language.item.customValues"><![CDATA[Traduzioni personalizzate]]></item>
 		<item name="wcf.acp.language.name.description"><![CDATA[Nome lingua]]></item>
 		<item name="wcf.acp.language.add.source.description"><![CDATA[La lingua selezionata verrà utilizzata come origine, tutte le frasi verranno copiati nella nuova lingua.]]></item>
-		<item name="wcf.acp.language.item.noItems"><![CDATA[Nessun documento trovato.]]></item>
 	</category>
 	
 	<category name="wcf.acp.masterPassword">
@@ -558,8 +554,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.menu.link.tag"><![CDATA[Tags]]></item>
 		<item name="wcf.acp.menu.link.tag.add"><![CDATA[Aggiungi Tag]]></item>
 		<item name="wcf.acp.menu.link.tag.list"><![CDATA[Liste Tags]]></item>
-		 <item name="wcf.acp.menu.link.maintenance.import"><![CDATA[Importa Dati]]></item>
-		 <item name="wcf.acp.menu.link.maintenance.rebuildData"><![CDATA[Ricostruisci Dati]]></item>
+		<item name="wcf.acp.menu.link.maintenance.import"><![CDATA[Importa Dati]]></item>
+		<item name="wcf.acp.menu.link.maintenance.rebuildData"><![CDATA[Ricostruisci Dati]]></item>
 	</category>
 	
 	<category name="wcf.acp.option">
@@ -642,7 +638,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.log_ip_address"><![CDATA[Memorizzare gli Indirizzi IP]]></item>
 		<item name="wcf.acp.option.log_ip_address.description"><![CDATA[Memorizzare indirizzi IP per i contenuti generati dagli utenti, ad esempio, sessioni, profili o messaggi nel forum.]]></item>
 		<item name="wcf.acp.option.mail_admin_address"><![CDATA[Amministratore]]></item>
-		<item name="wcf.acp.option.mail_admin_address.description"><![CDATA[Email dell'amministratore]]></item>
+		<item name="wcf.acp.option.mail_admin_address.description"><![CDATA[Email dell´amministratore]]></item>
 		<item name="wcf.acp.option.mail_debug_logfile_path"><![CDATA[Debug Log Filename]]></item>
 		<item name="wcf.acp.option.mail_from_address"><![CDATA[mittente E-mail]]></item>
 		<item name="wcf.acp.option.mail_from_address.description"><![CDATA[Email utilizzata come mittente per tutti i messaggi di posta elettronica generati]]></item>
@@ -680,7 +676,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.user_online_timeout"><![CDATA[Utenti online timeout]]></item>
 		<item name="wcf.acp.option.user_online_timeout.description"><![CDATA[Timeout in secondi fino a quando un utente inattivo deve essere visualizzato online.]]></item>
 		<item name="wcf.acp.option.offline"><![CDATA[Attiva modalità manutenzione]]></item>
-		<item name="wcf.acp.option.offline.description"><![CDATA[Disattiva tutte le applicazioni e impedisce l'accesso da parte di utenti non autorizzati.]]></item>
+		<item name="wcf.acp.option.offline.description"><![CDATA[Disattiva tutte le applicazioni e impedisce l´accesso da parte di utenti non autorizzati.]]></item>
 		<item name="wcf.acp.option.offline_message"><![CDATA[Avviso di manutenzione]]></item>
 		<item name="wcf.acp.option.offline_message.description"><![CDATA[Avviso visualizzato ai visitatori, mentre la modalità di manutenzione è attivata]]></item>
 		<item name="wcf.acp.option.offline_message_allow_html"><![CDATA[Usa HTML]]></item>
@@ -695,8 +691,8 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.jquery_source"><![CDATA[Sorgente jQuery]]></item>
 		<item name="wcf.acp.option.jquery_source.local"><![CDATA[Versione locale]]></item>
 		<item name="wcf.acp.option.jquery_source.google"><![CDATA[Google Hosted Libraries CDN]]></item>
-		<item name="wcf.acp.option.jquery_source.cloudflare"><![CDATA[Cloudflare]]></item>
 		<item name="wcf.acp.option.jquery_source.microsoft"><![CDATA[Microsoft Ajax CDN]]></item>
+		<item name="wcf.acp.option.jquery_source.cloudflare"><![CDATA[Cloudflare]]></item>
 		<item name="wcf.acp.option.enable_benchmark"><![CDATA[Abilita benchmark]]></item>
 		<item name="wcf.acp.option.enable_benchmark.description"><![CDATA[Si consiglia vivamente di disattivare questa opzione in ambienti produttivi.]]></item>
 		<item name="wcf.acp.option.category.general.system.packageServer"><![CDATA[Aggiornare server]]></item>
@@ -763,6 +759,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.category.user.3rdPartyAuth"><![CDATA[Autentificazione da terze parti]]></item>
 		<item name="wcf.acp.option.max_avatar_height"><![CDATA[Altezza Massima Dell’Avatar]]></item>
 		<item name="wcf.acp.option.max_avatar_width"><![CDATA[Larghezza Massima Dell’Avatar]]></item>
+		<item name="wcf.acp.option.module_gravatar"><![CDATA[Gravatars]]></item>
 		<item name="wcf.acp.option.module_gravatar.description"><![CDATA[Abilita il supporto per Gravatars (“Global Recognized Avatar”).]]></item>
 		<item name="wcf.acp.option.module_users_online"><![CDATA[Lista “Utenti online”]]></item>
 		<item name="wcf.acp.option.module_user_rank"><![CDATA[Livelli Utente]]></item>
@@ -770,7 +767,6 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.module_team_page"><![CDATA[Lista Staff]]></item>
 		<item name="wcf.acp.option.module_dashboard_page"><![CDATA[Dashboard]]></item>
 		<item name="wcf.acp.option.module_dashboard_page.description"><![CDATA[Notizia: In caso in cui la Dashboard è la pagina iniziale, puoi scegliere una pagina di destinazione diversa <a href="{link controller='PageMenuItemList'}{/link}">Pagine Menu</a>.]]></item>
-		<item name="wcf.acp.option.module_gravatar"><![CDATA[Gravatars]]></item>
 		<item name="wcf.acp.option.register_enable_password_security_check"><![CDATA[Abilita validazione password]]></item>
 		<item name="wcf.acp.option.register_enable_password_security_check.description"><![CDATA[Le password complesse saranno convalidate, le password non sicure saranno respinte.]]></item>
 		<item name="wcf.acp.option.register_password_min_length"><![CDATA[Lunghezza Minima Della Password]]></item>
@@ -791,7 +787,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.option.register_disabled.description"><![CDATA[Disabilita la registrazione per tutti gli utenti, i nuovi utenti possono essere creati attraverso un amministratore.]]></item>
 		<item name="wcf.acp.option.register_enable_disclaimer"><![CDATA[Abilita Condizioni Di Utilizzo]]></item>
 		<item name="wcf.acp.option.register_enable_disclaimer.description"><![CDATA[Le condizioni di utlizzo deve essere accettato in fase di registrazione.]]></item>
-		<item name="wcf.acp.option.register_admin_notification"><![CDATA[Notifica all'amministratore per le nuove registrazioni]]></item>
+		<item name="wcf.acp.option.register_admin_notification"><![CDATA[Notifica all´amministratore per le nuove registrazioni]]></item>
 		<item name="wcf.acp.option.register_activation_method"><![CDATA[Attivazione]]></item>
 		<item name="wcf.acp.option.register_activation_method.byAdmin"><![CDATA[Solo gli amministratori possono attivare la registrazione]]></item>
 		<item name="wcf.acp.option.register_activation_method.byUser"><![CDATA[Attivazione attravarso l’email]]></item>
@@ -900,18 +896,17 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.installation.rollback"><![CDATA[Rollback Di Installazione]]></item>
 		<item name="wcf.acp.package.installation.step.install"><![CDATA[Installazione “{$packageName}” …]]></item>
 		<item name="wcf.acp.package.installation.step.install.success"><![CDATA[Installazione Completata]]></item>
-		<item name="wcf.acp.package.installation.step.prepare"><![CDATA[Preparazione all´installazone …]]></item>
 		<item name="wcf.acp.package.installation.step.update"><![CDATA[Aggiornamento “{$packageName}” …]]></item>
 		<item name="wcf.acp.package.installation.step.update.success"><![CDATA[Aggiornamento Completato]]></item>
 		<item name="wcf.acp.package.installedVersion"><![CDATA[Versione Installata]]></item>
+		<item name="wcf.acp.package.install.confirmMessage"><![CDATA[Vuoi veramente installare il pacchetto “{@$package->getName()}”?]]></item>
 		<item name="wcf.acp.package.install.error.excludedPackages"><![CDATA[Questo pacchetto non può essere installato per questi pacchetti già installati:]]></item>
 		<item name="wcf.acp.package.install.error.excludedPackages.excludedPackage"><![CDATA[“{$excludedPackage}” ({$excludedPackage->package}){if $excludedPackage->excludedPackageVersion} (Versioni escluse: {$excludedPackage->excludedPackageVersion}, Versione installata: {$excludedPackage->packageVersion}){/if}]]></item>
-		<item name="wcf.acp.package.install.error.excludingPackages"><![CDATA[Questi pacchetti già installati, vietano l'installazione di questo pacchetto:]]></item>
+		<item name="wcf.acp.package.install.error.excludingPackages"><![CDATA[Questi pacchetti già installati, vietano l´installazione di questo pacchetto:]]></item>
 		<item name="wcf.acp.package.install.error.excludingPackages.excludingPackage"><![CDATA[“{$excludingPackage}” ({$excludingPackage->package}){if $excludingPackage->excludedPackageVersion} (Versioni escluse: {$excludingPackage->excludedPackageVersion}){/if}]]></item>
 		<item name="wcf.acp.package.install.error.missingRequirements"><![CDATA[Non si soddisfano le richieste di questo pacchetto.]]></item><item name="wcf.acp.package.install.optionalPackage.missingRequirements"><![CDATA[Impossibile installare, alcuni o tutti i pacchetti richiesti non sono installati.]]></item>
-		<item name="wcf.acp.package.install.confirmMessage"><![CDATA[Vuoi veramente installare il pacchetto “{@$package->getName()}”?]]></item>
-		<item name="wcf.acp.package.install.title"><![CDATA[Installazione]]></item>
 		<item name="wcf.acp.package.install.step.prepare"><![CDATA[Preparazione all´installazione]]></item>
+		<item name="wcf.acp.package.install.title"><![CDATA[Installazione]]></item>
 		<item name="wcf.acp.package.installation.requiredVersion"><![CDATA[Versione richiesta]]></item>
 		<item name="wcf.acp.package.license"><![CDATA[Licenza]]></item>
 		<item name="wcf.acp.package.list"><![CDATA[Pacchetti]]></item>
@@ -942,7 +937,7 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.uninstallation.step.prepare"><![CDATA[Preparazione all’installazione …]]></item>
 		<item name="wcf.acp.package.uninstallation.step.success"><![CDATA[Disinstallazione completata]]></item>
 		<item name="wcf.acp.package.uninstallation.title"><![CDATA[Disinstallazione]]></item>
-		<item name="wcf.acp.package.uninstallation.title.packageName"><![CDATA[Il Pacchetto “{$queue->packageName}” sta per essere disinstallato…]]></item>
+		<item name="wcf.acp.package.uninstall.step.prepare"><![CDATA[Preparazione disinstallazione…]]></item>
 		<item name="wcf.acp.package.updateDate"><![CDATA[Data Aggiornamento]]></item>
 		<item name="wcf.acp.package.update.credentials"><![CDATA[Credenziali]]></item>
 		<item name="wcf.acp.package.update.error.listNotFound"><![CDATA[L'elenco dei pacchetti non può essere recuperata]]></item>
@@ -956,15 +951,17 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.package.update.server.message"><![CDATA[Avviso Server]]></item>
 		<item name="wcf.acp.package.update.server.url"><![CDATA[URL]]></item>
 		<item name="wcf.acp.package.update.title"><![CDATA[Aggiorna]]></item>
-		<item name="wcf.acp.package.update.step.prepare"><![CDATA[Preparzione all´aggiornamento…]]></item>
-		<item name="wcf.acp.package.update.title"><![CDATA[Carica]]></item>
 		<item name="wcf.acp.package.update.unauthorized"><![CDATA[Autorizzazione richiesta]]></item>
 		<item name="wcf.acp.package.update.username"><![CDATA[Username]]></item>
+		<item name="wcf.acp.package.update.step.prepare"><![CDATA[Preparzione all´aggiornamento…]]></item>
 		<item name="wcf.acp.package.version"><![CDATA[Versione]]></item>
 		<item name="wcf.acp.package.packageDir.input"><![CDATA[Directory di installazione]]></item>
 		<item name="wcf.acp.package.upload"><![CDATA[Carica Pacchetto]]></item>
 		<item name="wcf.acp.package.optionalPackages"><![CDATA[Pacchetti Opzionali]]></item>
 		<item name="wcf.acp.package.optionalPackages.description"><![CDATA[I seguenti pacchetti opzionali sono disponibili per l’installazione:]]></item>
+		<item name="wcf.acp.package.search.error.noMatches"><![CDATA[Nessun pacchetto corrisponde ai tuoi criteri.]]></item>
+		<item name="wcf.acp.package.url"><![CDATA[Sito web]]></item>
+		<item name="wcf.acp.package.error.uploadFailed"><![CDATA[Il caricamento del file non è riuscito.]]></item>
 	</category>
 	
 	<category name="wcf.acp.pageMenu">
@@ -995,16 +992,16 @@ Esempi di rilevamento medium ID :
 	</category>
 	
 	<category name="wcf.acp.rebuildData">
-	<item name="wcf.acp.rebuildData"><![CDATA[Ricostruisci dati]]></item>
-    <item name="wcf.acp.rebuildData.description"><![CDATA[Al fine di garantire la coerenza, ad esempio dopo l´importazione dei dati, si consiglia di eseguire tutte le azioni di seguito nel loro rispettivo ordine, partendo dall´alto verso il basso.]]></item>
-    <item name="wcf.acp.rebuildData.com.woltlab.wcf.user"><![CDATA[Ricostruisci utenti]]></item>
-    <item name="wcf.acp.rebuildData.com.woltlab.wcf.user.description"><![CDATA[Ricostruisci counter utenti e livello]]></item>
-    <item name="wcf.acp.rebuildData.com.woltlab.wcf.like"><![CDATA[Ricostruisci "Mi Piace"]]></item>
-    <item name="wcf.acp.rebuildData.com.woltlab.wcf.like.description"><![CDATA[Sincronizza punti attività]]></item>
-	<item name="wcf.acp.rebuildData.com.woltlab.wcf.like.user"><![CDATA[Ricalcola mi piace degli utenti]]></item>
-	<item name="wcf.acp.rebuildData.com.woltlab.wcf.like.user.description"><![CDATA[Ricalcola la lista dei mi piace degli utenti]]></item>
-    <item name="wcf.acp.rebuildData.com.woltlab.wcf.attachment"><![CDATA[Ricostruisci allegati]]></item>
-    <item name="wcf.acp.rebuildData.com.woltlab.wcf.attachment.description"><![CDATA[Ricostruisci anteprima allegati]]></item>
+	    <item name="wcf.acp.rebuildData"><![CDATA[Ricostruisci dati]]></item>
+        <item name="wcf.acp.rebuildData.description"><![CDATA[Al fine di garantire la coerenza, ad esempio dopo l´importazione dei dati, si consiglia di eseguire tutte le azioni di seguito nel loro rispettivo ordine, partendo dall´alto verso il basso.]]></item>
+        <item name="wcf.acp.rebuildData.com.woltlab.wcf.user"><![CDATA[Ricostruisci utenti]]></item>
+        <item name="wcf.acp.rebuildData.com.woltlab.wcf.user.description"><![CDATA[Ricostruisci counter utenti e livello]]></item>
+        <item name="wcf.acp.rebuildData.com.woltlab.wcf.like"><![CDATA[Ricostruisci "Mi Piace"]]></item>
+        <item name="wcf.acp.rebuildData.com.woltlab.wcf.like.description"><![CDATA[Sincronizza punti attività]]></item>
+	    <item name="wcf.acp.rebuildData.com.woltlab.wcf.like.user"><![CDATA[Ricalcola mi piace degli utenti]]></item>
+	    <item name="wcf.acp.rebuildData.com.woltlab.wcf.like.user.description"><![CDATA[Ricalcola la lista dei mi piace degli utenti]]></item>
+        <item name="wcf.acp.rebuildData.com.woltlab.wcf.attachment"><![CDATA[Ricostruisci allegati]]></item>
+        <item name="wcf.acp.rebuildData.com.woltlab.wcf.attachment.description"><![CDATA[Ricostruisci anteprima allegati]]></item>
    </category>
    
 	<category name="wcf.acp.search">
@@ -1049,12 +1046,13 @@ Esempi di rilevamento medium ID :
 	
 	<category name="wcf.acp.smiley">
 		<item name="wcf.acp.smiley.list"><![CDATA[Smilies]]></item>
-		<item name="wcf.acp.smiley.noItems"><![CDATA[Non sono presenti smiles.]]></item>
 		<item name="wcf.acp.smiley.delete.sure"><![CDATA[Vuoi davvero eliminare lo smiley “{$smiley->smileyTitle|language}”?]]></item>
 		<item name="wcf.acp.smiley.add"><![CDATA[Aggiungi Smiley]]></item>
 		<item name="wcf.acp.smiley.edit"><![CDATA[Modifica Smiley]]></item>
 		<item name="wcf.acp.smiley.title"><![CDATA[Titolo]]></item>
-		<item name="wcf.acp.smiley.category.noItems"><![CDATA[Questa categoria non continee smilies.]]></item>
+		<item name="wcf.acp.smiley.category.add"><![CDATA[Aggiungi cateogira smile]]></item>
+		<item name="wcf.acp.smiley.category.edit"><![CDATA[Modifica categoria smile]]></item>
+		<item name="wcf.acp.smiley.category.list"><![CDATA[Cetogorie smile]]></item>
 		<item name="wcf.acp.smiley.categoryID"><![CDATA[Categoria]]></item>
 		<item name="wcf.acp.smiley.categoryID.default"><![CDATA[Categorai di Default]]></item>
 		<item name="wcf.acp.smiley.categoryID.error.notValid"><![CDATA[La categoria scelta non è valida.]]></item>
@@ -1128,8 +1126,6 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.globals.fontFamily"><![CDATA[Font]]></item>
 		<item name="wcf.acp.style.globals.fontSize"><![CDATA[Grandezza Font]]></item>
 		<item name="wcf.acp.style.globals.layout"><![CDATA[Layout]]></item>
-		<item name="wcf.acp.style.globals.pageLogo"><![CDATA[Logo globale]]></item>
-		<item name="wcf.acp.style.globals.pageLogo.description"><![CDATA[Inserire qui il link del logo globale]]></item>
 		<item name="wcf.acp.style.globals.useFluidLayout"><![CDATA[Utilizzare larghezza fluida]]></item>
 		<item name="wcf.acp.style.image"><![CDATA[Anteprima Immagine]]></item>
 		<item name="wcf.acp.style.image.description"><![CDATA[Carica un’immagine di anteprima per questo stile, formati supportati: JPG e PNG. Le dimensioni dovrebbero essere 102px × 64px, immagini più grandi verranno ridimensionate.]]></item>
@@ -1152,6 +1148,12 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.style.styleVersion"><![CDATA[Versione]]></item>
 		<item name="wcf.acp.style.templateGroupID"><![CDATA[Gruppo Template]]></item>
 		<item name="wcf.acp.style.users"><![CDATA[Utenti]]></item>
+		<item name="wcf.acp.style.image.error.invalidExtension"><![CDATA[L`estensione del file non è valida.]]></item>
+		<item name="wcf.acp.style.imagePath.error.notValid"><![CDATA[È stato fornito un percorso non valido.]]></item>
+		<item name="wcf.acp.style.styleVersion.error.notValid"><![CDATA[È stato fornito un numero di versione non valido.]]></item>
+		<item name="wcf.acp.style.styleDate.error.notValid"><![CDATA[Hai fornito una data non valida.]]></item>
+		<item name="wcf.acp.style.globals.pageLogo"><![CDATA[Pagina logo]]></item>
+		<item name="wcf.acp.style.globals.pageLogo.description"><![CDATA[Nome file immagine della pagina logo]]></item>
 	</category>
 	
 	<category name="wcf.acp.tag">
@@ -1163,11 +1165,11 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.tag.list"><![CDATA[Lista Tags]]></item>
 		<item name="wcf.acp.tag.list.search"><![CDATA[Cerca Tags]]></item>
 		<item name="wcf.acp.tag.list.search.query"><![CDATA[Termine di ricerca]]></item>
-		<item name="wcf.acp.tag.noneAvailable"><![CDATA[Nessun tag è ancora disponibile.]]></item>
 		<item name="wcf.acp.tag.name"><![CDATA[Nome]]></item>
 		<item name="wcf.acp.tag.synonyms"><![CDATA[Sinonimi]]></item>
 		<item name="wcf.acp.tag.synonymFor"><![CDATA[Sinonimi per]]></item>
 		<item name="wcf.acp.tag.usageCount"><![CDATA[Utilizza]]></item>
+		<item name="wcf.acp.tag.error.name.duplicate"><![CDATA[Questo tag è stato già utilizzato.]]></item>
 	</category>
 	
 	<category name="wcf.acp.template">
@@ -1185,14 +1187,12 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.template.group.edit"><![CDATA[Modifica Famiglia template]]></item>
 		<item name="wcf.acp.template.group.templates"><![CDATA[Template]]></item>
 		<item name="wcf.acp.template.error.noGroups"><![CDATA[È necessario creare un <a href="{link controller='TemplateGroupAdd'}{/link}">Gruppo Template</a> prima.]]></item>
-		<item name="wcf.acp.template.group.noItems"><![CDATA[Non ci sono gruppi di Template.]]></item>
 		<item name="wcf.acp.template.group.folderName"><![CDATA[Directory]]></item>
 		<item name="wcf.acp.template.group.parentTemplateGroup"><![CDATA[Gruppo genitore template]]></item>
 		<item name="wcf.acp.template.group.name.error.notUnique"><![CDATA[Questo nome è già utilizzato da un gruppo di template diverso.]]></item>
 		<item name="wcf.acp.template.group.folderName.error.notValid"><![CDATA[La directory specificata non è valida.]]></item>
 		<item name="wcf.acp.template.group.folderName.error.notUnique"><![CDATA[La directory specificata è già in uso da parte di un altro gruppo di template.]]></item>
 		<item name="wcf.acp.template.group.delete.sure"><![CDATA[Sei sicuro di  voler eliminare il gruppo di template “{$templateGroup->templateGroupName}”?]]></item>
-		<item name="wcf.acp.template.noItems"><![CDATA[Non ci sono template.]]></item>
 		<item name="wcf.acp.template.source"><![CDATA[Sorgente template]]></item>
 		<item name="wcf.acp.template.name.error.notUnique"><![CDATA[Questo nome è già preso da un template diverso]]></item>
 		<item name="wcf.acp.template.name.error.notValid"><![CDATA[Questo nome è invalido]]></item>
@@ -1345,7 +1345,6 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.user.search.conditions.state.disabled"><![CDATA[In attesa di approvazione]]></item>
     </category>
 	
-	
 	<category name="wcf.acp.worker">
 	   <item name="wcf.acp.worker.abort.confirmMessage"><![CDATA[Vuoi davvero interrompere l´esecuzione?]]></item>
 	</category>
@@ -1426,6 +1425,30 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.category.button.choose"><![CDATA[Cambia categoria]]></item>
 	</category>
 	
+	<category name="wcf.cli">
+		<item name="wcf.cli.help.noLongHelp"><![CDATANon c´è molto aiuto per il parametro "{$topic}".]]></item>
+		<item name="wcf.cli.help.language"><![CDATA[Impone la lingua con il codice lingua.]]></item>
+		<item name="wcf.cli.help.version"><![CDATA[Indica il numero di versione.]]></item>
+		<item name="wcf.cli.help.help"><![CDATA[Mostra questo aiuto.]]></item>
+		<item name="wcf.cli.help.q"><![CDATA[Tranquillo: Mostra meno informazioni.]]></item>
+		<item name="wcf.cli.help.v"><![CDATA[Verbose: Mostra maggiori informazioni.]]></item>
+		<item name="wcf.cli.help.disableUpdateCheck"><![CDATA[Non cercare gli aggiornamenti dopo il login]]></item>
+		<item name="wcf.cli.help.exitOnFail"><![CDATA[Ferma lo script se si verifica un errore.]]></item>
+		<item name="wcf.cli.help.exitOnFail.description"><![CDATA[Se questo parametro è impostato l´esecuzione dello script verrà terminata una volta che si verifica un errore.
+Gli errori sono:
+- Comandi mancanti
+- Comandi sbagliati
+- Errori di base]]></item>
+		<item name="wcf.cli.help.packageID"><![CDATA[L'id pacchetto sarà utilizzato come valore predefinito per questa sessione.]]></item>
+		
+		<item name="wcf.cli.worker.setParameter"><![CDATA[Imposta un worker parameter e.s.: --setParameter param=value]]></item>
+		<item name="wcf.cli.worker.list"><![CDATA[Lista di tutti i workers.]]></item>
+		
+		<item name="wcf.cli.error.help.noArguments"><![CDATA[Il comando "{$command}" non supporta alcun parametro.]]></item>
+		<item name="wcf.cli.error.language.notFound"><![CDATA[Il linguaggio con il codice della lingua "{$languageCode}" non è stato trovato.]]></item>
+		<item name="wcf.cli.error.command.notFound"><![CDATA[Il comando "{$command}" Non è stato trovato. Digitare "commands" per elencare i comandi disponibili.]]></item>
+	</category>
+	
 	<category name="wcf.clipboard">
 		<item name="wcf.clipboard.item.unmarkAll"><![CDATA[Deseleziona Tutto]]></item>
 		<item name="wcf.clipboard.item.com.woltlab.wcf.user.assignToGroup"><![CDATA[Assegnare al gruppo di utenti]]></item>
@@ -1464,6 +1487,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.dashboard.objectType"><![CDATA[Pagina]]></item>
 		<item name="wcf.dashboard.objectType.com.woltlab.wcf.user.DashboardPage"><![CDATA[Dashboard]]></item>
 		<item name="wcf.dashboard.objectType.com.woltlab.wcf.user.MembersListPage"><![CDATA[Lista Utenti]]></item>
+		<item name="wcf.dashboard.objectType.com.woltlab.wcf.user.RecentActivityListPage"><![CDATA[Attività recenti]]></item>
 		<item name="wcf.dashboard.box.mostActiveMembers.points"><![CDATA[{#$activeMember->activityPoints} Punti]]></item>
 		<item name="wcf.dashboard.box.com.woltlab.wcf.user.recentActivity"><![CDATA[Attività recenti]]></item>
 		<item name="wcf.dashboard.box.com.woltlab.wcf.like.mostLikedMembers"><![CDATA[Le più apprezzate dagli utenti]]></item>
@@ -1693,6 +1717,10 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.global.scrollDown"><![CDATA[Vai alla fine della pagina]]></item>
 		<item name="wcf.global.scrollUp"><![CDATA[Torna su]]></item>
 		<item name="wcf.global.search.enterSearchTerm"><![CDATA[Cerca…]]></item>
+		<item name="wcf.global.sidebar.showLeftSidebar"><![CDATA[]]></item>
+		<item name="wcf.global.sidebar.showRightSidebar"><![CDATA[]]></item>
+		<item name="wcf.global.sidebar.hideLeftSidebar"><![CDATA[]]></item>
+		<item name="wcf.global.sidebar.hideRightSidebar"><![CDATA[]]></item>
 		<item name="wcf.global.sortOrder.ascending"><![CDATA[Ascendente]]></item>
 		<item name="wcf.global.sortOrder.descending"><![CDATA[Discendente]]></item>
 		<item name="wcf.global.state.closed"><![CDATA[Chiuso]]></item>
@@ -1814,7 +1842,6 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.moderation.doneItems"><![CDATA[Voci risolte]]></item>
 		<item name="wcf.moderation.lastChangeTime"><![CDATA[Ultima Modifica]]></item>
 		<item name="wcf.moderation.moderation"><![CDATA[Moderazione]]></item>
-		<item name="wcf.moderation.noItems"><![CDATA[Nessuna voce risponde ai criteri.]]></item>
 		<item name="wcf.moderation.noMoreItems"><![CDATA[Nessun altro elemento]]></item>
 		<item name="wcf.moderation.status"><![CDATA[Stato]]></item>
 		<item name="wcf.moderation.status.all"><![CDATA[Tutti gli elementi]]></item>
@@ -1825,6 +1852,8 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.moderation.type.all"><![CDATA[Tutti gli elementi]]></item>
 		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.activation"><![CDATA[Approvazione]]></item>
 		<item name="wcf.moderation.type.com.woltlab.wcf.moderation.report"><![CDATA[Segnalazione]]></item>
+		<item name="wcf.moderation.type.com.woltlab.wcf.comment.comment"><![CDATA[Commenti]]></item>
+		<item name="wcf.moderation.type.com.woltlab.wcf.comment.response"><![CDATA[Rispondere ai commenti]]></item>
 		<item name="wcf.moderation.showAll"><![CDATA[Mostra tutti gli elementi]]></item>
 		<item name="wcf.moderation.showDeletedContent"><![CDATA[Mostra Contenuti Eliminati]]></item>
 		<item name="wcf.moderation.deletedContent.objectTypes"><![CDATA[Contenuti Elimianti]]></item>
@@ -1832,6 +1861,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	
 	<category name="wcf.moderation.activation">
 		<item name="wcf.moderation.activation"><![CDATA[Approvazione]]></item>
+		<item name="wcf.moderation.activation.details"><![CDATA[Informazioni]]></item>
 		<item name="wcf.moderation.activation.content"><![CDATA[Contenuto in attesa di approvazione]]></item>
 		<item name="wcf.moderation.activation.enableContent"><![CDATA[Approva]]></item>
 		<item name="wcf.moderation.activation.enableContent.confirmMessage"><![CDATA[Sei sicuro di voler approvare questo contenuto?]]></item>
@@ -1881,6 +1911,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 		<item name="wcf.poll.maxVotes"><![CDATA[Numero di voti ammessi]]></item>
 		<item name="wcf.poll.maxVotes.error.notValid"><![CDATA[Il numero massimo di voti ammessi supera il numero di opzioni disponibili.]]></item>
 		<item name="wcf.poll.multipleVotes"><![CDATA[È possibile selezionare fino a {#$poll->maxVotes} opzioni.]]></item>
+		<item name="wcf.poll.noVotes"><![CDATA[Nessun voto]]></item>
 		<item name="wcf.poll.options"><![CDATA[Opzioni]]></item>
 		<item name="wcf.poll.options.description"><![CDATA[È possibile ordinare le opzioni con il drag and drop per modificarne l’ordine. È possibile creare fino a {@POLL_MAX_OPTIONS} opzioni.]]></item>
 		<item name="wcf.poll.question"><![CDATA[Domanda]]></item>

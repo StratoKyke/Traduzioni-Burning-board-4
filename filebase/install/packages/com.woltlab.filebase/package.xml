@@ -2,11 +2,11 @@
 <package name="com.woltlab.filebase" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
 	<packageinformation>
 		<packagename>WoltLab Filebase</packagename>
-		<packagedescription>WoltLab Filebase is the modern, secure and user friendly solution file-sharing solution for your community.</packagedescription>
+		<packagedescription>WoltLab Filebase is the modern, secure and user friendly file-sharing solution for your community.</packagedescription>
 		<packagedescription language="it">WoltLab Filebase è la soluzione moderna, sicura e facile da usare per condividere file con la tu comminity.</packagedescription>
 		<isapplication>1</isapplication>
-		<version>2.0.0 Beta 1</version>
-		<date>2013-10-01</date>
+		<version>2.0.0 RC 1</version>
+		<date>2013-11-19</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -15,14 +15,15 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 10" file="requirements/com.woltlab.wcf.tar">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 8" file="requirements/com.woltlab.wcf.conversation.tar">com.woltlab.wcf.conversation</requiredpackage>
-		<requiredpackage minversion="2.0.0 Beta 8" file="requirements/com.woltlab.wcf.infraction.tar">com.woltlab.wcf.infraction</requiredpackage>
+		<requiredpackage minversion="2.0.0 RC 2" file="requirements/com.woltlab.wcf.tar">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 RC 1" file="requirements/com.woltlab.wcf.conversation.tar">com.woltlab.wcf.conversation</requiredpackage>
+		<requiredpackage minversion="2.0.0 RC 1" file="requirements/com.woltlab.wcf.infraction.tar">com.woltlab.wcf.infraction</requiredpackage>
 	</requiredpackages>
 	
 	<optionalpackages>
 		<optionalpackage file="optionals/com.woltlab.wcf.moderatedUserGroup.tar">com.woltlab.wcf.moderatedUserGroup</optionalpackage>
 		<optionalpackage file="optionals/com.woltlab.wcf.legalNotice.tar">com.woltlab.wcf.legalNotice</optionalpackage>
+		<optionalpackage file="optionals/com.woltlab.filebase.supportThread.tar">com.woltlab.filebase.supportThread</optionalpackage>
 	</optionalpackages>
 	
 	<instructions type="install">
@@ -44,5 +45,9 @@
 		<instruction type="acpTemplate">acptemplates.tar</instruction>
 		<instruction type="clipboardAction">clipboardAction.xml</instruction>
 		<instruction type="script">acp/install_com.woltlab.filebase_1.0.0.php</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="2.0.0 Beta 3">
+		<instruction type="file">files_update.tar</instruction>
 	</instructions>
 </package>
