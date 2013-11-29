@@ -397,6 +397,10 @@ Esempi di rilevamento medium ID :
 		<item name="wcf.acp.index.system.php"><![CDATA[Versione PHP]]></item>
 		<item name="wcf.acp.index.system.mySQLVersion"><![CDATA[Versione MySQL]]></item>
 		<item name="wcf.acp.index.system.load"><![CDATA[Corrente di carico UNIX]]></item>
+		<item name="wcf.acp.index.woltlab.website"><![CDATA[Sito web]]></item>
+		<item name="wcf.acp.index.woltlab.forums"><![CDATA[Forum di supporto]]></item>
+		<item name="wcf.acp.index.woltlab.tickets"><![CDATA[Supporto ticket]]></item>
+		<item name="wcf.acp.index.woltlab.pluginStore"><![CDATA[Plugin Store]]></item>
 	</category>
 	
 	<category name="wcf.acp.label">
@@ -1428,7 +1432,7 @@ Estensioni permesse: {', '|implode:$attachmentHandler->getAllowedExtensions()}]]
 	</category>
 	
 	<category name="wcf.cli">
-		<item name="wcf.cli.help.noLongHelp"><![CDATANon c´è molto aiuto per il parametro "{$topic}".]]></item>
+		<item name="wcf.cli.help.noLongHelp"><![CDATA[Non c´è molto aiuto per il parametro "{$topic}".]]></item>
 		<item name="wcf.cli.help.language"><![CDATA[Impone la lingua con il codice lingua.]]></item>
 		<item name="wcf.cli.help.version"><![CDATA[Indica il numero di versione.]]></item>
 		<item name="wcf.cli.help.help"><![CDATA[Mostra questo aiuto.]]></item>
@@ -1730,6 +1734,7 @@ Gli errori sono:
 		<item name="wcf.global.subject"><![CDATA[Soggetto]]></item>
 		<item name="wcf.global.thousandsSeparator"><![CDATA[,]]></item>
 		<item name="wcf.global.title"><![CDATA[Titolo]]></item>
+		<item name="wcf.global.jumpToPage"><![CDATA[Community]]></item>
 		<item name="wcf.global.toLandingPage"><![CDATA[Vai al forum]]></item>
 		<item name="wcf.global.preview"><![CDATA[Anteprima]]></item>
 		<item name="wcf.global.multiSelect"><![CDATA[Più elementi possono essere selezionati tenendo premuto il tasto "Ctrl / Shift" (Windows) o "Command" (Mac OS) e fare clic sugli elementi desiderati.]]></item>
