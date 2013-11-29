@@ -29,8 +29,8 @@
 		<item name="filebase.file.button.download"><![CDATA[Download]]></item>
 		<item name="filebase.file.button.purchase"><![CDATA[Compra adesso]]></item>
 		<item name="filebase.file.downloadCounter"><![CDATA[File scaricato {#$file->downloads} volte]]></item>
-		<item name="filebase.file.version.downloadCounter"><![CDATA[Versione file scaricata {#$version->downloads} volte]]></item>
 		<item name="filebase.file.purchaseCounter"><![CDATA[Comprato {#$file->purchases} volte]]></item>
+		<item name="filebase.file.version.downloadCounter"><![CDATA[Versione file scaricata {#$version->downloads} volte]]></item>
 		<item name="filebase.file.version.more"><![CDATA[{literal}{if $count == 1}un file più vecchio{else}{#$count} file più vecchi{/if}{/literal}]]></item>
 		<item name="filebase.file.commentCounter"><![CDATA[{#$file->comments} {if $count == 1}commento{else}{#$count} commenti{/if}]]></item>
 		<item name="filebase.file.downloads"><![CDATA[Download]]></item>
@@ -62,6 +62,7 @@
 		<item name="filebase.file.upload.confirmOverwrite"><![CDATA[Hai già caricato un file, continuando lo sovrascriverai.]]></item>
 		<item name="filebase.file.upload.error.invalidExtension"><![CDATA[L´estensione del file è invalida.]]></item>
 		<item name="filebase.file.upload.error.tooLarge"><![CDATA[Il file è troppo grande]]></item>
+		<item name="filebase.file.upload.error.uploadFailed"><![CDATA[Caricamento file fallito]></item>
 		<item name="filebase.file.upload.limits"><![CDATA[Grandezza massima del file: {@$__wcf->session->getPermission('user.filebase.maxFileSize')|filesize}<br />
 Estensioni file concesse: {', '|implode:$allowedFileExtensions}]]></item>
 		<item name="filebase.file.categories"><![CDATA[Categorie]]></item>

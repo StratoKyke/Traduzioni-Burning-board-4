@@ -34,7 +34,7 @@
 		<item name="wbb.acp.board.add"><![CDATA[Aggiungi Forum]]></item>
 		<item name="wbb.acp.board.edit"><![CDATA[Modifica Forum]]></item>
 		<item name="wbb.acp.board.addSubboard"><![CDATA[Aggiungi Sotto-Forum]]></item>
-		<item name="wbb.acp.board.parentID.error.notvalid"><![CDATA[La board generale selezionata non è valida]]></item>
+		<item name="wbb.acp.board.parentID.error.notValid"><![CDATA[La board generale selezionata non è valida]]></item>
 		<item name="wbb.acp.board.category.position"><![CDATA[Posizione]]></item>
 		<item name="wbb.acp.board.delete.sure"><![CDATA[Vuoi davvero eliminare il forum “{$boardNode->getBoard()->title|language}”?]]></item>
 		<item name="wbb.acp.board.position.description"><![CDATA[Mostra ordine per forum.]]></item>
@@ -151,7 +151,7 @@
 		<item name="wbb.index.stats.detail"><![CDATA[{#$stats[members]} Utenti - {#$stats[threads]} Discussioni - {#$stats[posts]} Messaggi ({#$stats[postsPerDay]} Messaggi per giorno)<br/>
 Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestMember]}{/link}" class="userLink" data-user-id="{@$stats[newestMember]->userID}">{$stats[newestMember]->username}</a>.]]></item>
 		<item name="wbb.index.usersOnline.record"><![CDATA[{if WBB_USERS_ONLINE_RECORD > 0}- Record: {#WBB_USERS_ONLINE_RECORD} Utenti Online ({@WBB_USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
-		<item name="wbb.index.copyright"><![CDATA[<a href="http://www.woltlab.com">Forum Software: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> <br> Tradotto in italiano da <a href="http://www.salvatoremazzullo.com">Salvatore Mazzullo</a> e <a href="http://www.inforge.net">inforge.net</a>]]></item>
+		<item name="wbb.index.copyright"><![CDATA[<a href="http://www.woltlab.com">Forum Software: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, sviluppato da <strong>WoltLab&reg; GmbH</strong></a> <br> Tradotto in italiano da <a href="http://www.salvatoremazzullo.com">Salvatore Mazzullo</a>  <a href="http://woltlab.it">Woltlab italia</a>]]></item>
 		<item name="wbb.index.news"><![CDATA[Notizie]]></item>
 		<item name="wbb.index.evaluation"><![CDATA[Attenzione: Questo software è una versione di prova. L´utilizzo è consentito sino al <strong>{@WBB_EVALUATION_END|plainTime}</strong>{if WBB_EVALUATION_END > TIME_NOW} ({@WBB_EVALUATION_END|dateDiff:TIME_NOW}){/if}.
 		Per un uso legale di questo software oltre tale limite di tempo sarà necessario <a href="http://www.woltlab.com">comprare la licenza</a>, o eliminare il software e il suo contenuto subito!]]></item>
@@ -583,7 +583,6 @@ Ultimo utente registrato: <a href="{link controller='User' object=$stats[newestM
 		<item name="wcf.acp.option.category.dashboard.content.unreadPosts"><![CDATA[Discussioni non lette]]></item>
 		<item name="wcf.acp.option.wbb_index_enable_stats"><![CDATA[Visualizza statistiche forum]]></item>
 		<item name="wcf.acp.option.wbb_index_enable_online_list"><![CDATA[Mostra Lista "Utenti Online"]]></item>
-		<item name="wcf.acp.option.wbb_index_enable_users_online_legend"><![CDATA[Mostra legenda Lista "Utenti Online"]]></item>
 		<item name="wcf.acp.option.wbb_board_default_days_prune"><![CDATA[Filtro tempo]]></item>
 		<item name="wcf.acp.option.wbb_board_default_days_prune.description"><![CDATA[Mostra solo i thread all´interno di un determinato intervallo di tempo.]]></item>
 		<item name="wcf.acp.option.wbb_board_default_sort_field"><![CDATA[Ordina campo]]></item>
